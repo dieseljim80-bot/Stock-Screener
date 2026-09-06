@@ -157,6 +157,8 @@ class TickerResult:
     trailing_pe: float = None
     forward_pe: float = None
     peg: float = None
+    target_mean_price: float = None
+    target_upside_pct: float = None
     error: str = None
 
 
@@ -307,10 +309,20 @@ def enrich_with_fundamentals(candidates: list,
         trailing_pe = info.get("trailingPE")
         forward_pe = info.get("forwardPE")
         peg = info.get("pegRatio") or info.get("trailingPegRatio")
+        target_mean_price = info.get("targetMeanPrice")
 
         result.trailing_pe = round(trailing_pe, 2) if trailing_pe else None
         result.forward_pe = round(forward_pe, 2) if forward_pe else None
         result.peg = round(peg, 2) if peg else None
+
+        # Informational only — analyst average target price, and the
+        # implied upside/downside vs. the current price. Not a signal,
+        # not part of the score; just data along for the ride.
+        if target_mean_price and result.price:
+            result.target_mean_price = round(target_mean_price, 2)
+            result.target_upside_pct = round(
+                (target_mean_price - result.price) / result.price * 100, 1
+            )
 
         if trailing_pe and 0 < trailing_pe < pe_undervalued:
             result.score += 1
