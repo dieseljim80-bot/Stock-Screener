@@ -1,7 +1,1474 @@
 {
-  "generated_at": "2026-09-06T21:08:08.134316+00:00",
+  "generated_at": "2026-09-06T22:09:23.723962+00:00",
   "universe_size": 6955,
   "min_score": 3,
-  "hit_count": 0,
-  "hits": []
+  "hit_count": 59,
+  "hits": [
+    {
+      "ticker": "GCO",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (8.97)",
+        "Low forward P/E (12.14)",
+        "Attractive PEG ratio (0.68)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 35.81,
+      "avg_volume": 226467.0,
+      "rsi": 53.9,
+      "trailing_pe": 8.97,
+      "forward_pe": 12.14,
+      "peg": 0.68
+    },
+    {
+      "ticker": "HE",
+      "score": 4,
+      "signals": [
+        "RSI oversold (28.7)",
+        "MACD bullish crossover",
+        "Low trailing P/E (8.6)",
+        "Low forward P/E (10.32)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 11.09,
+      "avg_volume": 2121753.0,
+      "rsi": 28.7,
+      "trailing_pe": 8.6,
+      "forward_pe": 10.32,
+      "peg": 6.66
+    },
+    {
+      "ticker": "MD",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.93)",
+        "Low forward P/E (11.08)",
+        "Attractive PEG ratio (0.24)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 27.03,
+      "avg_volume": 780327.0,
+      "rsi": 57.4,
+      "trailing_pe": 12.93,
+      "forward_pe": 11.08,
+      "peg": 0.24
+    },
+    {
+      "ticker": "PSIX",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (13.77)",
+        "Low forward P/E (12.42)",
+        "Attractive PEG ratio (0.82)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 40.49,
+      "avg_volume": 461043.0,
+      "rsi": 61.2,
+      "trailing_pe": 13.77,
+      "forward_pe": 12.42,
+      "peg": 0.82
+    },
+    {
+      "ticker": "SAN",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (14.64)",
+        "Low forward P/E (10.43)",
+        "Attractive PEG ratio (0.95)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 14.93,
+      "avg_volume": 16886237.0,
+      "rsi": 59.8,
+      "trailing_pe": 14.64,
+      "forward_pe": 10.43,
+      "peg": 0.95
+    },
+    {
+      "ticker": "TGLS",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (14.33)",
+        "Low forward P/E (11.91)",
+        "Attractive PEG ratio (0.55)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 40.84,
+      "avg_volume": 257417.0,
+      "rsi": 48.0,
+      "trailing_pe": 14.33,
+      "forward_pe": 11.91,
+      "peg": 0.55
+    },
+    {
+      "ticker": "WB",
+      "score": 4,
+      "signals": [
+        "RSI oversold (22.7)",
+        "Low trailing P/E (5.55)",
+        "Low forward P/E (5.23)",
+        "Attractive PEG ratio (0.79)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 6.72,
+      "avg_volume": 1134633.0,
+      "rsi": 22.7,
+      "trailing_pe": 5.55,
+      "forward_pe": 5.23,
+      "peg": 0.79
+    },
+    {
+      "ticker": "FULT",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (11.59)",
+        "Low forward P/E (10.21)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 24.1,
+      "avg_volume": 1504070.0,
+      "rsi": 53.5,
+      "trailing_pe": 11.59,
+      "forward_pe": 10.21,
+      "peg": 1.54
+    },
+    {
+      "ticker": "GIII",
+      "score": 3,
+      "signals": [
+        "RSI oversold (21.3)",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (9.12)",
+        "Low forward P/E (11.59)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 27.74,
+      "avg_volume": 533823.0,
+      "rsi": 21.3,
+      "trailing_pe": 9.12,
+      "forward_pe": 11.59,
+      "peg": 1.29
+    },
+    {
+      "ticker": "GPRE",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (9.25)",
+        "Low forward P/E (9.89)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 15.45,
+      "avg_volume": 1561310.0,
+      "rsi": 50.1,
+      "trailing_pe": 9.25,
+      "forward_pe": 9.89,
+      "peg": 1.16
+    },
+    {
+      "ticker": "HFWA",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (13.95)",
+        "Low forward P/E (11.05)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 29.29,
+      "avg_volume": 343517.0,
+      "rsi": 52.5,
+      "trailing_pe": 13.95,
+      "forward_pe": 11.05,
+      "peg": 2.13
+    },
+    {
+      "ticker": "HTB",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.4)",
+        "Low forward P/E (11.18)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 47.25,
+      "avg_volume": 202230.0,
+      "rsi": 43.8,
+      "trailing_pe": 12.4,
+      "forward_pe": 11.18,
+      "peg": null
+    },
+    {
+      "ticker": "HTH",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (14.59)",
+        "Attractive PEG ratio (0.61)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": false,
+        "attractive_peg": true
+      },
+      "price": 39.24,
+      "avg_volume": 226037.0,
+      "rsi": 56.5,
+      "trailing_pe": 14.59,
+      "forward_pe": 15.76,
+      "peg": 0.61
+    },
+    {
+      "ticker": "ISTR",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.85)",
+        "Low forward P/E (9.43)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 31.1,
+      "avg_volume": 114910.0,
+      "rsi": 61.8,
+      "trailing_pe": 12.85,
+      "forward_pe": 9.43,
+      "peg": null
+    },
+    {
+      "ticker": "KALU",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.18)",
+        "Low forward P/E (14.17)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 164.19,
+      "avg_volume": 248803.0,
+      "rsi": 49.8,
+      "trailing_pe": 12.18,
+      "forward_pe": 14.17,
+      "peg": 1.17
+    },
+    {
+      "ticker": "KEY",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.97)",
+        "Low forward P/E (10.38)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 22.18,
+      "avg_volume": 9325907.0,
+      "rsi": 51.4,
+      "trailing_pe": 12.97,
+      "forward_pe": 10.38,
+      "peg": 1.38
+    },
+    {
+      "ticker": "LNC",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (3.83)",
+        "Low forward P/E (5.24)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 45.47,
+      "avg_volume": 2080517.0,
+      "rsi": 60.8,
+      "trailing_pe": 3.83,
+      "forward_pe": 5.24,
+      "peg": 1.01
+    },
+    {
+      "ticker": "LTM",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (9.7)",
+        "Low forward P/E (8.19)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 52.47,
+      "avg_volume": 797843.0,
+      "rsi": 50.9,
+      "trailing_pe": 9.7,
+      "forward_pe": 8.19,
+      "peg": 2.58
+    },
+    {
+      "ticker": "MBWM",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (10.92)",
+        "Low forward P/E (10.8)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 62.14,
+      "avg_volume": 111610.0,
+      "rsi": 64.8,
+      "trailing_pe": 10.92,
+      "forward_pe": 10.8,
+      "peg": 1.63
+    },
+    {
+      "ticker": "MCY",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (6.18)",
+        "Low forward P/E (8.53)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 104.53,
+      "avg_volume": 275167.0,
+      "rsi": 48.9,
+      "trailing_pe": 6.18,
+      "forward_pe": 8.53,
+      "peg": 1.11
+    },
+    {
+      "ticker": "MFA",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (8.86)",
+        "Low forward P/E (6.4)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 8.95,
+      "avg_volume": 1439000.0,
+      "rsi": 48.3,
+      "trailing_pe": 8.86,
+      "forward_pe": 6.4,
+      "peg": 2.48
+    },
+    {
+      "ticker": "MFC",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (12.25)",
+        "Attractive PEG ratio (0.78)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 44.34,
+      "avg_volume": 2639433.0,
+      "rsi": 60.5,
+      "trailing_pe": 16.67,
+      "forward_pe": 12.25,
+      "peg": 0.78
+    },
+    {
+      "ticker": "MT",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (10.59)",
+        "Attractive PEG ratio (0.42)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 78.74,
+      "avg_volume": 1446910.0,
+      "rsi": 68.5,
+      "trailing_pe": 33.08,
+      "forward_pe": 10.59,
+      "peg": 0.42
+    },
+    {
+      "ticker": "NATR",
+      "score": 3,
+      "signals": [
+        "RSI oversold (29.0)",
+        "Low trailing P/E (14.02)",
+        "Low forward P/E (11.4)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 14.02,
+      "avg_volume": 213937.0,
+      "rsi": 29.0,
+      "trailing_pe": 14.02,
+      "forward_pe": 11.4,
+      "peg": 2.0
+    },
+    {
+      "ticker": "NAVI",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low forward P/E (9.97)",
+        "Attractive PEG ratio (0.13)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 9.63,
+      "avg_volume": 1203837.0,
+      "rsi": 62.3,
+      "trailing_pe": null,
+      "forward_pe": 9.97,
+      "peg": 0.13
+    },
+    {
+      "ticker": "NBN",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (10.43)",
+        "Low forward P/E (8.44)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 132.86,
+      "avg_volume": 110817.0,
+      "rsi": 54.8,
+      "trailing_pe": 10.43,
+      "forward_pe": 8.44,
+      "peg": 5.27
+    },
+    {
+      "ticker": "NEWT",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (5.63)",
+        "Low forward P/E (5.7)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 12.44,
+      "avg_volume": 266833.0,
+      "rsi": 42.3,
+      "trailing_pe": 5.63,
+      "forward_pe": 5.7,
+      "peg": 3.2
+    },
+    {
+      "ticker": "NIVF",
+      "score": 3,
+      "signals": [
+        "RSI oversold (26.7)",
+        "Low trailing P/E (0.0)",
+        "Low forward P/E (0.01)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 1.14,
+      "avg_volume": 188189.0,
+      "rsi": 26.7,
+      "trailing_pe": 0.0,
+      "forward_pe": 0.01,
+      "peg": null
+    },
+    {
+      "ticker": "NRIM",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (8.7)",
+        "Low forward P/E (9.64)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 26.45,
+      "avg_volume": 130010.0,
+      "rsi": 53.9,
+      "trailing_pe": 8.7,
+      "forward_pe": 9.64,
+      "peg": null
+    },
+    {
+      "ticker": "NTB",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (10.83)",
+        "Low forward P/E (8.53)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 61.53,
+      "avg_volume": 190283.0,
+      "rsi": 59.2,
+      "trailing_pe": 10.83,
+      "forward_pe": 8.53,
+      "peg": null
+    },
+    {
+      "ticker": "OZK",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (8.32)",
+        "Low forward P/E (8.36)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 50.43,
+      "avg_volume": 982567.0,
+      "rsi": 52.4,
+      "trailing_pe": 8.32,
+      "forward_pe": 8.36,
+      "peg": 2.76
+    },
+    {
+      "ticker": "PAL",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low forward P/E (9.02)",
+        "Attractive PEG ratio (0.45)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 5.12,
+      "avg_volume": 668263.0,
+      "rsi": 37.3,
+      "trailing_pe": null,
+      "forward_pe": 9.02,
+      "peg": 0.45
+    },
+    {
+      "ticker": "PAXS",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Golden cross (50/200 SMA)",
+        "Low trailing P/E (11.48)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": true,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": false,
+        "attractive_peg": false
+      },
+      "price": 14.24,
+      "avg_volume": 201470.0,
+      "rsi": 56.9,
+      "trailing_pe": 11.48,
+      "forward_pe": null,
+      "peg": null
+    },
+    {
+      "ticker": "PFGC",
+      "score": 3,
+      "signals": [
+        "RSI oversold (29.6)",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (14.76)",
+        "Attractive PEG ratio (0.82)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 98.63,
+      "avg_volume": 1638913.0,
+      "rsi": 29.6,
+      "trailing_pe": 43.07,
+      "forward_pe": 14.76,
+      "peg": 0.82
+    },
+    {
+      "ticker": "PFSI",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (10.08)",
+        "Low forward P/E (6.58)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 73.29,
+      "avg_volume": 625543.0,
+      "rsi": 41.7,
+      "trailing_pe": 10.08,
+      "forward_pe": 6.58,
+      "peg": null
+    },
+    {
+      "ticker": "PRGO",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Golden cross (50/200 SMA)",
+        "Low forward P/E (6.22)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": true,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 14.92,
+      "avg_volume": 2841460.0,
+      "rsi": 70.5,
+      "trailing_pe": null,
+      "forward_pe": 6.22,
+      "peg": 1.14
+    },
+    {
+      "ticker": "QFIN",
+      "score": 3,
+      "signals": [
+        "RSI oversold (29.1)",
+        "Low trailing P/E (2.08)",
+        "Low forward P/E (2.72)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 9.06,
+      "avg_volume": 2406950.0,
+      "rsi": 29.1,
+      "trailing_pe": 2.08,
+      "forward_pe": 2.72,
+      "peg": null
+    },
+    {
+      "ticker": "RAIL",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low forward P/E (6.7)",
+        "Attractive PEG ratio (0.64)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 7.1,
+      "avg_volume": 188063.0,
+      "rsi": 43.0,
+      "trailing_pe": null,
+      "forward_pe": 6.7,
+      "peg": 0.64
+    },
+    {
+      "ticker": "REYN",
+      "score": 3,
+      "signals": [
+        "RSI oversold (19.8)",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (13.4)",
+        "Low forward P/E (13.01)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 21.85,
+      "avg_volume": 1388477.0,
+      "rsi": 19.8,
+      "trailing_pe": 13.4,
+      "forward_pe": 13.01,
+      "peg": null
+    },
+    {
+      "ticker": "SHBI",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (11.99)",
+        "Low forward P/E (10.41)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 23.63,
+      "avg_volume": 196873.0,
+      "rsi": 57.5,
+      "trailing_pe": 11.99,
+      "forward_pe": 10.41,
+      "peg": 1.17
+    },
+    {
+      "ticker": "SHLS",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (12.94)",
+        "Attractive PEG ratio (0.5)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 7.13,
+      "avg_volume": 5309800.0,
+      "rsi": 41.3,
+      "trailing_pe": 37.53,
+      "forward_pe": 12.94,
+      "peg": 0.5
+    },
+    {
+      "ticker": "SPFI",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.4)",
+        "Low forward P/E (10.95)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 45.63,
+      "avg_volume": 113283.0,
+      "rsi": 64.2,
+      "trailing_pe": 12.4,
+      "forward_pe": 10.95,
+      "peg": null
+    },
+    {
+      "ticker": "SSNC",
+      "score": 3,
+      "signals": [
+        "Golden cross (50/200 SMA)",
+        "Low forward P/E (10.82)",
+        "Attractive PEG ratio (0.79)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": false,
+        "golden_cross": true,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 83.65,
+      "avg_volume": 1716120.0,
+      "rsi": 64.3,
+      "trailing_pe": 24.04,
+      "forward_pe": 10.82,
+      "peg": 0.79
+    },
+    {
+      "ticker": "ST",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (10.52)",
+        "Attractive PEG ratio (0.25)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 43.08,
+      "avg_volume": 1559697.0,
+      "rsi": 47.3,
+      "trailing_pe": 69.48,
+      "forward_pe": 10.52,
+      "peg": 0.25
+    },
+    {
+      "ticker": "SUNC",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.89)",
+        "Low forward P/E (6.45)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 79.55,
+      "avg_volume": 494423.0,
+      "rsi": 66.1,
+      "trailing_pe": 12.89,
+      "forward_pe": 6.45,
+      "peg": null
+    },
+    {
+      "ticker": "TAL",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (7.75)",
+        "Low forward P/E (10.58)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 12.4,
+      "avg_volume": 5957813.0,
+      "rsi": 62.2,
+      "trailing_pe": 7.75,
+      "forward_pe": 10.58,
+      "peg": 2.79
+    },
+    {
+      "ticker": "TCBI",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.83)",
+        "Low forward P/E (11.99)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 98.64,
+      "avg_volume": 405980.0,
+      "rsi": 49.4,
+      "trailing_pe": 12.83,
+      "forward_pe": 11.99,
+      "peg": 1.47
+    },
+    {
+      "ticker": "TCOM",
+      "score": 3,
+      "signals": [
+        "RSI oversold (29.4)",
+        "Low trailing P/E (6.1)",
+        "Low forward P/E (9.71)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 41.03,
+      "avg_volume": 2763843.0,
+      "rsi": 29.4,
+      "trailing_pe": 6.1,
+      "forward_pe": 9.71,
+      "peg": 1.91
+    },
+    {
+      "ticker": "TFC",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (11.87)",
+        "Low forward P/E (10.38)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 51.65,
+      "avg_volume": 6139673.0,
+      "rsi": 54.8,
+      "trailing_pe": 11.87,
+      "forward_pe": 10.38,
+      "peg": 1.18
+    },
+    {
+      "ticker": "TNK",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (5.5)",
+        "Low forward P/E (8.57)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 93.37,
+      "avg_volume": 459483.0,
+      "rsi": 66.2,
+      "trailing_pe": 5.5,
+      "forward_pe": 8.57,
+      "peg": 1.1
+    },
+    {
+      "ticker": "TRIP",
+      "score": 3,
+      "signals": [
+        "RSI oversold (29.8)",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (8.68)",
+        "Attractive PEG ratio (0.48)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 9.33,
+      "avg_volume": 3474957.0,
+      "rsi": 29.8,
+      "trailing_pe": null,
+      "forward_pe": 8.68,
+      "peg": 0.48
+    },
+    {
+      "ticker": "TX",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (7.58)",
+        "Attractive PEG ratio (0.13)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 58.0,
+      "avg_volume": 677377.0,
+      "rsi": 73.8,
+      "trailing_pe": 16.11,
+      "forward_pe": 7.58,
+      "peg": 0.13
+    },
+    {
+      "ticker": "UVSP",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.24)",
+        "Low forward P/E (10.79)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 42.35,
+      "avg_volume": 225610.0,
+      "rsi": 50.3,
+      "trailing_pe": 12.24,
+      "forward_pe": 10.79,
+      "peg": 1.3
+    },
+    {
+      "ticker": "VEL",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (6.68)",
+        "Low forward P/E (6.08)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 18.43,
+      "avg_volume": 105297.0,
+      "rsi": 58.7,
+      "trailing_pe": 6.68,
+      "forward_pe": 6.08,
+      "peg": null
+    },
+    {
+      "ticker": "VOD",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (9.51)",
+        "Attractive PEG ratio (0.59)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 16.9,
+      "avg_volume": 3837490.0,
+      "rsi": 68.6,
+      "trailing_pe": null,
+      "forward_pe": 9.51,
+      "peg": 0.59
+    },
+    {
+      "ticker": "WAL",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (9.14)",
+        "Low forward P/E (7.17)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 80.95,
+      "avg_volume": 938870.0,
+      "rsi": 53.5,
+      "trailing_pe": 9.14,
+      "forward_pe": 7.17,
+      "peg": 1.47
+    },
+    {
+      "ticker": "WRB",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (14.23)",
+        "Low forward P/E (14.28)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 69.14,
+      "avg_volume": 1643110.0,
+      "rsi": 46.9,
+      "trailing_pe": 14.23,
+      "forward_pe": 14.28,
+      "peg": 4.58
+    },
+    {
+      "ticker": "ZION",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (8.84)",
+        "Low forward P/E (10.21)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 69.37,
+      "avg_volume": 1311577.0,
+      "rsi": 53.1,
+      "trailing_pe": 8.84,
+      "forward_pe": 10.21,
+      "peg": 4.4
+    },
+    {
+      "ticker": "ZTO",
+      "score": 3,
+      "signals": [
+        "RSI oversold (29.8)",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (10.97)",
+        "Low forward P/E (9.35)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 20.95,
+      "avg_volume": 2014017.0,
+      "rsi": 29.8,
+      "trailing_pe": 10.97,
+      "forward_pe": 9.35,
+      "peg": 1.07
+    }
+  ]
 }
