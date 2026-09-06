@@ -130,11 +130,27 @@ def compute_macd(close: pd.Series, fast: int = 12, slow: int = 26, signal: int =
 # Data structures
 # ---------------------------------------------------------------------------
 
+def _default_signal_flags() -> dict:
+    # Structured, machine-readable version of the "signals" list — lets a
+    # downstream consumer (like the Android app) apply its own weights
+    # instead of trusting a fixed 1-point-per-signal score.
+    return {
+        "rsi_oversold": False,
+        "macd_bullish_crossover": False,
+        "golden_cross": False,
+        "above_golden_cross_trend": False,
+        "low_trailing_pe": False,
+        "low_forward_pe": False,
+        "attractive_peg": False,
+    }
+
+
 @dataclass
 class TickerResult:
     ticker: str
     score: int = 0
     signals: list = field(default_factory=list)
+    signal_flags: dict = field(default_factory=_default_signal_flags)
     price: float = None
     avg_volume: float = None
     rsi: float = None
@@ -230,6 +246,7 @@ def technical_scan(tickers: list,
                 if pd.notna(last_rsi) and last_rsi < rsi_oversold:
                     result.score += 1
                     result.signals.append(f"RSI oversold ({result.rsi})")
+                    result.signal_flags["rsi_oversold"] = True
 
                 macd_line, signal_line, _ = compute_macd(close)
                 if len(macd_line) > 1:
@@ -240,6 +257,7 @@ def technical_scan(tickers: list,
                     if crossed_up:
                         result.score += 1
                         result.signals.append("MACD bullish crossover")
+                        result.signal_flags["macd_bullish_crossover"] = True
 
                 sma50 = close.rolling(50).mean()
                 sma200 = close.rolling(200).mean()
@@ -250,8 +268,10 @@ def technical_scan(tickers: list,
                     if golden_cross:
                         result.score += 1
                         result.signals.append("Golden cross (50/200 SMA)")
+                        result.signal_flags["golden_cross"] = True
                     elif sma50.iloc[-1] > sma200.iloc[-1]:
                         result.signals.append("Above golden cross trend (50 SMA > 200 SMA)")
+                        result.signal_flags["above_golden_cross_trend"] = True
 
             except Exception as exc:
                 result.error = str(exc)
@@ -295,12 +315,15 @@ def enrich_with_fundamentals(candidates: list,
         if trailing_pe and 0 < trailing_pe < pe_undervalued:
             result.score += 1
             result.signals.append(f"Low trailing P/E ({result.trailing_pe})")
+            result.signal_flags["low_trailing_pe"] = True
         if forward_pe and 0 < forward_pe < pe_undervalued:
             result.score += 1
             result.signals.append(f"Low forward P/E ({result.forward_pe})")
+            result.signal_flags["low_forward_pe"] = True
         if peg and 0 < peg < peg_undervalued:
             result.score += 1
             result.signals.append(f"Attractive PEG ratio ({result.peg})")
+            result.signal_flags["attractive_peg"] = True
 
         if idx % 50 == 0:
             print(f"    ...{idx}/{len(candidates)}", file=sys.stderr)
