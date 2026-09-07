@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T23:38:53.401310+00:00",
+  "generated_at": "2026-09-07T21:44:31.729994+00:00",
   "universe_size": 6955,
   "min_score": 3,
-  "hit_count": 85,
+  "hit_count": 86,
   "hits": [
     {
       "ticker": "CASH",
@@ -84,8 +84,8 @@
       "trailing_pe": 7.01,
       "forward_pe": 9.71,
       "peg": 0.4,
-      "target_mean_price": 37.73,
-      "target_upside_pct": 39.0
+      "target_mean_price": 37.75,
+      "target_upside_pct": 39.1
     },
     {
       "ticker": "GCO",
@@ -280,6 +280,59 @@
       "target_upside_pct": 22.6
     },
     {
+      "ticker": "BCAL",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (11.9)",
+        "Low forward P/E (11.84)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 21.9,
+      "avg_volume": 168000.0,
+      "rsi": 62.2,
+      "trailing_pe": 11.9,
+      "forward_pe": 11.84,
+      "peg": null,
+      "target_mean_price": 24.5,
+      "target_upside_pct": 11.9
+    },
+    {
+      "ticker": "BEKE",
+      "score": 3,
+      "signals": [
+        "Golden cross (50/200 SMA)",
+        "Low forward P/E (14.36)",
+        "Attractive PEG ratio (0.43)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": false,
+        "golden_cross": true,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 17.92,
+      "avg_volume": 3780313.0,
+      "rsi": 56.6,
+      "trailing_pe": 28.44,
+      "forward_pe": 14.36,
+      "peg": 0.43,
+      "target_mean_price": 23.69,
+      "target_upside_pct": 32.2
+    },
+    {
       "ticker": "BSAC",
       "score": 3,
       "signals": [
@@ -447,7 +500,7 @@
       "signals": [
         "MACD bullish crossover",
         "Low trailing P/E (13.29)",
-        "Low forward P/E (9.52)"
+        "Low forward P/E (9.43)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -462,7 +515,7 @@
       "avg_volume": 1054597.0,
       "rsi": 54.1,
       "trailing_pe": 13.29,
-      "forward_pe": 9.52,
+      "forward_pe": 9.43,
       "peg": 13.13,
       "target_mean_price": 81.55,
       "target_upside_pct": 16.0
@@ -599,32 +652,6 @@
       "peg": 0.97,
       "target_mean_price": 64.0,
       "target_upside_pct": 25.7
-    },
-    {
-      "ticker": "DKS",
-      "score": 3,
-      "signals": [
-        "RSI oversold (29.3)",
-        "Low forward P/E (10.18)",
-        "Attractive PEG ratio (0.97)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 139.15,
-      "avg_volume": 3947497.0,
-      "rsi": 29.3,
-      "trailing_pe": 15.36,
-      "forward_pe": 10.18,
-      "peg": 0.97,
-      "target_mean_price": 166.0,
-      "target_upside_pct": 19.3
     },
     {
       "ticker": "EFSC",
@@ -1295,7 +1322,7 @@
       "trailing_pe": 16.67,
       "forward_pe": 12.25,
       "peg": 0.78,
-      "target_mean_price": 34.57,
+      "target_mean_price": 34.61,
       "target_upside_pct": -22.0
     },
     {
@@ -1986,7 +2013,7 @@
       "trailing_pe": 6.1,
       "forward_pe": 9.71,
       "peg": 1.91,
-      "target_mean_price": 60.06,
+      "target_mean_price": 60.07,
       "target_upside_pct": 46.4
     },
     {
@@ -2174,8 +2201,8 @@
       "trailing_pe": null,
       "forward_pe": 9.51,
       "peg": 0.59,
-      "target_mean_price": 16.09,
-      "target_upside_pct": -4.8
+      "target_mean_price": 16.1,
+      "target_upside_pct": -4.7
     },
     {
       "ticker": "WAL",
@@ -2282,7 +2309,7 @@
       "trailing_pe": 10.97,
       "forward_pe": 9.35,
       "peg": 1.07,
-      "target_mean_price": 28.2,
+      "target_mean_price": 28.21,
       "target_upside_pct": 34.6
     }
   ]
