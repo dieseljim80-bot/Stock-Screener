@@ -28,7 +28,9 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: python stock_screener.py --min-score 3 --output results.json
+        run: >
+          python stock_screener.py --min-score 3 --output results.json
+          --previous-results-url https://dieseljim80-bot.github.io/Stock-Screener/results.json
 
       - name: Stage results.json for publishing
         run: |
@@ -42,3 +44,4 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           keep_files: false
+
