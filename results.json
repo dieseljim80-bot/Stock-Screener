@@ -1,122 +1,197 @@
 {
-  "generated_at": "2026-09-09T21:48:36.262196+00:00",
+  "generated_at": "2026-09-10T00:52:15.009139+00:00",
   "universe_size": 6956,
   "min_score": 3,
-  "hit_count": 65,
+  "hit_count": 57,
   "hits": [
     {
-      "ticker": "BIRK",
-      "score": 4,
-      "signals": [
-        "RSI oversold (29.6)",
-        "Low trailing P/E (14.82)",
-        "Low forward P/E (11.26)",
-        "Attractive PEG ratio (0.96)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 31.56,
-      "avg_volume": 2854305.0,
-      "rsi": 29.6,
-      "trailing_pe": 14.82,
-      "forward_pe": 11.26,
-      "peg": 0.96,
-      "target_mean_price": 52.14,
-      "target_upside_pct": 65.2
-    },
-    {
-      "ticker": "CCL",
-      "score": 4,
-      "signals": [
-        "RSI oversold (27.9)",
-        "Low trailing P/E (10.23)",
-        "Low forward P/E (8.62)",
-        "Attractive PEG ratio (0.82)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 22.7,
-      "avg_volume": 18382720.0,
-      "rsi": 27.9,
-      "trailing_pe": 10.23,
-      "forward_pe": 8.62,
-      "peg": 0.82,
-      "target_mean_price": 35.3,
-      "target_upside_pct": 55.5
-    },
-    {
-      "ticker": "PNR",
-      "score": 4,
-      "signals": [
-        "RSI oversold (27.7)",
-        "Low trailing P/E (14.82)",
-        "Low forward P/E (11.13)",
-        "Attractive PEG ratio (0.96)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 57.52,
-      "avg_volume": 3613106.0,
-      "rsi": 27.7,
-      "trailing_pe": 14.82,
-      "forward_pe": 11.13,
-      "peg": 0.96,
-      "target_mean_price": 76.31,
-      "target_upside_pct": 32.7
-    },
-    {
-      "ticker": "SIG",
+      "ticker": "AES",
       "score": 4,
       "signals": [
         "MACD bullish crossover",
-        "Golden cross (50/200 SMA)",
-        "Low trailing P/E (14.47)",
-        "Low forward P/E (8.18)"
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (5.55)",
+        "Low forward P/E (6.25)",
+        "Attractive PEG ratio (0.81)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
         "macd_bullish_crossover": true,
-        "golden_cross": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 14.83,
+      "avg_volume": 7223306.0,
+      "rsi": 67.1,
+      "trailing_pe": 5.55,
+      "forward_pe": 6.25,
+      "peg": 0.81,
+      "target_mean_price": 15.0,
+      "target_upside_pct": 1.1,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "ASO",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (9.04)",
+        "Low forward P/E (7.39)",
+        "Attractive PEG ratio (0.6)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
         "above_golden_cross_trend": false,
         "low_trailing_pe": true,
         "low_forward_pe": true,
-        "attractive_peg": false
+        "attractive_peg": true
       },
-      "price": 102.48,
-      "avg_volume": 801838.0,
-      "rsi": 70.5,
-      "trailing_pe": 14.47,
-      "forward_pe": 8.18,
-      "peg": 2.4,
-      "target_mean_price": 109.5,
-      "target_upside_pct": 6.9
+      "price": 44.71,
+      "avg_volume": 1732496.0,
+      "rsi": 45.5,
+      "trailing_pe": 9.04,
+      "forward_pe": 7.39,
+      "peg": 0.6,
+      "target_mean_price": 58.4,
+      "target_upside_pct": 30.6,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "EC",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (11.65)",
+        "Low forward P/E (10.4)",
+        "Attractive PEG ratio (0.77)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 17.78,
+      "avg_volume": 1858380.0,
+      "rsi": 61.3,
+      "trailing_pe": 11.65,
+      "forward_pe": 10.4,
+      "peg": 0.77,
+      "target_mean_price": 13.91,
+      "target_upside_pct": -21.8,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "FSLR",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (12.51)",
+        "Low forward P/E (8.77)",
+        "Attractive PEG ratio (0.38)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 213.25,
+      "avg_volume": 2429695.0,
+      "rsi": 49.2,
+      "trailing_pe": 12.51,
+      "forward_pe": 8.77,
+      "peg": 0.38,
+      "target_mean_price": 274.81,
+      "target_upside_pct": 28.9,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "HLF",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (8.1)",
+        "Low forward P/E (4.1)",
+        "Attractive PEG ratio (0.61)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 12.43,
+      "avg_volume": 1735869.0,
+      "rsi": 52.3,
+      "trailing_pe": 8.1,
+      "forward_pe": 4.1,
+      "peg": 0.61,
+      "target_mean_price": 17.0,
+      "target_upside_pct": 36.8,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "SMCI",
+      "score": 4,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (11.94)",
+        "Low forward P/E (7.31)",
+        "Attractive PEG ratio (0.91)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 40.26,
+      "avg_volume": 48645923.0,
+      "rsi": 64.1,
+      "trailing_pe": 11.94,
+      "forward_pe": 7.31,
+      "peg": 0.91,
+      "target_mean_price": 42.38,
+      "target_upside_pct": 5.3,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "SON",
       "score": 4,
       "signals": [
-        "RSI oversold (24.8)",
+        "RSI oversold (27.7)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low trailing P/E (7.48)",
         "Low forward P/E (7.65)",
@@ -131,75 +206,23 @@
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 48.39,
+      "price": 49.87,
       "avg_volume": 1016272.0,
-      "rsi": 24.8,
+      "rsi": 27.7,
       "trailing_pe": 7.48,
       "forward_pe": 7.65,
       "peg": 0.21,
       "target_mean_price": 62.89,
-      "target_upside_pct": 30.0
-    },
-    {
-      "ticker": "TTE",
-      "score": 4,
-      "signals": [
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (11.47)",
-        "Low forward P/E (9.02)",
-        "Attractive PEG ratio (0.82)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": false,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 91.64,
-      "avg_volume": 1474201.0,
-      "rsi": 63.2,
-      "trailing_pe": 11.47,
-      "forward_pe": 9.02,
-      "peg": 0.82,
-      "target_mean_price": 96.2,
-      "target_upside_pct": 5.0
-    },
-    {
-      "ticker": "VIPS",
-      "score": 4,
-      "signals": [
-        "RSI oversold (25.9)",
-        "Low trailing P/E (4.04)",
-        "Low forward P/E (4.99)",
-        "Attractive PEG ratio (0.79)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 12.51,
-      "avg_volume": 2839841.0,
-      "rsi": 25.9,
-      "trailing_pe": 4.04,
-      "forward_pe": 4.99,
-      "peg": 0.79,
-      "target_mean_price": 17.12,
-      "target_upside_pct": 36.8
+      "target_upside_pct": 26.1,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "WB",
       "score": 4,
       "signals": [
-        "RSI oversold (20.7)",
+        "RSI oversold (22.3)",
         "Low trailing P/E (5.48)",
         "Low forward P/E (5.16)",
         "Attractive PEG ratio (0.79)"
@@ -213,74 +236,23 @@
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 6.63,
+      "price": 6.7,
       "avg_volume": 1167121.0,
-      "rsi": 20.7,
+      "rsi": 22.3,
       "trailing_pe": 5.48,
       "forward_pe": 5.16,
       "peg": 0.79,
       "target_mean_price": 8.24,
-      "target_upside_pct": 24.3
-    },
-    {
-      "ticker": "YELP",
-      "score": 4,
-      "signals": [
-        "RSI oversold (29.3)",
-        "Low trailing P/E (9.89)",
-        "Low forward P/E (5.51)",
-        "Attractive PEG ratio (0.57)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 20.47,
-      "avg_volume": 1100779.0,
-      "rsi": 29.3,
-      "trailing_pe": 9.89,
-      "forward_pe": 5.51,
-      "peg": 0.57,
-      "target_mean_price": 26.0,
-      "target_upside_pct": 27.0
-    },
-    {
-      "ticker": "AAP",
-      "score": 3,
-      "signals": [
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (11.14)",
-        "Attractive PEG ratio (0.83)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": false,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 43.38,
-      "avg_volume": 2140423.0,
-      "rsi": 36.6,
-      "trailing_pe": 24.23,
-      "forward_pe": 11.14,
-      "peg": 0.83,
-      "target_mean_price": 50.21,
-      "target_upside_pct": 15.7
+      "target_upside_pct": 23.0,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "ACH",
       "score": 3,
       "signals": [
-        "RSI oversold (28.4)",
+        "RSI oversold (29.1)",
         "Low forward P/E (7.15)",
         "Attractive PEG ratio (0.7)"
       ],
@@ -293,20 +265,23 @@
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 1.07,
+      "price": 1.1,
       "avg_volume": 1726804.0,
-      "rsi": 28.4,
+      "rsi": 29.1,
       "trailing_pe": null,
       "forward_pe": 7.15,
       "peg": 0.7,
       "target_mean_price": 1.51,
-      "target_upside_pct": 41.1
+      "target_upside_pct": 37.3,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "AMSF",
       "score": 3,
       "signals": [
-        "RSI oversold (26.9)",
+        "RSI oversold (27.4)",
         "Low trailing P/E (10.0)",
         "Low forward P/E (12.3)"
       ],
@@ -319,46 +294,142 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 24.8,
+      "price": 24.9,
       "avg_volume": 410301.0,
-      "rsi": 26.9,
+      "rsi": 27.4,
       "trailing_pe": 10.0,
       "forward_pe": 12.3,
       "peg": 1.81,
       "target_mean_price": 35.67,
-      "target_upside_pct": 43.8
+      "target_upside_pct": 43.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "BCSF",
+      "ticker": "APO",
       "score": 3,
       "signals": [
-        "RSI oversold (29.2)",
-        "Low trailing P/E (11.66)",
-        "Low forward P/E (8.92)"
+        "Golden cross (50/200 SMA)",
+        "Low forward P/E (12.2)",
+        "Attractive PEG ratio (0.51)"
       ],
       "signal_flags": {
-        "rsi_oversold": true,
+        "rsi_oversold": false,
         "macd_bullish_crossover": false,
-        "golden_cross": false,
+        "golden_cross": true,
         "above_golden_cross_trend": false,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 131.81,
+      "avg_volume": 3270764.0,
+      "rsi": 49.9,
+      "trailing_pe": 46.61,
+      "forward_pe": 12.2,
+      "peg": 0.51,
+      "target_mean_price": 153.05,
+      "target_upside_pct": 16.1,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "ATLC",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.03)",
+        "Low forward P/E (6.94)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
         "low_trailing_pe": true,
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 11.54,
-      "avg_volume": 413867.0,
-      "rsi": 29.2,
-      "trailing_pe": 11.66,
-      "forward_pe": 8.92,
-      "peg": 1.05,
-      "target_mean_price": 12.67,
-      "target_upside_pct": 9.8
+      "price": 93.81,
+      "avg_volume": 149709.0,
+      "rsi": 46.5,
+      "trailing_pe": 12.03,
+      "forward_pe": 6.94,
+      "peg": -0.1,
+      "target_mean_price": 130.6,
+      "target_upside_pct": 39.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "BANF",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (14.93)",
+        "Low forward P/E (14.11)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 111.29,
+      "avg_volume": 116727.0,
+      "rsi": 46.4,
+      "trailing_pe": 14.93,
+      "forward_pe": 14.11,
+      "peg": 2.09,
+      "target_mean_price": 124.33,
+      "target_upside_pct": 11.7,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "BFH",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (8.33)",
+        "Low forward P/E (8.03)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 108.2,
+      "avg_volume": 437833.0,
+      "rsi": 52.6,
+      "trailing_pe": 8.33,
+      "forward_pe": 8.03,
+      "peg": 3.26,
+      "target_mean_price": 115.44,
+      "target_upside_pct": 6.7,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "BHF",
       "score": 3,
       "signals": [
-        "RSI oversold (26.4)",
+        "RSI oversold (29.6)",
         "Low trailing P/E (4.06)",
         "Low forward P/E (2.54)"
       ],
@@ -371,157 +442,56 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 51.15,
+      "price": 52.24,
       "avg_volume": 980145.0,
-      "rsi": 26.4,
+      "rsi": 29.6,
       "trailing_pe": 4.06,
       "forward_pe": 2.54,
       "peg": null,
       "target_mean_price": 65.0,
-      "target_upside_pct": 27.1
+      "target_upside_pct": 24.4,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "BKNG",
-      "score": 3,
-      "signals": [
-        "RSI oversold (29.2)",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (14.01)",
-        "Attractive PEG ratio (0.71)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 173.43,
-      "avg_volume": 6016100.0,
-      "rsi": 29.2,
-      "trailing_pe": 19.27,
-      "forward_pe": 14.01,
-      "peg": 0.71,
-      "target_mean_price": 238.68,
-      "target_upside_pct": 37.6
-    },
-    {
-      "ticker": "BYD",
-      "score": 3,
-      "signals": [
-        "RSI oversold (27.8)",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (3.35)",
-        "Low forward P/E (9.71)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 75.41,
-      "avg_volume": 822329.0,
-      "rsi": 27.8,
-      "trailing_pe": 3.35,
-      "forward_pe": 9.71,
-      "peg": 3.03,
-      "target_mean_price": 95.94,
-      "target_upside_pct": 27.2
-    },
-    {
-      "ticker": "CENT",
-      "score": 3,
-      "signals": [
-        "RSI oversold (27.0)",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (14.71)",
-        "Low forward P/E (12.72)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 39.72,
-      "avg_volume": 115940.0,
-      "rsi": 27.0,
-      "trailing_pe": 14.71,
-      "forward_pe": 12.72,
-      "peg": 2.01,
-      "target_mean_price": 53.0,
-      "target_upside_pct": 33.4
-    },
-    {
-      "ticker": "CENTA",
-      "score": 3,
-      "signals": [
-        "RSI oversold (26.1)",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (12.72)",
-        "Low forward P/E (11.0)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 34.34,
-      "avg_volume": 315449.0,
-      "rsi": 26.1,
-      "trailing_pe": 12.72,
-      "forward_pe": 11.0,
-      "peg": 1.87,
-      "target_mean_price": 46.25,
-      "target_upside_pct": 34.7
-    },
-    {
-      "ticker": "COO",
-      "score": 3,
-      "signals": [
-        "RSI oversold (23.7)",
-        "Low forward P/E (12.71)",
-        "Attractive PEG ratio (0.64)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 63.48,
-      "avg_volume": 2012870.0,
-      "rsi": 23.7,
-      "trailing_pe": 53.8,
-      "forward_pe": 12.71,
-      "peg": 0.64,
-      "target_mean_price": 81.5,
-      "target_upside_pct": 28.4
-    },
-    {
-      "ticker": "CVE",
+      "ticker": "BP",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (12.87)",
-        "Low forward P/E (12.73)"
+        "Low forward P/E (9.47)",
+        "Attractive PEG ratio (0.06)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 44.88,
+      "avg_volume": 9111917.0,
+      "rsi": 60.6,
+      "trailing_pe": 21.86,
+      "forward_pe": 9.47,
+      "peg": 0.06,
+      "target_mean_price": 48.15,
+      "target_upside_pct": 7.3,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "COLB",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (11.75)",
+        "Low forward P/E (9.09)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -532,73 +502,52 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 33.46,
-      "avg_volume": 6636773.0,
-      "rsi": 65.2,
-      "trailing_pe": 12.87,
-      "forward_pe": 12.73,
+      "price": 30.27,
+      "avg_volume": 2832384.0,
+      "rsi": 45.9,
+      "trailing_pe": 11.75,
+      "forward_pe": 9.09,
       "peg": null,
-      "target_mean_price": 36.77,
-      "target_upside_pct": 9.9
+      "target_mean_price": 34.36,
+      "target_upside_pct": 13.5,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "CXM",
+      "ticker": "DAKT",
       "score": 3,
       "signals": [
-        "RSI oversold (29.6)",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (10.03)",
-        "Attractive PEG ratio (0.7)"
+        "MACD bullish crossover",
+        "Low forward P/E (13.0)",
+        "Attractive PEG ratio (0.64)"
       ],
       "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
         "golden_cross": false,
-        "above_golden_cross_trend": true,
+        "above_golden_cross_trend": false,
         "low_trailing_pe": false,
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 5.32,
-      "avg_volume": 3657366.0,
-      "rsi": 29.6,
-      "trailing_pe": 53.2,
-      "forward_pe": 10.03,
-      "peg": 0.7,
-      "target_mean_price": 8.44,
-      "target_upside_pct": 58.6
-    },
-    {
-      "ticker": "DECK",
-      "score": 3,
-      "signals": [
-        "RSI oversold (30.0)",
-        "Low trailing P/E (11.41)",
-        "Low forward P/E (9.64)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 80.23,
-      "avg_volume": 2512550.0,
-      "rsi": 30.0,
-      "trailing_pe": 11.41,
-      "forward_pe": 9.64,
-      "peg": 1.05,
-      "target_mean_price": 122.81,
-      "target_upside_pct": 53.1
+      "price": 19.67,
+      "avg_volume": 603552.0,
+      "rsi": 49.4,
+      "trailing_pe": 19.24,
+      "forward_pe": 13.0,
+      "peg": 0.64,
+      "target_mean_price": 32.0,
+      "target_upside_pct": 62.7,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "DKS",
       "score": 3,
       "signals": [
-        "RSI oversold (27.7)",
+        "RSI oversold (26.7)",
         "Low trailing P/E (14.74)",
         "Low forward P/E (9.93)"
       ],
@@ -611,23 +560,26 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 133.36,
+      "price": 132.37,
       "avg_volume": 4085981.0,
-      "rsi": 27.7,
+      "rsi": 26.7,
       "trailing_pe": 14.74,
       "forward_pe": 9.93,
       "peg": 1.01,
       "target_mean_price": 163.57,
-      "target_upside_pct": 22.7
+      "target_upside_pct": 23.6,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "EPD",
+      "ticker": "ENIC",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (13.61)",
-        "Low forward P/E (12.42)"
+        "Low trailing P/E (10.95)",
+        "Low forward P/E (0.02)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -638,47 +590,23 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 39.32,
-      "avg_volume": 2928579.0,
-      "rsi": 59.9,
-      "trailing_pe": 13.61,
-      "forward_pe": 12.42,
-      "peg": 1.38,
-      "target_mean_price": 41.44,
-      "target_upside_pct": 5.4
-    },
-    {
-      "ticker": "EQNR",
-      "score": 3,
-      "signals": [
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (12.26)",
-        "Low forward P/E (11.65)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": false,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 45.23,
-      "avg_volume": 2829255.0,
-      "rsi": 67.2,
-      "trailing_pe": 12.26,
-      "forward_pe": 11.65,
-      "peg": 1.1,
-      "target_mean_price": 35.66,
-      "target_upside_pct": -21.2
+      "price": 4.58,
+      "avg_volume": 651999.0,
+      "rsi": 59.0,
+      "trailing_pe": 10.95,
+      "forward_pe": 0.02,
+      "peg": null,
+      "target_mean_price": 4.88,
+      "target_upside_pct": 6.5,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "EVCM",
       "score": 3,
       "signals": [
-        "RSI oversold (17.9)",
+        "RSI oversold (20.0)",
         "Low forward P/E (8.56)",
         "Attractive PEG ratio (0.35)"
       ],
@@ -691,20 +619,23 @@
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 6.76,
+      "price": 7.18,
       "avg_volume": 147161.0,
-      "rsi": 17.9,
+      "rsi": 20.0,
       "trailing_pe": 45.07,
       "forward_pe": 8.56,
       "peg": 0.35,
       "target_mean_price": 11.0,
-      "target_upside_pct": 62.7
+      "target_upside_pct": 53.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "FINV",
       "score": 3,
       "signals": [
-        "RSI oversold (29.3)",
+        "RSI oversold (29.8)",
         "Low trailing P/E (3.06)",
         "Low forward P/E (3.39)"
       ],
@@ -717,20 +648,52 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 3.37,
+      "price": 3.4,
       "avg_volume": 932585.0,
-      "rsi": 29.3,
+      "rsi": 29.8,
       "trailing_pe": 3.06,
       "forward_pe": 3.39,
       "peg": null,
       "target_mean_price": 5.6,
-      "target_upside_pct": 66.1
+      "target_upside_pct": 64.7,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "FTFT",
+      "score": 3,
+      "signals": [
+        "RSI oversold (17.6)",
+        "Low trailing P/E (0.01)",
+        "Attractive PEG ratio (0.38)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": false,
+        "attractive_peg": true
+      },
+      "price": 1.31,
+      "avg_volume": 3122844.0,
+      "rsi": 17.6,
+      "trailing_pe": 0.01,
+      "forward_pe": null,
+      "peg": 0.38,
+      "target_mean_price": null,
+      "target_upside_pct": null,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "GIII",
       "score": 3,
       "signals": [
-        "RSI oversold (20.8)",
+        "RSI oversold (21.0)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low trailing P/E (9.06)",
         "Low forward P/E (11.51)"
@@ -744,46 +707,82 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 27.54,
+      "price": 27.62,
       "avg_volume": 588419.0,
-      "rsi": 20.8,
+      "rsi": 21.0,
       "trailing_pe": 9.06,
       "forward_pe": 11.51,
       "peg": 1.29,
       "target_mean_price": 37.33,
-      "target_upside_pct": 35.6
+      "target_upside_pct": 35.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "GPK",
+      "ticker": "HBNC",
       "score": 3,
       "signals": [
-        "RSI oversold (29.0)",
-        "Low trailing P/E (14.63)",
-        "Low forward P/E (8.51)"
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (8.78)",
+        "Attractive PEG ratio (0.8)"
       ],
       "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 19.73,
+      "avg_volume": 487604.0,
+      "rsi": 47.3,
+      "trailing_pe": null,
+      "forward_pe": 8.78,
+      "peg": 0.8,
+      "target_mean_price": 22.9,
+      "target_upside_pct": 16.1,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "HCKT",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low forward P/E (6.9)",
+        "Attractive PEG ratio (0.7)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
         "golden_cross": false,
         "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
+        "low_trailing_pe": false,
         "low_forward_pe": true,
-        "attractive_peg": false
+        "attractive_peg": true
       },
-      "price": 9.51,
-      "avg_volume": 4763195.0,
-      "rsi": 29.0,
-      "trailing_pe": 14.63,
-      "forward_pe": 8.51,
-      "peg": 3.33,
-      "target_mean_price": 12.58,
-      "target_upside_pct": 32.3
+      "price": 11.28,
+      "avg_volume": 303288.0,
+      "rsi": 55.7,
+      "trailing_pe": 17.44,
+      "forward_pe": 6.9,
+      "peg": 0.7,
+      "target_mean_price": 16.67,
+      "target_upside_pct": 47.8,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "HE",
       "score": 3,
       "signals": [
-        "RSI oversold (19.2)",
+        "RSI oversold (25.7)",
         "Low trailing P/E (8.01)",
         "Low forward P/E (9.61)"
       ],
@@ -796,73 +795,83 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 10.33,
+      "price": 10.9,
       "avg_volume": 2229505.0,
-      "rsi": 19.2,
+      "rsi": 25.7,
       "trailing_pe": 8.01,
       "forward_pe": 9.61,
       "peg": 6.66,
       "target_mean_price": 10.69,
-      "target_upside_pct": 3.5
+      "target_upside_pct": -1.9,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "HPE",
+      "ticker": "HESM",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (12.81)",
-        "Attractive PEG ratio (0.43)"
+        "Low trailing P/E (13.99)",
+        "Low forward P/E (13.12)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
         "macd_bullish_crossover": true,
         "golden_cross": false,
         "above_golden_cross_trend": true,
-        "low_trailing_pe": false,
+        "low_trailing_pe": true,
         "low_forward_pe": true,
-        "attractive_peg": true
+        "attractive_peg": false
       },
-      "price": 58.9,
-      "avg_volume": 20889754.0,
-      "rsi": 62.8,
-      "trailing_pe": 30.36,
-      "forward_pe": 12.81,
-      "peg": 0.43,
-      "target_mean_price": 67.43,
-      "target_upside_pct": 14.5
+      "price": 40.97,
+      "avg_volume": 1342325.0,
+      "rsi": 62.1,
+      "trailing_pe": 13.99,
+      "forward_pe": 13.12,
+      "peg": null,
+      "target_mean_price": 37.5,
+      "target_upside_pct": -8.5,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "HUYA",
+      "ticker": "INDV",
       "score": 3,
       "signals": [
         "RSI oversold (29.8)",
-        "Low forward P/E (11.8)",
-        "Attractive PEG ratio (0.58)"
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.46)",
+        "Low forward P/E (7.12)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
         "macd_bullish_crossover": false,
         "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
         "low_forward_pe": true,
-        "attractive_peg": true
+        "attractive_peg": false
       },
-      "price": 2.06,
-      "avg_volume": 1204322.0,
+      "price": 34.32,
+      "avg_volume": 2342209.0,
       "rsi": 29.8,
-      "trailing_pe": null,
-      "forward_pe": 11.8,
-      "peg": 0.58,
-      "target_mean_price": 3.53,
-      "target_upside_pct": 71.2
+      "trailing_pe": 12.46,
+      "forward_pe": 7.12,
+      "peg": null,
+      "target_mean_price": 49.0,
+      "target_upside_pct": 42.8,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "JBSS",
       "score": 3,
       "signals": [
-        "RSI oversold (29.6)",
+        "RSI oversold (30.0)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low trailing P/E (13.43)",
         "Low forward P/E (14.84)"
@@ -876,104 +885,85 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 70.64,
+      "price": 70.84,
       "avg_volume": 151084.0,
-      "rsi": 29.6,
+      "rsi": 30.0,
       "trailing_pe": 13.43,
       "forward_pe": 14.84,
       "peg": 1.52,
       "target_mean_price": 100.0,
-      "target_upside_pct": 41.6
+      "target_upside_pct": 41.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "KTB",
+      "ticker": "LEVI",
       "score": 3,
       "signals": [
-        "RSI oversold (29.5)",
+        "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (13.6)",
-        "Low forward P/E (10.21)"
+        "Low trailing P/E (14.54)",
+        "Low forward P/E (11.9)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 20.85,
+      "avg_volume": 2079472.0,
+      "rsi": 37.4,
+      "trailing_pe": 14.54,
+      "forward_pe": 11.9,
+      "peg": null,
+      "target_mean_price": 28.27,
+      "target_upside_pct": 35.6,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "LGCL",
+      "score": 3,
+      "signals": [
+        "RSI oversold (25.9)",
+        "MACD bullish crossover",
+        "Low trailing P/E (0.05)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
-        "macd_bullish_crossover": false,
+        "macd_bullish_crossover": true,
         "golden_cross": false,
-        "above_golden_cross_trend": true,
+        "above_golden_cross_trend": false,
         "low_trailing_pe": true,
-        "low_forward_pe": true,
+        "low_forward_pe": false,
         "attractive_peg": false
       },
-      "price": 67.16,
-      "avg_volume": 723482.0,
-      "rsi": 29.5,
-      "trailing_pe": 13.6,
-      "forward_pe": 10.21,
+      "price": 3.63,
+      "avg_volume": 549728.0,
+      "rsi": 25.9,
+      "trailing_pe": 0.05,
+      "forward_pe": null,
       "peg": null,
-      "target_mean_price": 97.5,
-      "target_upside_pct": 45.2
+      "target_mean_price": null,
+      "target_upside_pct": null,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "LSAK",
+      "ticker": "LKFN",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (9.77)",
-        "Attractive PEG ratio (0.21)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": false,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 4.59,
-      "avg_volume": 105125.0,
-      "rsi": 49.1,
-      "trailing_pe": null,
-      "forward_pe": 9.77,
-      "peg": 0.21,
-      "target_mean_price": 8.0,
-      "target_upside_pct": 74.3
-    },
-    {
-      "ticker": "LUV",
-      "score": 3,
-      "signals": [
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (8.08)",
-        "Attractive PEG ratio (0.19)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": false,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 38.68,
-      "avg_volume": 4481188.0,
-      "rsi": 35.6,
-      "trailing_pe": 24.18,
-      "forward_pe": 8.08,
-      "peg": 0.19,
-      "target_mean_price": 50.79,
-      "target_upside_pct": 31.3
-    },
-    {
-      "ticker": "MPLX",
-      "score": 3,
-      "signals": [
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (12.95)",
-        "Low forward P/E (12.43)"
+        "Low trailing P/E (13.81)",
+        "Low forward P/E (13.36)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -984,20 +974,82 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 60.23,
-      "avg_volume": 1342370.0,
-      "rsi": 64.1,
-      "trailing_pe": 12.95,
-      "forward_pe": 12.43,
-      "peg": 3.06,
-      "target_mean_price": 62.67,
-      "target_upside_pct": 4.0
+      "price": 59.98,
+      "avg_volume": 144185.0,
+      "rsi": 45.9,
+      "trailing_pe": 13.81,
+      "forward_pe": 13.36,
+      "peg": 1.44,
+      "target_mean_price": 66.5,
+      "target_upside_pct": 10.9,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "LOVE",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (6.24)",
+        "Attractive PEG ratio (0.43)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 16.07,
+      "avg_volume": 208891.0,
+      "rsi": 46.3,
+      "trailing_pe": 64.12,
+      "forward_pe": 6.24,
+      "peg": 0.43,
+      "target_mean_price": 24.17,
+      "target_upside_pct": 50.4,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "MGY",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (12.14)",
+        "Low forward P/E (8.55)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 27.42,
+      "avg_volume": 3601122.0,
+      "rsi": 56.3,
+      "trailing_pe": 12.14,
+      "forward_pe": 8.55,
+      "peg": null,
+      "target_mean_price": 32.94,
+      "target_upside_pct": 20.1,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "NATR",
       "score": 3,
       "signals": [
-        "RSI oversold (26.6)",
+        "RSI oversold (27.7)",
         "Low trailing P/E (13.66)",
         "Low forward P/E (11.11)"
       ],
@@ -1010,20 +1062,23 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 13.66,
+      "price": 13.82,
       "avg_volume": 218003.0,
-      "rsi": 26.6,
+      "rsi": 27.7,
       "trailing_pe": 13.66,
       "forward_pe": 11.11,
       "peg": 2.0,
       "target_mean_price": 30.5,
-      "target_upside_pct": 123.3
+      "target_upside_pct": 120.7,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "NCLH",
       "score": 3,
       "signals": [
-        "RSI oversold (25.9)",
+        "RSI oversold (29.0)",
         "Low trailing P/E (9.0)",
         "Low forward P/E (8.78)"
       ],
@@ -1036,20 +1091,23 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 14.85,
+      "price": 15.39,
       "avg_volume": 15264584.0,
-      "rsi": 25.9,
+      "rsi": 29.0,
       "trailing_pe": 9.0,
       "forward_pe": 8.78,
       "peg": 1.3,
       "target_mean_price": 20.6,
-      "target_upside_pct": 38.7
+      "target_upside_pct": 33.9,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "NIVF",
       "score": 3,
       "signals": [
-        "RSI oversold (26.0)",
+        "RSI oversold (26.2)",
         "Low trailing P/E (0.0)",
         "Low forward P/E (0.01)"
       ],
@@ -1062,46 +1120,53 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 1.1,
+      "price": 1.11,
       "avg_volume": 190759.0,
-      "rsi": 26.0,
+      "rsi": 26.2,
       "trailing_pe": 0.0,
       "forward_pe": 0.01,
       "peg": null,
       "target_mean_price": 127.08,
-      "target_upside_pct": 11452.7
+      "target_upside_pct": 11348.7,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "NOA",
+      "ticker": "NX",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low forward P/E (7.68)",
-        "Attractive PEG ratio (0.38)"
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (10.39)",
+        "Attractive PEG ratio (0.76)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
         "macd_bullish_crossover": true,
         "golden_cross": false,
-        "above_golden_cross_trend": false,
+        "above_golden_cross_trend": true,
         "low_trailing_pe": false,
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 13.68,
-      "avg_volume": 116526.0,
-      "rsi": 52.0,
-      "trailing_pe": 16.89,
-      "forward_pe": 7.68,
-      "peg": 0.38,
-      "target_mean_price": 27.15,
-      "target_upside_pct": 98.5
+      "price": 22.22,
+      "avg_volume": 392450.0,
+      "rsi": 62.3,
+      "trailing_pe": 22.53,
+      "forward_pe": 10.39,
+      "peg": 0.76,
+      "target_mean_price": 27.25,
+      "target_upside_pct": 22.6,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "ONON",
       "score": 3,
       "signals": [
-        "RSI oversold (27.4)",
+        "RSI oversold (28.8)",
         "Low forward P/E (13.01)",
         "Attractive PEG ratio (0.46)"
       ],
@@ -1114,47 +1179,23 @@
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 26.84,
+      "price": 27.27,
       "avg_volume": 8368399.0,
-      "rsi": 27.4,
+      "rsi": 28.8,
       "trailing_pe": 18.38,
       "forward_pe": 13.01,
       "peg": 0.46,
-      "target_mean_price": 44.1,
-      "target_upside_pct": 64.3
-    },
-    {
-      "ticker": "PBF",
-      "score": 3,
-      "signals": [
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (6.71)",
-        "Low forward P/E (7.88)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": false,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 76.51,
-      "avg_volume": 3004270.0,
-      "rsi": 61.8,
-      "trailing_pe": 6.71,
-      "forward_pe": 7.88,
-      "peg": null,
-      "target_mean_price": 67.62,
-      "target_upside_pct": -11.6
+      "target_mean_price": 44.04,
+      "target_upside_pct": 61.5,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "PFGC",
       "score": 3,
       "signals": [
-        "RSI oversold (24.5)",
+        "RSI oversold (26.3)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low forward P/E (14.31)",
         "Attractive PEG ratio (0.82)"
@@ -1168,73 +1209,23 @@
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 95.63,
+      "price": 96.79,
       "avg_volume": 1640323.0,
-      "rsi": 24.5,
+      "rsi": 26.3,
       "trailing_pe": 41.76,
       "forward_pe": 14.31,
       "peg": 0.82,
       "target_mean_price": 123.62,
-      "target_upside_pct": 29.3
-    },
-    {
-      "ticker": "PHG",
-      "score": 3,
-      "signals": [
-        "RSI oversold (28.2)",
-        "Low forward P/E (13.14)",
-        "Attractive PEG ratio (0.78)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 25.02,
-      "avg_volume": 838413.0,
-      "rsi": 28.2,
-      "trailing_pe": 18.95,
-      "forward_pe": 13.14,
-      "peg": 0.78,
-      "target_mean_price": 32.21,
-      "target_upside_pct": 28.7
-    },
-    {
-      "ticker": "PINS",
-      "score": 3,
-      "signals": [
-        "RSI oversold (23.2)",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (7.6)",
-        "Attractive PEG ratio (0.28)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 18.28,
-      "avg_volume": 11838947.0,
-      "rsi": 23.2,
-      "trailing_pe": 53.76,
-      "forward_pe": 7.6,
-      "peg": 0.28,
-      "target_mean_price": 28.99,
-      "target_upside_pct": 58.6
+      "target_upside_pct": 27.7,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "QFIN",
       "score": 3,
       "signals": [
-        "RSI oversold (26.3)",
+        "RSI oversold (27.7)",
         "Low trailing P/E (1.97)",
         "Low forward P/E (2.58)"
       ],
@@ -1247,23 +1238,56 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 8.6,
+      "price": 8.84,
       "avg_volume": 2478418.0,
-      "rsi": 26.3,
+      "rsi": 27.7,
       "trailing_pe": 1.97,
       "forward_pe": 2.58,
       "peg": null,
       "target_mean_price": 15.08,
-      "target_upside_pct": 75.3
+      "target_upside_pct": 70.5,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "RBCAA",
+      "ticker": "R",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (14.72)",
-        "Low forward P/E (13.95)"
+        "Low forward P/E (13.81)",
+        "Attractive PEG ratio (0.86)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 246.89,
+      "avg_volume": 272592.0,
+      "rsi": 41.9,
+      "trailing_pe": 19.9,
+      "forward_pe": 13.81,
+      "peg": 0.86,
+      "target_mean_price": 299.56,
+      "target_upside_pct": 21.3,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "RBB",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (10.86)",
+        "Low forward P/E (10.51)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1274,20 +1298,23 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 96.26,
-      "avg_volume": 105906.0,
-      "rsi": 53.8,
-      "trailing_pe": 14.72,
-      "forward_pe": 13.95,
-      "peg": 1.27,
-      "target_mean_price": 98.0,
-      "target_upside_pct": 1.8
+      "price": 26.57,
+      "avg_volume": 112209.0,
+      "rsi": 50.2,
+      "trailing_pe": 10.86,
+      "forward_pe": 10.51,
+      "peg": null,
+      "target_mean_price": 28.5,
+      "target_upside_pct": 7.3,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "REYN",
       "score": 3,
       "signals": [
-        "RSI oversold (18.7)",
+        "RSI oversold (20.2)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low trailing P/E (13.22)",
         "Low forward P/E (12.61)"
@@ -1301,73 +1328,81 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 21.55,
+      "price": 21.87,
       "avg_volume": 1429468.0,
-      "rsi": 18.7,
+      "rsi": 20.2,
       "trailing_pe": 13.22,
       "forward_pe": 12.61,
       "peg": null,
       "target_mean_price": 27.14,
-      "target_upside_pct": 26.0
+      "target_upside_pct": 24.1,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "SFD",
+      "ticker": "REZI",
       "score": 3,
       "signals": [
-        "RSI oversold (22.8)",
-        "Low trailing P/E (7.63)",
-        "Low forward P/E (8.38)"
+        "MACD bullish crossover",
+        "Low trailing P/E (7.38)",
+        "Low forward P/E (9.19)"
       ],
       "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
         "golden_cross": false,
         "above_golden_cross_trend": false,
         "low_trailing_pe": true,
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 20.52,
-      "avg_volume": 1626613.0,
-      "rsi": 22.8,
-      "trailing_pe": 7.63,
-      "forward_pe": 8.38,
+      "price": 19.64,
+      "avg_volume": 2550917.0,
+      "rsi": 39.4,
+      "trailing_pe": 7.38,
+      "forward_pe": 9.19,
       "peg": null,
-      "target_mean_price": 29.92,
-      "target_upside_pct": 45.8
+      "target_mean_price": 34.25,
+      "target_upside_pct": 74.4,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "SHEL",
+      "ticker": "RRC",
       "score": 3,
       "signals": [
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (10.58)",
-        "Low forward P/E (9.51)"
+        "Golden cross (50/200 SMA)",
+        "Low trailing P/E (11.53)",
+        "Low forward P/E (10.5)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": true,
+        "above_golden_cross_trend": false,
         "low_trailing_pe": true,
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 95.6,
-      "avg_volume": 6408477.0,
-      "rsi": 68.6,
-      "trailing_pe": 10.58,
-      "forward_pe": 9.51,
-      "peg": 1.57,
-      "target_mean_price": 100.08,
-      "target_upside_pct": 4.7
+      "price": 41.89,
+      "avg_volume": 2250812.0,
+      "rsi": 60.4,
+      "trailing_pe": 11.53,
+      "forward_pe": 10.5,
+      "peg": 1.05,
+      "target_mean_price": 45.73,
+      "target_upside_pct": 9.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "STZ",
       "score": 3,
       "signals": [
-        "RSI oversold (30.0)",
+        "RSI oversold (28.3)",
         "Low trailing P/E (11.58)",
         "Low forward P/E (9.81)"
       ],
@@ -1380,47 +1415,23 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 121.55,
+      "price": 120.98,
       "avg_volume": 1900584.0,
-      "rsi": 30.0,
+      "rsi": 28.3,
       "trailing_pe": 11.58,
       "forward_pe": 9.81,
       "peg": 1.63,
       "target_mean_price": 170.83,
-      "target_upside_pct": 40.5
-    },
-    {
-      "ticker": "TBBK",
-      "score": 3,
-      "signals": [
-        "RSI oversold (19.2)",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (9.4)",
-        "Low forward P/E (6.18)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 50.03,
-      "avg_volume": 432494.0,
-      "rsi": 19.2,
-      "trailing_pe": 9.4,
-      "forward_pe": 6.18,
-      "peg": 1.07,
-      "target_mean_price": 84.33,
-      "target_upside_pct": 68.6
+      "target_upside_pct": 41.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "TCOM",
       "score": 3,
       "signals": [
-        "RSI oversold (24.0)",
+        "RSI oversold (27.7)",
         "Low trailing P/E (5.81)",
         "Low forward P/E (9.28)"
       ],
@@ -1433,22 +1444,25 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 39.19,
+      "price": 40.5,
       "avg_volume": 2744660.0,
-      "rsi": 24.0,
+      "rsi": 27.7,
       "trailing_pe": 5.81,
       "forward_pe": 9.28,
       "peg": 1.91,
       "target_mean_price": 60.09,
-      "target_upside_pct": 53.3
+      "target_upside_pct": 48.4,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "TKC",
+      "ticker": "TLK",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (12.55)",
-        "Low forward P/E (9.94)"
+        "Low trailing P/E (14.85)",
+        "Low forward P/E (12.21)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1459,47 +1473,23 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 5.27,
-      "avg_volume": 2325555.0,
-      "rsi": 45.1,
-      "trailing_pe": 12.55,
-      "forward_pe": 9.94,
-      "peg": 4.37,
-      "target_mean_price": 7.33,
-      "target_upside_pct": 39.1
-    },
-    {
-      "ticker": "TNK",
-      "score": 3,
-      "signals": [
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (5.68)",
-        "Low forward P/E (8.84)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": false,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 96.31,
-      "avg_volume": 468106.0,
-      "rsi": 68.8,
-      "trailing_pe": 5.68,
-      "forward_pe": 8.84,
-      "peg": 1.1,
-      "target_mean_price": 93.8,
-      "target_upside_pct": -2.6
+      "price": 15.08,
+      "avg_volume": 624116.0,
+      "rsi": 58.6,
+      "trailing_pe": 14.85,
+      "forward_pe": 12.21,
+      "peg": 3.16,
+      "target_mean_price": 17.0,
+      "target_upside_pct": 12.7,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "TNL",
       "score": 3,
       "signals": [
-        "RSI oversold (29.2)",
+        "RSI oversold (29.5)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low forward P/E (7.22)",
         "Attractive PEG ratio (0.53)"
@@ -1513,46 +1503,23 @@
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 64.7,
+      "price": 64.81,
       "avg_volume": 655673.0,
-      "rsi": 29.2,
+      "rsi": 29.5,
       "trailing_pe": 17.49,
       "forward_pe": 7.22,
       "peg": 0.53,
       "target_mean_price": 90.85,
-      "target_upside_pct": 40.4
-    },
-    {
-      "ticker": "TREE",
-      "score": 3,
-      "signals": [
-        "RSI oversold (27.4)",
-        "Low trailing P/E (2.05)",
-        "Low forward P/E (4.01)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 26.56,
-      "avg_volume": 509271.0,
-      "rsi": 27.4,
-      "trailing_pe": 2.05,
-      "forward_pe": 4.01,
-      "peg": 3.55,
-      "target_mean_price": 56.0,
-      "target_upside_pct": 110.8
+      "target_upside_pct": 40.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "TRIP",
       "score": 3,
       "signals": [
-        "RSI oversold (25.8)",
+        "RSI oversold (27.8)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low forward P/E (8.21)",
         "Attractive PEG ratio (0.48)"
@@ -1566,72 +1533,82 @@
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 8.82,
+      "price": 9.09,
       "avg_volume": 3722541.0,
-      "rsi": 25.8,
+      "rsi": 27.8,
       "trailing_pe": null,
       "forward_pe": 8.21,
       "peg": 0.48,
       "target_mean_price": 13.87,
-      "target_upside_pct": 57.2
+      "target_upside_pct": 52.5,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "TTEC",
+      "ticker": "UCTT",
       "score": 3,
       "signals": [
-        "RSI oversold (28.3)",
-        "Low forward P/E (1.18)",
-        "Attractive PEG ratio (0.26)"
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (12.78)",
+        "Attractive PEG ratio (0.33)"
       ],
       "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 75.62,
+      "avg_volume": 1155339.0,
+      "rsi": 47.8,
+      "trailing_pe": null,
+      "forward_pe": 12.78,
+      "peg": 0.33,
+      "target_mean_price": 137.0,
+      "target_upside_pct": 81.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
+    },
+    {
+      "ticker": "VFC",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low forward P/E (9.63)",
+        "Attractive PEG ratio (0.34)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
         "golden_cross": false,
         "above_golden_cross_trend": false,
         "low_trailing_pe": false,
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 1.27,
-      "avg_volume": 504096.0,
-      "rsi": 28.3,
-      "trailing_pe": null,
-      "forward_pe": 1.18,
-      "peg": 0.26,
-      "target_mean_price": null,
-      "target_upside_pct": null
-    },
-    {
-      "ticker": "VRRM",
-      "score": 3,
-      "signals": [
-        "RSI oversold (26.7)",
-        "Low trailing P/E (13.81)",
-        "Low forward P/E (3.93)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 3.73,
-      "avg_volume": 4947664.0,
-      "rsi": 26.7,
-      "trailing_pe": 13.81,
-      "forward_pe": 3.93,
-      "peg": null,
-      "target_mean_price": 7.0,
-      "target_upside_pct": 87.7
+      "price": 13.2,
+      "avg_volume": 7474730.0,
+      "rsi": 34.9,
+      "trailing_pe": 18.71,
+      "forward_pe": 9.63,
+      "peg": 0.34,
+      "target_mean_price": 18.77,
+      "target_upside_pct": 42.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "WAFD",
       "score": 3,
       "signals": [
-        "RSI oversold (26.9)",
+        "RSI oversold (29.3)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low trailing P/E (10.68)",
         "Low forward P/E (10.16)"
@@ -1645,73 +1622,53 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 33.85,
+      "price": 34.28,
       "avg_volume": 622102.0,
-      "rsi": 26.9,
+      "rsi": 29.3,
       "trailing_pe": 10.68,
       "forward_pe": 10.16,
       "peg": 1.85,
       "target_mean_price": 39.0,
-      "target_upside_pct": 15.2
+      "target_upside_pct": 13.8,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
-      "ticker": "WIT",
+      "ticker": "WTFC",
       "score": 3,
       "signals": [
-        "RSI oversold (27.5)",
-        "Low trailing P/E (12.92)",
-        "Low forward P/E (11.21)"
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (12.08)",
+        "Low forward P/E (10.89)"
       ],
       "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
         "golden_cross": false,
-        "above_golden_cross_trend": false,
+        "above_golden_cross_trend": true,
         "low_trailing_pe": true,
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 1.68,
-      "avg_volume": 7263518.0,
-      "rsi": 27.5,
-      "trailing_pe": 12.92,
-      "forward_pe": 11.21,
-      "peg": 1.42,
-      "target_mean_price": 1.75,
-      "target_upside_pct": 4.1
-    },
-    {
-      "ticker": "XPER",
-      "score": 3,
-      "signals": [
-        "RSI oversold (29.7)",
-        "MACD bullish crossover",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (4.35)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": true,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": false
-      },
-      "price": 5.83,
-      "avg_volume": 484348.0,
-      "rsi": 29.7,
-      "trailing_pe": null,
-      "forward_pe": 4.35,
-      "peg": null,
-      "target_mean_price": 11.4,
-      "target_upside_pct": 95.5
+      "price": 152.38,
+      "avg_volume": 503279.0,
+      "rsi": 42.7,
+      "trailing_pe": 12.08,
+      "forward_pe": 10.89,
+      "peg": 1.17,
+      "target_mean_price": 180.07,
+      "target_upside_pct": 18.2,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     },
     {
       "ticker": "ZTO",
       "score": 3,
       "signals": [
-        "RSI oversold (27.4)",
+        "RSI oversold (28.6)",
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low trailing P/E (10.85)",
         "Low forward P/E (9.24)"
@@ -1725,14 +1682,17 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 20.72,
+      "price": 20.84,
       "avg_volume": 1963210.0,
-      "rsi": 27.4,
+      "rsi": 28.6,
       "trailing_pe": 10.85,
       "forward_pe": 9.24,
       "peg": 1.07,
       "target_mean_price": 28.21,
-      "target_upside_pct": 36.2
+      "target_upside_pct": 35.4,
+      "first_seen": "2026-09-10",
+      "days_on_list": 1,
+      "is_new": true
     }
   ]
 }
