@@ -57,7 +57,7 @@ import smtplib
 import sys
 import time
 from dataclasses import dataclass, field, asdict
-from datetime import datetime, timezone
+from datetime import datetime, date, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -367,22 +367,73 @@ def run_screener(tickers: list, **kwargs) -> list:
 
 
 # ---------------------------------------------------------------------------
+# Tracking "days on list" / "new" — compares against the previously
+# published results.json rather than needing any separate database.
+# ---------------------------------------------------------------------------
+
+def fetch_previous_hits(url: str) -> dict:
+    """
+    Fetches the previously published results.json (if a URL is given) and
+    returns {ticker: first_seen_date_string} for everything that was on it.
+    Used to compute days_on_list and is_new for the current run. If the
+    fetch fails for any reason (first-ever run, network hiccup, URL not
+    provided), every ticker in this run is simply treated as new — that's
+    a safe, harmless fallback, not an error condition.
+    """
+    if not url:
+        return {}
+    try:
+        resp = requests.get(url, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+        previous = {}
+        for hit in data.get("hits", []):
+            ticker = hit.get("ticker")
+            first_seen = hit.get("first_seen")
+            if ticker and first_seen:
+                previous[ticker] = first_seen
+        return previous
+    except Exception as exc:
+        print(f"Could not fetch previous results ({exc}) — treating all hits as new.", file=sys.stderr)
+        return {}
+
+
+# ---------------------------------------------------------------------------
 # results.json output — the small file an app (or anything else) can poll
 # ---------------------------------------------------------------------------
 
-def write_results_json(results: list, min_score: int, universe_size: int, path: str) -> dict:
+def write_results_json(results: list, min_score: int, universe_size: int, path: str,
+                        previous_hits: dict = None) -> dict:
+    previous_hits = previous_hits or {}
+    today = datetime.now(timezone.utc).date()
+
     hits = [r for r in results if not r.error and r.score >= min_score]
     hits.sort(key=lambda r: r.score, reverse=True)
+
+    payload_hits = []
+    for r in hits:
+        d = {k: v for k, v in asdict(r).items() if k != "error"}
+
+        first_seen_str = previous_hits.get(r.ticker)
+        if first_seen_str:
+            try:
+                first_seen_date = date.fromisoformat(first_seen_str)
+            except ValueError:
+                first_seen_date = today
+        else:
+            first_seen_date = today
+
+        d["first_seen"] = first_seen_date.isoformat()
+        d["days_on_list"] = (today - first_seen_date).days + 1
+        d["is_new"] = first_seen_str is None
+        payload_hits.append(d)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "universe_size": universe_size,
         "min_score": min_score,
-        "hit_count": len(hits),
-        "hits": [
-            {k: v for k, v in asdict(r).items() if k != "error"}
-            for r in hits
-        ],
+        "hit_count": len(payload_hits),
+        "hits": payload_hits,
     }
     with open(path, "w") as f:
         json.dump(payload, f, indent=2)
@@ -407,15 +458,17 @@ def build_email_body(payload: dict) -> str:
         lines.append("<table border='1' cellpadding='6' cellspacing='0' style='border-collapse:collapse'>")
         lines.append(
             "<tr><th>Ticker</th><th>Score</th><th>Price</th><th>RSI</th>"
-            "<th>Trail P/E</th><th>Fwd P/E</th><th>PEG</th><th>Signals</th></tr>"
+            "<th>Trail P/E</th><th>Fwd P/E</th><th>PEG</th><th>Days Listed</th><th>Signals</th></tr>"
         )
         for r in hits:
+            new_badge = " 🆕" if r.get("is_new") else ""
             lines.append(
-                f"<tr><td><b>{r['ticker']}</b></td><td>{r['score']}</td><td>{r['price']}</td>"
+                f"<tr><td><b>{r['ticker']}</b>{new_badge}</td><td>{r['score']}</td><td>{r['price']}</td>"
                 f"<td>{r['rsi'] if r['rsi'] is not None else '-'}</td>"
                 f"<td>{r['trailing_pe'] if r['trailing_pe'] is not None else '-'}</td>"
                 f"<td>{r['forward_pe'] if r['forward_pe'] is not None else '-'}</td>"
                 f"<td>{r['peg'] if r['peg'] is not None else '-'}</td>"
+                f"<td>{r.get('days_on_list', '-')}</td>"
                 f"<td>{'; '.join(r['signals'])}</td></tr>"
             )
         lines.append("</table>")
@@ -470,6 +523,10 @@ def main():
                          help="Skip stocks with 30-day average volume below this")
     parser.add_argument("--batch-size", type=int, default=150, help="Tickers per bulk price-history request")
     parser.add_argument("--output", default="results.json", help="Path to write the results JSON file")
+    parser.add_argument("--previous-results-url", default=None,
+                         help="URL of the currently-published results.json (e.g. your GitHub Pages URL). "
+                              "Used to compute days_on_list and is_new for each ticker by comparing "
+                              "against what was published last time. Omit to treat everything as new.")
     parser.add_argument("--dry-run", action="store_true",
                          help="Print results only — skip writing results.json and skip email")
     args = parser.parse_args()
@@ -506,8 +563,16 @@ def main():
         print("\n--dry-run set: not writing results.json and not emailing.")
         return
 
-    payload = write_results_json(results, args.min_score, universe_size=len(tickers), path=args.output)
-    print(f"\nWrote {args.output} ({len(payload['hits'])} hit(s)).")
+    previous_hits = fetch_previous_hits(args.previous_results_url)
+    if args.previous_results_url:
+        print(f"Found {len(previous_hits)} ticker(s) in the previously published results.")
+
+    payload = write_results_json(
+        results, args.min_score, universe_size=len(tickers), path=args.output,
+        previous_hits=previous_hits,
+    )
+    new_count = sum(1 for h in payload["hits"] if h["is_new"])
+    print(f"\nWrote {args.output} ({len(payload['hits'])} hit(s), {new_count} new).")
 
     if not email_configured():
         print("Email env vars not set — skipping email (results.json is still written).")
