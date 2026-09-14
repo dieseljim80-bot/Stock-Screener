@@ -290,6 +290,22 @@ def technical_scan(tickers: list,
 # Stage 2: valuation enrichment — ONLY for tickers that already scored >= 1
 # ---------------------------------------------------------------------------
 
+def _safe_float(value) -> float:
+    """
+    Yahoo's unofficial .info endpoint occasionally returns a field as a
+    string, or some other unexpected type, instead of a number — even for
+    fields that are normally numeric. Rather than letting one oddball
+    ticker crash the entire run, this coerces anything usable to a float
+    and returns None for anything that isn't (including None itself).
+    """
+    if value is None:
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
 def enrich_with_fundamentals(candidates: list,
                               pe_undervalued: float = 15,
                               peg_undervalued: float = 1.0,
@@ -306,10 +322,10 @@ def enrich_with_fundamentals(candidates: list,
         except Exception:
             info = {}
 
-        trailing_pe = info.get("trailingPE")
-        forward_pe = info.get("forwardPE")
-        peg = info.get("pegRatio") or info.get("trailingPegRatio")
-        target_mean_price = info.get("targetMeanPrice")
+        trailing_pe = _safe_float(info.get("trailingPE"))
+        forward_pe = _safe_float(info.get("forwardPE"))
+        peg = _safe_float(info.get("pegRatio")) or _safe_float(info.get("trailingPegRatio"))
+        target_mean_price = _safe_float(info.get("targetMeanPrice"))
 
         result.trailing_pe = round(trailing_pe, 2) if trailing_pe else None
         result.forward_pe = round(forward_pe, 2) if forward_pe else None
