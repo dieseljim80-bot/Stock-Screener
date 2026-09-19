@@ -1,8 +1,11 @@
 {
-  "generated_at": "2026-09-19T15:42:40.349299+00:00",
+  "generated_at": "2026-09-19T16:25:35.680691+00:00",
   "universe_size": 6971,
   "min_score": 3,
-  "hit_count": 102,
+  "rsi_oversold_threshold": 30,
+  "pe_undervalued_threshold": 15,
+  "peg_undervalued_threshold": 1.0,
+  "hit_count": 101,
   "hits": [
     {
       "ticker": "CASH",
@@ -35,8 +38,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 1,
-      "previous_rank": 5,
-      "rank_change": 4
+      "previous_rank": 1,
+      "rank_change": 0
     },
     {
       "ticker": "CCL",
@@ -68,8 +71,8 @@
       "days_on_list": 5,
       "is_new": false,
       "rank": 2,
-      "previous_rank": 6,
-      "rank_change": 4
+      "previous_rank": 2,
+      "rank_change": 0
     },
     {
       "ticker": "CSV",
@@ -101,8 +104,8 @@
       "days_on_list": 3,
       "is_new": false,
       "rank": 3,
-      "previous_rank": 7,
-      "rank_change": 4
+      "previous_rank": 3,
+      "rank_change": 0
     },
     {
       "ticker": "EXE",
@@ -134,8 +137,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 4,
-      "previous_rank": 8,
-      "rank_change": 4
+      "previous_rank": 4,
+      "rank_change": 0
     },
     {
       "ticker": "FIS",
@@ -167,8 +170,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 5,
-      "previous_rank": 9,
-      "rank_change": 4
+      "previous_rank": 5,
+      "rank_change": 0
     },
     {
       "ticker": "FNF",
@@ -200,8 +203,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 6,
-      "previous_rank": 10,
-      "rank_change": 4
+      "previous_rank": 6,
+      "rank_change": 0
     },
     {
       "ticker": "GBX",
@@ -233,8 +236,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 7,
-      "previous_rank": 11,
-      "rank_change": 4
+      "previous_rank": 7,
+      "rank_change": 0
     },
     {
       "ticker": "LAD",
@@ -267,8 +270,8 @@
       "days_on_list": 3,
       "is_new": false,
       "rank": 8,
-      "previous_rank": 12,
-      "rank_change": 4
+      "previous_rank": 8,
+      "rank_change": 0
     },
     {
       "ticker": "LE",
@@ -300,8 +303,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 9,
-      "previous_rank": 13,
-      "rank_change": 4
+      "previous_rank": 9,
+      "rank_change": 0
     },
     {
       "ticker": "MOMO",
@@ -327,14 +330,14 @@
       "trailing_pe": 4.83,
       "forward_pe": 4.72,
       "peg": 0.89,
-      "target_mean_price": 7.77,
-      "target_upside_pct": 59.2,
+      "target_mean_price": 7.78,
+      "target_upside_pct": 59.4,
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
       "rank": 10,
-      "previous_rank": 14,
-      "rank_change": 4
+      "previous_rank": 10,
+      "rank_change": 0
     },
     {
       "ticker": "PNR",
@@ -366,8 +369,8 @@
       "days_on_list": 5,
       "is_new": false,
       "rank": 11,
-      "previous_rank": 15,
-      "rank_change": 4
+      "previous_rank": 11,
+      "rank_change": 0
     },
     {
       "ticker": "SAH",
@@ -377,7 +380,7 @@
         "Above golden cross trend (50 SMA > 200 SMA)",
         "Low trailing P/E (10.14)",
         "Low forward P/E (8.33)",
-        "Attractive PEG ratio (0.7)"
+        "Attractive PEG ratio (0.61)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -393,15 +396,15 @@
       "rsi": 23.4,
       "trailing_pe": 10.14,
       "forward_pe": 8.33,
-      "peg": 0.7,
+      "peg": 0.61,
       "target_mean_price": 98.55,
       "target_upside_pct": 54.8,
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
       "rank": 12,
-      "previous_rank": 16,
-      "rank_change": 4
+      "previous_rank": 12,
+      "rank_change": 0
     },
     {
       "ticker": "SHOE",
@@ -433,8 +436,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 13,
-      "previous_rank": 17,
-      "rank_change": 4
+      "previous_rank": 13,
+      "rank_change": 0
     },
     {
       "ticker": "SIGI",
@@ -467,8 +470,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 14,
-      "previous_rank": 18,
-      "rank_change": 4
+      "previous_rank": 14,
+      "rank_change": 0
     },
     {
       "ticker": "SLGN",
@@ -501,8 +504,8 @@
       "days_on_list": 2,
       "is_new": false,
       "rank": 15,
-      "previous_rank": 19,
-      "rank_change": 4
+      "previous_rank": 15,
+      "rank_change": 0
     },
     {
       "ticker": "VRTS",
@@ -535,8 +538,8 @@
       "days_on_list": 5,
       "is_new": false,
       "rank": 16,
-      "previous_rank": 20,
-      "rank_change": 4
+      "previous_rank": 16,
+      "rank_change": 0
     },
     {
       "ticker": "WB",
@@ -568,8 +571,8 @@
       "days_on_list": 10,
       "is_new": false,
       "rank": 17,
-      "previous_rank": 21,
-      "rank_change": 4
+      "previous_rank": 17,
+      "rank_change": 0
     },
     {
       "ticker": "WSC",
@@ -602,41 +605,8 @@
       "days_on_list": 5,
       "is_new": false,
       "rank": 18,
-      "previous_rank": 22,
-      "rank_change": 4
-    },
-    {
-      "ticker": "BKNG",
-      "score": 3,
-      "signals": [
-        "RSI oversold (27.6)",
-        "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (13.57)",
-        "Attractive PEG ratio (0.63)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": true,
-        "low_trailing_pe": false,
-        "low_forward_pe": true,
-        "attractive_peg": true
-      },
-      "price": 167.9,
-      "avg_volume": 6264013.0,
-      "rsi": 27.6,
-      "trailing_pe": 18.66,
-      "forward_pe": 13.57,
-      "peg": 0.63,
-      "target_mean_price": 238.78,
-      "target_upside_pct": 42.2,
-      "first_seen": "2026-09-15",
-      "days_on_list": 5,
-      "is_new": false,
-      "rank": 19,
-      "previous_rank": 29,
-      "rank_change": 10
+      "previous_rank": 18,
+      "rank_change": 0
     },
     {
       "ticker": "BTMD",
@@ -666,9 +636,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 20,
-      "previous_rank": 30,
-      "rank_change": 10
+      "rank": 19,
+      "previous_rank": 20,
+      "rank_change": 1
     },
     {
       "ticker": "BYD",
@@ -698,9 +668,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 21,
-      "previous_rank": 31,
-      "rank_change": 10
+      "rank": 20,
+      "previous_rank": 21,
+      "rank_change": 1
     },
     {
       "ticker": "CCK",
@@ -731,9 +701,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 22,
-      "previous_rank": 32,
-      "rank_change": 10
+      "rank": 21,
+      "previous_rank": 22,
+      "rank_change": 1
     },
     {
       "ticker": "CG",
@@ -763,9 +733,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 23,
-      "previous_rank": 33,
-      "rank_change": 10
+      "rank": 22,
+      "previous_rank": 23,
+      "rank_change": 1
     },
     {
       "ticker": "CMCSA",
@@ -795,9 +765,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 24,
-      "previous_rank": 34,
-      "rank_change": 10
+      "rank": 23,
+      "previous_rank": 24,
+      "rank_change": 1
     },
     {
       "ticker": "CMRE",
@@ -827,9 +797,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 25,
-      "previous_rank": 35,
-      "rank_change": 10
+      "rank": 24,
+      "previous_rank": 25,
+      "rank_change": 1
     },
     {
       "ticker": "CNX",
@@ -859,9 +829,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 26,
-      "previous_rank": 36,
-      "rank_change": 10
+      "rank": 25,
+      "previous_rank": 26,
+      "rank_change": 1
     },
     {
       "ticker": "COO",
@@ -891,9 +861,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 27,
-      "previous_rank": 37,
-      "rank_change": 10
+      "rank": 26,
+      "previous_rank": 27,
+      "rank_change": 1
     },
     {
       "ticker": "CRI",
@@ -923,9 +893,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 28,
-      "previous_rank": 38,
-      "rank_change": 10
+      "rank": 27,
+      "previous_rank": 28,
+      "rank_change": 1
     },
     {
       "ticker": "CRWS",
@@ -956,9 +926,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 29,
-      "previous_rank": 39,
-      "rank_change": 10
+      "rank": 28,
+      "previous_rank": 29,
+      "rank_change": 1
     },
     {
       "ticker": "CVS",
@@ -989,9 +959,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 30,
-      "previous_rank": 40,
-      "rank_change": 10
+      "rank": 29,
+      "previous_rank": 30,
+      "rank_change": 1
     },
     {
       "ticker": "CX",
@@ -1021,9 +991,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 31,
-      "previous_rank": 41,
-      "rank_change": 10
+      "rank": 30,
+      "previous_rank": 31,
+      "rank_change": 1
     },
     {
       "ticker": "DAKT",
@@ -1053,9 +1023,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 32,
-      "previous_rank": 42,
-      "rank_change": 10
+      "rank": 31,
+      "previous_rank": 32,
+      "rank_change": 1
     },
     {
       "ticker": "DKS",
@@ -1085,9 +1055,9 @@
       "first_seen": "2026-09-10",
       "days_on_list": 10,
       "is_new": false,
-      "rank": 33,
-      "previous_rank": 43,
-      "rank_change": 10
+      "rank": 32,
+      "previous_rank": 33,
+      "rank_change": 1
     },
     {
       "ticker": "DSX",
@@ -1118,9 +1088,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 34,
-      "previous_rank": 44,
-      "rank_change": 10
+      "rank": 33,
+      "previous_rank": 34,
+      "rank_change": 1
     },
     {
       "ticker": "EFC",
@@ -1151,9 +1121,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 35,
-      "previous_rank": 45,
-      "rank_change": 10
+      "rank": 34,
+      "previous_rank": 35,
+      "rank_change": 1
     },
     {
       "ticker": "ENVA",
@@ -1184,9 +1154,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 36,
-      "previous_rank": 46,
-      "rank_change": 10
+      "rank": 35,
+      "previous_rank": 36,
+      "rank_change": 1
     },
     {
       "ticker": "EQT",
@@ -1216,9 +1186,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 37,
-      "previous_rank": 47,
-      "rank_change": 10
+      "rank": 36,
+      "previous_rank": 37,
+      "rank_change": 1
     },
     {
       "ticker": "ESAB",
@@ -1248,9 +1218,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 38,
-      "previous_rank": 48,
-      "rank_change": 10
+      "rank": 37,
+      "previous_rank": 38,
+      "rank_change": 1
     },
     {
       "ticker": "EVR",
@@ -1280,9 +1250,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 39,
-      "previous_rank": 49,
-      "rank_change": 10
+      "rank": 38,
+      "previous_rank": 39,
+      "rank_change": 1
     },
     {
       "ticker": "EXP",
@@ -1312,9 +1282,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 40,
-      "previous_rank": 50,
-      "rank_change": 10
+      "rank": 39,
+      "previous_rank": 40,
+      "rank_change": 1
     },
     {
       "ticker": "FBK",
@@ -1345,9 +1315,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 41,
-      "previous_rank": 51,
-      "rank_change": 10
+      "rank": 40,
+      "previous_rank": 41,
+      "rank_change": 1
     },
     {
       "ticker": "FLG",
@@ -1378,9 +1348,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 42,
-      "previous_rank": 52,
-      "rank_change": 10
+      "rank": 41,
+      "previous_rank": 42,
+      "rank_change": 1
     },
     {
       "ticker": "FUL",
@@ -1410,9 +1380,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 43,
-      "previous_rank": 53,
-      "rank_change": 10
+      "rank": 42,
+      "previous_rank": 43,
+      "rank_change": 1
     },
     {
       "ticker": "GIII",
@@ -1443,9 +1413,9 @@
       "first_seen": "2026-09-10",
       "days_on_list": 10,
       "is_new": false,
-      "rank": 44,
-      "previous_rank": 54,
-      "rank_change": 10
+      "rank": 43,
+      "previous_rank": 44,
+      "rank_change": 1
     },
     {
       "ticker": "GT",
@@ -1475,9 +1445,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 45,
-      "previous_rank": 55,
-      "rank_change": 10
+      "rank": 44,
+      "previous_rank": 45,
+      "rank_change": 1
     },
     {
       "ticker": "HE",
@@ -1507,9 +1477,9 @@
       "first_seen": "2026-09-10",
       "days_on_list": 10,
       "is_new": false,
-      "rank": 46,
-      "previous_rank": 56,
-      "rank_change": 10
+      "rank": 45,
+      "previous_rank": 46,
+      "rank_change": 1
     },
     {
       "ticker": "HII",
@@ -1539,9 +1509,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 47,
-      "previous_rank": 57,
-      "rank_change": 10
+      "rank": 46,
+      "previous_rank": 47,
+      "rank_change": 1
     },
     {
       "ticker": "HLNE",
@@ -1571,9 +1541,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 48,
-      "previous_rank": 58,
-      "rank_change": 10
+      "rank": 47,
+      "previous_rank": 48,
+      "rank_change": 1
     },
     {
       "ticker": "IRWD",
@@ -1604,9 +1574,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 49,
-      "previous_rank": 59,
-      "rank_change": 10
+      "rank": 48,
+      "previous_rank": 49,
+      "rank_change": 1
     },
     {
       "ticker": "IVR",
@@ -1636,9 +1606,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 50,
-      "previous_rank": 60,
-      "rank_change": 10
+      "rank": 49,
+      "previous_rank": 50,
+      "rank_change": 1
     },
     {
       "ticker": "JBS",
@@ -1668,9 +1638,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 51,
-      "previous_rank": 61,
-      "rank_change": 10
+      "rank": 50,
+      "previous_rank": 51,
+      "rank_change": 1
     },
     {
       "ticker": "JBSS",
@@ -1701,9 +1671,9 @@
       "first_seen": "2026-09-10",
       "days_on_list": 10,
       "is_new": false,
-      "rank": 52,
-      "previous_rank": 62,
-      "rank_change": 10
+      "rank": 51,
+      "previous_rank": 52,
+      "rank_change": 1
     },
     {
       "ticker": "KMDA",
@@ -1733,9 +1703,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 53,
-      "previous_rank": 63,
-      "rank_change": 10
+      "rank": 52,
+      "previous_rank": 53,
+      "rank_change": 1
     },
     {
       "ticker": "LCII",
@@ -1765,9 +1735,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 54,
-      "previous_rank": 64,
-      "rank_change": 10
+      "rank": 53,
+      "previous_rank": 54,
+      "rank_change": 1
     },
     {
       "ticker": "LEVI",
@@ -1798,9 +1768,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 55,
-      "previous_rank": 65,
-      "rank_change": 10
+      "rank": 54,
+      "previous_rank": 55,
+      "rank_change": 1
     },
     {
       "ticker": "LII",
@@ -1830,9 +1800,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 56,
-      "previous_rank": 66,
-      "rank_change": 10
+      "rank": 55,
+      "previous_rank": 56,
+      "rank_change": 1
     },
     {
       "ticker": "LVS",
@@ -1862,9 +1832,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 57,
-      "previous_rank": 67,
-      "rank_change": 10
+      "rank": 56,
+      "previous_rank": 57,
+      "rank_change": 1
     },
     {
       "ticker": "LZB",
@@ -1894,10 +1864,10 @@
       "target_upside_pct": 37.4,
       "first_seen": "2026-09-19",
       "days_on_list": 1,
-      "is_new": true,
-      "rank": 58,
-      "previous_rank": null,
-      "rank_change": null
+      "is_new": false,
+      "rank": 57,
+      "previous_rank": 58,
+      "rank_change": 1
     },
     {
       "ticker": "MAX",
@@ -1928,9 +1898,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 59,
-      "previous_rank": 68,
-      "rank_change": 9
+      "rank": 58,
+      "previous_rank": 59,
+      "rank_change": 1
     },
     {
       "ticker": "MKC",
@@ -1960,9 +1930,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 60,
-      "previous_rank": 69,
-      "rank_change": 9
+      "rank": 59,
+      "previous_rank": 60,
+      "rank_change": 1
     },
     {
       "ticker": "MNSO",
@@ -1987,14 +1957,14 @@
       "trailing_pe": 14.1,
       "forward_pe": 5.75,
       "peg": null,
-      "target_mean_price": 14.89,
-      "target_upside_pct": 73.2,
+      "target_mean_price": 14.91,
+      "target_upside_pct": 73.4,
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 61,
-      "previous_rank": 70,
-      "rank_change": 9
+      "rank": 60,
+      "previous_rank": 61,
+      "rank_change": 1
     },
     {
       "ticker": "MTUS",
@@ -2025,9 +1995,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 62,
-      "previous_rank": 71,
-      "rank_change": 9
+      "rank": 61,
+      "previous_rank": 62,
+      "rank_change": 1
     },
     {
       "ticker": "MU",
@@ -2058,9 +2028,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 63,
-      "previous_rank": 72,
-      "rank_change": 9
+      "rank": 62,
+      "previous_rank": 63,
+      "rank_change": 1
     },
     {
       "ticker": "MWA",
@@ -2090,9 +2060,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 64,
-      "previous_rank": 73,
-      "rank_change": 9
+      "rank": 63,
+      "previous_rank": 64,
+      "rank_change": 1
     },
     {
       "ticker": "NAMM",
@@ -2122,9 +2092,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 65,
-      "previous_rank": 74,
-      "rank_change": 9
+      "rank": 64,
+      "previous_rank": 65,
+      "rank_change": 1
     },
     {
       "ticker": "NATR",
@@ -2154,9 +2124,9 @@
       "first_seen": "2026-09-10",
       "days_on_list": 10,
       "is_new": false,
-      "rank": 66,
-      "previous_rank": 75,
-      "rank_change": 9
+      "rank": 65,
+      "previous_rank": 66,
+      "rank_change": 1
     },
     {
       "ticker": "NCLH",
@@ -2186,9 +2156,9 @@
       "first_seen": "2026-09-10",
       "days_on_list": 10,
       "is_new": false,
-      "rank": 67,
-      "previous_rank": 76,
-      "rank_change": 9
+      "rank": 66,
+      "previous_rank": 67,
+      "rank_change": 1
     },
     {
       "ticker": "NEWT",
@@ -2219,9 +2189,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 68,
-      "previous_rank": 77,
-      "rank_change": 9
+      "rank": 67,
+      "previous_rank": 68,
+      "rank_change": 1
     },
     {
       "ticker": "NLY",
@@ -2252,9 +2222,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 69,
-      "previous_rank": 78,
-      "rank_change": 9
+      "rank": 68,
+      "previous_rank": 69,
+      "rank_change": 1
     },
     {
       "ticker": "NXST",
@@ -2284,9 +2254,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 70,
-      "previous_rank": 79,
-      "rank_change": 9
+      "rank": 69,
+      "previous_rank": 70,
+      "rank_change": 1
     },
     {
       "ticker": "ORC",
@@ -2316,9 +2286,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 71,
-      "previous_rank": 80,
-      "rank_change": 9
+      "rank": 70,
+      "previous_rank": 71,
+      "rank_change": 1
     },
     {
       "ticker": "PAL",
@@ -2348,9 +2318,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 72,
-      "previous_rank": 81,
-      "rank_change": 9
+      "rank": 71,
+      "previous_rank": 72,
+      "rank_change": 1
     },
     {
       "ticker": "PBH",
@@ -2380,9 +2350,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 73,
-      "previous_rank": 82,
-      "rank_change": 9
+      "rank": 72,
+      "previous_rank": 73,
+      "rank_change": 1
     },
     {
       "ticker": "PFSI",
@@ -2412,9 +2382,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 74,
-      "previous_rank": 83,
-      "rank_change": 9
+      "rank": 73,
+      "previous_rank": 74,
+      "rank_change": 1
     },
     {
       "ticker": "PLAB",
@@ -2444,9 +2414,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 75,
-      "previous_rank": 84,
-      "rank_change": 9
+      "rank": 74,
+      "previous_rank": 75,
+      "rank_change": 1
     },
     {
       "ticker": "PRKS",
@@ -2477,9 +2447,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 76,
-      "previous_rank": 85,
-      "rank_change": 9
+      "rank": 75,
+      "previous_rank": 76,
+      "rank_change": 1
     },
     {
       "ticker": "RH",
@@ -2510,9 +2480,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 77,
-      "previous_rank": 86,
-      "rank_change": 9
+      "rank": 76,
+      "previous_rank": 77,
+      "rank_change": 1
     },
     {
       "ticker": "RTO",
@@ -2520,7 +2490,7 @@
       "signals": [
         "RSI oversold (23.1)",
         "Low forward P/E (13.77)",
-        "Attractive PEG ratio (0.88)"
+        "Attractive PEG ratio (0.86)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2536,15 +2506,15 @@
       "rsi": 23.1,
       "trailing_pe": 33.89,
       "forward_pe": 13.77,
-      "peg": 0.88,
+      "peg": 0.86,
       "target_mean_price": 32.02,
       "target_upside_pct": 50.0,
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 78,
-      "previous_rank": 87,
-      "rank_change": 9
+      "rank": 77,
+      "previous_rank": 78,
+      "rank_change": 1
     },
     {
       "ticker": "RYAAY",
@@ -2574,9 +2544,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 79,
-      "previous_rank": 88,
-      "rank_change": 9
+      "rank": 78,
+      "previous_rank": 79,
+      "rank_change": 1
     },
     {
       "ticker": "SAFE",
@@ -2607,9 +2577,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 80,
-      "previous_rank": 89,
-      "rank_change": 9
+      "rank": 79,
+      "previous_rank": 80,
+      "rank_change": 1
     },
     {
       "ticker": "SARO",
@@ -2617,7 +2587,7 @@
       "signals": [
         "RSI oversold (26.1)",
         "Low forward P/E (12.62)",
-        "Attractive PEG ratio (0.59)"
+        "Attractive PEG ratio (0.57)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2633,15 +2603,15 @@
       "rsi": 26.1,
       "trailing_pe": 22.99,
       "forward_pe": 12.62,
-      "peg": 0.59,
-      "target_mean_price": 35.81,
-      "target_upside_pct": 60.6,
+      "peg": 0.57,
+      "target_mean_price": 35.24,
+      "target_upside_pct": 58.0,
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 81,
-      "previous_rank": 90,
-      "rank_change": 9
+      "rank": 80,
+      "previous_rank": 81,
+      "rank_change": 1
     },
     {
       "ticker": "SCHL",
@@ -2672,9 +2642,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 82,
-      "previous_rank": 91,
-      "rank_change": 9
+      "rank": 81,
+      "previous_rank": 82,
+      "rank_change": 1
     },
     {
       "ticker": "SFD",
@@ -2704,9 +2674,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 83,
-      "previous_rank": 92,
-      "rank_change": 9
+      "rank": 82,
+      "previous_rank": 83,
+      "rank_change": 1
     },
     {
       "ticker": "SMG",
@@ -2737,9 +2707,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 84,
-      "previous_rank": 93,
-      "rank_change": 9
+      "rank": 83,
+      "previous_rank": 84,
+      "rank_change": 1
     },
     {
       "ticker": "STBA",
@@ -2770,9 +2740,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 85,
-      "previous_rank": 94,
-      "rank_change": 9
+      "rank": 84,
+      "previous_rank": 85,
+      "rank_change": 1
     },
     {
       "ticker": "TBBK",
@@ -2803,9 +2773,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 86,
-      "previous_rank": 95,
-      "rank_change": 9
+      "rank": 85,
+      "previous_rank": 86,
+      "rank_change": 1
     },
     {
       "ticker": "TFX",
@@ -2836,9 +2806,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 87,
-      "previous_rank": 96,
-      "rank_change": 9
+      "rank": 86,
+      "previous_rank": 87,
+      "rank_change": 1
     },
     {
       "ticker": "THO",
@@ -2868,9 +2838,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 88,
-      "previous_rank": 97,
-      "rank_change": 9
+      "rank": 87,
+      "previous_rank": 88,
+      "rank_change": 1
     },
     {
       "ticker": "TMP",
@@ -2901,9 +2871,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 89,
-      "previous_rank": 98,
-      "rank_change": 9
+      "rank": 88,
+      "previous_rank": 89,
+      "rank_change": 1
     },
     {
       "ticker": "TREE",
@@ -2933,9 +2903,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 90,
-      "previous_rank": 99,
-      "rank_change": 9
+      "rank": 89,
+      "previous_rank": 90,
+      "rank_change": 1
     },
     {
       "ticker": "TRTX",
@@ -2965,9 +2935,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 91,
-      "previous_rank": 100,
-      "rank_change": 9
+      "rank": 90,
+      "previous_rank": 91,
+      "rank_change": 1
     },
     {
       "ticker": "TTAM",
@@ -2997,9 +2967,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 92,
-      "previous_rank": 101,
-      "rank_change": 9
+      "rank": 91,
+      "previous_rank": 92,
+      "rank_change": 1
     },
     {
       "ticker": "TTEC",
@@ -3029,9 +2999,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 93,
-      "previous_rank": 102,
-      "rank_change": 9
+      "rank": 92,
+      "previous_rank": 93,
+      "rank_change": 1
     },
     {
       "ticker": "VECO",
@@ -3062,9 +3032,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 94,
-      "previous_rank": 103,
-      "rank_change": 9
+      "rank": 93,
+      "previous_rank": 94,
+      "rank_change": 1
     },
     {
       "ticker": "VEL",
@@ -3094,9 +3064,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 95,
-      "previous_rank": 104,
-      "rank_change": 9
+      "rank": 94,
+      "previous_rank": 95,
+      "rank_change": 1
     },
     {
       "ticker": "VICI",
@@ -3126,9 +3096,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 96,
-      "previous_rank": 105,
-      "rank_change": 9
+      "rank": 95,
+      "previous_rank": 96,
+      "rank_change": 1
     },
     {
       "ticker": "VRRM",
@@ -3158,9 +3128,9 @@
       "first_seen": "2026-09-15",
       "days_on_list": 5,
       "is_new": false,
-      "rank": 97,
-      "previous_rank": 106,
-      "rank_change": 9
+      "rank": 96,
+      "previous_rank": 97,
+      "rank_change": 1
     },
     {
       "ticker": "WAFD",
@@ -3191,9 +3161,9 @@
       "first_seen": "2026-09-10",
       "days_on_list": 10,
       "is_new": false,
-      "rank": 98,
-      "previous_rank": 107,
-      "rank_change": 9
+      "rank": 97,
+      "previous_rank": 98,
+      "rank_change": 1
     },
     {
       "ticker": "WHR",
@@ -3223,9 +3193,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 99,
-      "previous_rank": 108,
-      "rank_change": 9
+      "rank": 98,
+      "previous_rank": 99,
+      "rank_change": 1
     },
     {
       "ticker": "WU",
@@ -3255,9 +3225,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 100,
-      "previous_rank": 109,
-      "rank_change": 9
+      "rank": 99,
+      "previous_rank": 100,
+      "rank_change": 1
     },
     {
       "ticker": "YUMC",
@@ -3287,9 +3257,9 @@
       "first_seen": "2026-09-17",
       "days_on_list": 3,
       "is_new": false,
-      "rank": 101,
-      "previous_rank": 110,
-      "rank_change": 9
+      "rank": 100,
+      "previous_rank": 101,
+      "rank_change": 1
     },
     {
       "ticker": "ZTR",
@@ -3320,9 +3290,9 @@
       "first_seen": "2026-09-18",
       "days_on_list": 2,
       "is_new": false,
-      "rank": 102,
-      "previous_rank": 111,
-      "rank_change": 9
+      "rank": 101,
+      "previous_rank": 102,
+      "rank_change": 1
     }
   ]
 }
