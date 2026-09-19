@@ -426,6 +426,7 @@ def fetch_previous_hits(url: str) -> dict:
 # ---------------------------------------------------------------------------
 
 def write_results_json(results: list, min_score: int, universe_size: int, path: str,
+                        rsi_oversold: float, pe_undervalued: float, peg_undervalued: float,
                         previous_hits: dict = None) -> dict:
     previous_hits = previous_hits or {}
     today = datetime.now(timezone.utc).date()
@@ -466,6 +467,12 @@ def write_results_json(results: list, min_score: int, universe_size: int, path: 
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "universe_size": universe_size,
         "min_score": min_score,
+        # The actual thresholds used for this run — stored so a downstream
+        # consumer (like the Android app) can compute "how far past the
+        # threshold" a value is, without hardcoding or guessing these.
+        "rsi_oversold_threshold": rsi_oversold,
+        "pe_undervalued_threshold": pe_undervalued,
+        "peg_undervalued_threshold": peg_undervalued,
         "hit_count": len(payload_hits),
         "hits": payload_hits,
     }
@@ -603,7 +610,8 @@ def main():
 
     payload = write_results_json(
         results, args.min_score, universe_size=len(tickers), path=args.output,
-        previous_hits=previous_hits,
+        rsi_oversold=args.rsi_oversold, pe_undervalued=args.pe_undervalued,
+        peg_undervalued=args.peg_undervalued, previous_hits=previous_hits,
     )
     new_count = sum(1 for h in payload["hits"] if h["is_new"])
     print(f"\nWrote {args.output} ({len(payload['hits'])} hit(s), {new_count} new).")
