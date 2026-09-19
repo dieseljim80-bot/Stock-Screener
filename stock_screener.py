@@ -390,9 +390,10 @@ def run_screener(tickers: list, **kwargs) -> list:
 def fetch_previous_hits(url: str) -> dict:
     """
     Fetches the previously published results.json (if a URL is given) and
-    returns {ticker: first_seen_date_string} for everything that was on it.
-    Used to compute days_on_list and is_new for the current run. If the
-    fetch fails for any reason (first-ever run, network hiccup, URL not
+    returns {ticker: {"first_seen": ..., "rank": ...}} for everything that
+    was on it. Used to compute days_on_list, is_new, and rank movement
+    (like week-over-week power rankings) for the current run. If the fetch
+    fails for any reason (first-ever run, network hiccup, URL not
     provided), every ticker in this run is simply treated as new — that's
     a safe, harmless fallback, not an error condition.
     """
@@ -403,11 +404,17 @@ def fetch_previous_hits(url: str) -> dict:
         resp.raise_for_status()
         data = resp.json()
         previous = {}
-        for hit in data.get("hits", []):
+        # The published hits are already ordered by score descending, so a
+        # hit's position in this list (1-indexed) is its rank at that time —
+        # we prefer an explicit "rank" field if present, but fall back to
+        # the array position for older results.json files that predate it.
+        for idx, hit in enumerate(data.get("hits", []), start=1):
             ticker = hit.get("ticker")
-            first_seen = hit.get("first_seen")
-            if ticker and first_seen:
-                previous[ticker] = first_seen
+            if ticker:
+                previous[ticker] = {
+                    "first_seen": hit.get("first_seen"),
+                    "rank": hit.get("rank", idx),
+                }
         return previous
     except Exception as exc:
         print(f"Could not fetch previous results ({exc}) — treating all hits as new.", file=sys.stderr)
@@ -427,10 +434,11 @@ def write_results_json(results: list, min_score: int, universe_size: int, path: 
     hits.sort(key=lambda r: r.score, reverse=True)
 
     payload_hits = []
-    for r in hits:
+    for idx, r in enumerate(hits, start=1):
         d = {k: v for k, v in asdict(r).items() if k != "error"}
+        previous = previous_hits.get(r.ticker)
 
-        first_seen_str = previous_hits.get(r.ticker)
+        first_seen_str = previous.get("first_seen") if previous else None
         if first_seen_str:
             try:
                 first_seen_date = date.fromisoformat(first_seen_str)
@@ -442,6 +450,16 @@ def write_results_json(results: list, min_score: int, universe_size: int, path: 
         d["first_seen"] = first_seen_date.isoformat()
         d["days_on_list"] = (today - first_seen_date).days + 1
         d["is_new"] = first_seen_str is None
+
+        # Rank movement, like week-over-week power rankings: rank 1 is the
+        # top score. previous_rank - current_rank > 0 means it moved UP
+        # (e.g. was #5, now #2 -> +3). None means no previous rank to
+        # compare (brand new to the list).
+        previous_rank = previous.get("rank") if previous else None
+        d["rank"] = idx
+        d["previous_rank"] = previous_rank
+        d["rank_change"] = (previous_rank - idx) if previous_rank is not None else None
+
         payload_hits.append(d)
 
     payload = {
