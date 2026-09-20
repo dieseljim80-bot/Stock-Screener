@@ -159,6 +159,12 @@ class TickerResult:
     peg: float = None
     target_mean_price: float = None
     target_upside_pct: float = None
+    company_name: str = None
+    description: str = None
+    sector: str = None
+    exchange_name: str = None
+    headquarters: str = None
+    ceo: str = None
     error: str = None
 
 
@@ -306,6 +312,48 @@ def _safe_float(value) -> float:
         return None
 
 
+def _extract_company_info(info: dict) -> dict:
+    """
+    Pulls basic company info (name, description, sector, exchange,
+    headquarters, CEO) out of the same .info dict already fetched for
+    valuation data — no extra API calls. Purely informational, doesn't
+    affect scoring. Any field can come back None if Yahoo doesn't have it
+    for a given ticker, which is common for smaller/foreign names.
+    """
+    company_name = info.get("longName") or info.get("shortName")
+
+    description = None
+    summary = info.get("longBusinessSummary")
+    if summary:
+        trimmed = summary.strip()
+        if len(trimmed) > 280:
+            trimmed = trimmed[:280].rsplit(" ", 1)[0] + "…"
+        description = trimmed
+
+    sector = info.get("sector")
+    exchange_name = info.get("fullExchangeName") or info.get("exchange")
+
+    hq_parts = [info.get("city"), info.get("state"), info.get("country")]
+    hq_parts = [p for p in hq_parts if p]
+    headquarters = ", ".join(hq_parts) if hq_parts else None
+
+    ceo = None
+    for officer in info.get("companyOfficers") or []:
+        title = (officer.get("title") or "").lower()
+        if "chief executive" in title or title.strip() == "ceo":
+            ceo = officer.get("name")
+            break
+
+    return {
+        "company_name": company_name,
+        "description": description,
+        "sector": sector,
+        "exchange_name": exchange_name,
+        "headquarters": headquarters,
+        "ceo": ceo,
+    }
+
+
 def enrich_with_fundamentals(candidates: list,
                               pe_undervalued: float = 15,
                               peg_undervalued: float = 1.0,
@@ -330,6 +378,14 @@ def enrich_with_fundamentals(candidates: list,
         result.trailing_pe = round(trailing_pe, 2) if trailing_pe else None
         result.forward_pe = round(forward_pe, 2) if forward_pe else None
         result.peg = round(peg, 2) if peg else None
+
+        company_info = _extract_company_info(info)
+        result.company_name = company_info["company_name"]
+        result.description = company_info["description"]
+        result.sector = company_info["sector"]
+        result.exchange_name = company_info["exchange_name"]
+        result.headquarters = company_info["headquarters"]
+        result.ceo = company_info["ceo"]
 
         # Informational only — analyst average target price, and the
         # implied upside/downside vs. the current price. Not a signal,
