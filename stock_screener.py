@@ -439,42 +439,49 @@ def run_screener(tickers: list, **kwargs) -> list:
 
 
 # ---------------------------------------------------------------------------
-# Tracking "days on list" / "new" — compares against the previously
-# published results.json rather than needing any separate database.
+# Tracking "days on list" / "new" / rank movement — uses a small history
+# file committed directly into the git repo, NOT a network fetch of the
+# published site. This matters: a network-based lookup means any transient
+# hiccup on that one request — or a run that fails after publishing but
+# before this step, or anything in between — silently wipes every streak,
+# because the fallback for "couldn't fetch" is "treat everything as new".
+# A local file checked out with the rest of the repo has no such failure
+# mode: a bad run simply leaves it untouched, so tracking survives even a
+# multi-day outage, and only a run that completes gets to update it.
 # ---------------------------------------------------------------------------
 
-def fetch_previous_hits(url: str) -> dict:
+def load_history(path: str) -> dict:
     """
-    Fetches the previously published results.json (if a URL is given) and
-    returns {ticker: {"first_seen": ..., "rank": ...}} for everything that
-    was on it. Used to compute days_on_list, is_new, and rank movement
-    (like week-over-week power rankings) for the current run. If the fetch
-    fails for any reason (first-ever run, network hiccup, URL not
-    provided), every ticker in this run is simply treated as new — that's
-    a safe, harmless fallback, not an error condition.
+    Loads {ticker: {"first_seen": ..., "rank": ...}} from the local history
+    file (if it exists). Used to compute days_on_list, is_new, and rank
+    movement for the current run. A missing or unreadable file just means
+    every ticker in this run is treated as new — expected on the very first
+    run, or the first run after adopting this file.
     """
-    if not url:
+    if not path or not os.path.exists(path):
         return {}
     try:
-        resp = requests.get(url, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
-        previous = {}
-        # The published hits are already ordered by score descending, so a
-        # hit's position in this list (1-indexed) is its rank at that time —
-        # we prefer an explicit "rank" field if present, but fall back to
-        # the array position for older results.json files that predate it.
-        for idx, hit in enumerate(data.get("hits", []), start=1):
-            ticker = hit.get("ticker")
-            if ticker:
-                previous[ticker] = {
-                    "first_seen": hit.get("first_seen"),
-                    "rank": hit.get("rank", idx),
-                }
-        return previous
+        with open(path) as f:
+            return json.load(f)
     except Exception as exc:
-        print(f"Could not fetch previous results ({exc}) — treating all hits as new.", file=sys.stderr)
+        print(f"Could not read history file ({exc}) — treating all hits as new.", file=sys.stderr)
         return {}
+
+
+def save_history(payload_hits: list, path: str) -> None:
+    """
+    Writes {ticker: {"first_seen": ..., "rank": ...}} for every current hit,
+    to be committed back into the repo so next run can pick up where this
+    one left off. Only tickers meeting today's threshold are kept — a
+    ticker that drops off the list loses its streak, which is the same
+    "reset on disappearance" behavior as before, just no longer fragile.
+    """
+    history = {
+        h["ticker"]: {"first_seen": h["first_seen"], "rank": h["rank"]}
+        for h in payload_hits
+    }
+    with open(path, "w") as f:
+        json.dump(history, f, indent=2)
 
 
 # ---------------------------------------------------------------------------
@@ -620,10 +627,11 @@ def main():
                          help="Skip stocks with 30-day average volume below this")
     parser.add_argument("--batch-size", type=int, default=150, help="Tickers per bulk price-history request")
     parser.add_argument("--output", default="results.json", help="Path to write the results JSON file")
-    parser.add_argument("--previous-results-url", default=None,
-                         help="URL of the currently-published results.json (e.g. your GitHub Pages URL). "
-                              "Used to compute days_on_list and is_new for each ticker by comparing "
-                              "against what was published last time. Omit to treat everything as new.")
+    parser.add_argument("--history-file", default="history.json",
+                         help="Path to a local file (committed into the repo) tracking each ticker's "
+                              "first-seen date and rank, used to compute days_on_list, is_new, and "
+                              "rank movement. Unlike fetching the published site, a local file survives "
+                              "a bad run or a network hiccup without resetting every streak.")
     parser.add_argument("--dry-run", action="store_true",
                          help="Print results only — skip writing results.json and skip email")
     args = parser.parse_args()
@@ -660,17 +668,18 @@ def main():
         print("\n--dry-run set: not writing results.json and not emailing.")
         return
 
-    previous_hits = fetch_previous_hits(args.previous_results_url)
-    if args.previous_results_url:
-        print(f"Found {len(previous_hits)} ticker(s) in the previously published results.")
+    previous_hits = load_history(args.history_file)
+    print(f"Loaded {len(previous_hits)} ticker(s) from {args.history_file}.")
 
     payload = write_results_json(
         results, args.min_score, universe_size=len(tickers), path=args.output,
         rsi_oversold=args.rsi_oversold, pe_undervalued=args.pe_undervalued,
         peg_undervalued=args.peg_undervalued, previous_hits=previous_hits,
     )
+    save_history(payload["hits"], args.history_file)
     new_count = sum(1 for h in payload["hits"] if h["is_new"])
-    print(f"\nWrote {args.output} ({len(payload['hits'])} hit(s), {new_count} new).")
+    print(f"\nWrote {args.output} ({len(payload['hits'])} hit(s), {new_count} new). "
+          f"Updated {args.history_file}.")
 
     if not email_configured():
         print("Email env vars not set — skipping email (results.json is still written).")
