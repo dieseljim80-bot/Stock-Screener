@@ -1,10 +1,50 @@
 {
-  "generated_at": "2026-10-08T01:18:18.059447+00:00",
-  "universe_size": 6952,
+  "generated_at": "2026-10-09T01:34:16.603833+00:00",
+  "universe_size": 6954,
   "min_score": 3,
   "rsi_oversold_threshold": 30,
   "pe_undervalued_threshold": 15,
   "peg_undervalued_threshold": 1.0,
-  "hit_count": 0,
-  "hits": []
+  "hit_count": 1,
+  "hits": [
+    {
+      "ticker": "SF",
+      "score": 3,
+      "signals": [
+        "RSI oversold (29.6)",
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Attractive PEG ratio (0.87)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": false,
+        "attractive_peg": true
+      },
+      "price": 70.11,
+      "avg_volume": 1322883.0,
+      "rsi": 29.6,
+      "trailing_pe": null,
+      "forward_pe": null,
+      "peg": 0.87,
+      "target_mean_price": null,
+      "target_upside_pct": null,
+      "company_name": null,
+      "description": null,
+      "sector": null,
+      "exchange_name": null,
+      "headquarters": null,
+      "ceo": null,
+      "first_seen": "2026-10-09",
+      "days_on_list": 1,
+      "is_new": true,
+      "rank": 1,
+      "previous_rank": null,
+      "rank_change": null
+    }
+  ]
 }
