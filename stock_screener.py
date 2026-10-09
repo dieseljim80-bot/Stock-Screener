@@ -68,6 +68,20 @@ import yfinance as yf
 
 NASDAQ_TRADER_URL = "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqtraded.txt"
 
+# Data-health limits. Yahoo's free endpoints sometimes throttle or return
+# nothing; without these checks that looks identical to "the market has no
+# signals today", and the run "succeeds" with 0 hits and overwrites the last
+# good results/history. When a run looks unhealthy the script exits with an
+# error INSTEAD, so the previously published results.json and history.json
+# stay exactly as they were.
+MAX_DOWNLOAD_FAILURE_RATE = 0.30   # share of tickers whose price download failed outright
+MIN_PRICED_RATE = 0.40             # share of tickers that must come back with a usable price
+MAX_FUNDAMENTALS_FAILURE_RATE = 0.50  # share of candidates whose .info came back empty
+
+
+class ScreenerDataError(Exception):
+    """Raised when Yahoo data looks too incomplete to trust this run's results."""
+
 
 # ---------------------------------------------------------------------------
 # Universe: fetch (almost) every US common stock, fresh, no fixed list
@@ -289,6 +303,20 @@ def technical_scan(tickers: list,
         if i < len(batches):
             time.sleep(sleep_between_batches)
 
+    total = len(results)
+    if total:
+        failed = sum(
+            1 for r in results
+            if r.error and (r.error.startswith("Batch download failed") or r.error == "No data returned")
+        )
+        priced = sum(1 for r in results if r.price is not None)
+        print(f"  [technical] health: {priced}/{total} priced, {failed} download failures.", file=sys.stderr)
+        if failed / total > MAX_DOWNLOAD_FAILURE_RATE or priced / total < MIN_PRICED_RATE:
+            raise ScreenerDataError(
+                f"Price data looks incomplete ({priced}/{total} tickers priced, {failed} download "
+                f"failures). Yahoo is probably throttling this run — keeping previous results."
+            )
+
     return results
 
 
@@ -354,6 +382,25 @@ def _extract_company_info(info: dict) -> dict:
     }
 
 
+def _fetch_info(ticker: str, retries: int = 2, base_wait: float = 2.0):
+    """
+    Returns (info_dict, ok). Retries with a short backoff when Yahoo returns
+    nothing or raises, since throttling is usually temporary. ok is False if
+    every attempt came back empty — callers count these to judge run health.
+    """
+    for attempt in range(retries + 1):
+        try:
+            info = yf.Ticker(ticker).info or {}
+        except Exception:
+            info = {}
+        if info and (info.get("longName") or info.get("shortName")
+                     or info.get("quoteType") or info.get("trailingPE") is not None):
+            return info, True
+        if attempt < retries:
+            time.sleep(base_wait * (attempt + 1))
+    return {}, False
+
+
 def enrich_with_fundamentals(candidates: list,
                               pe_undervalued: float = 15,
                               peg_undervalued: float = 1.0,
@@ -364,11 +411,18 @@ def enrich_with_fundamentals(candidates: list,
     keep the number of (slow, rate-limit-prone) .info calls manageable.
     """
     print(f"  [fundamentals] enriching {len(candidates)} candidate(s)...", file=sys.stderr)
+    failures = 0
     for idx, result in enumerate(candidates, 1):
-        try:
-            info = yf.Ticker(result.ticker).info or {}
-        except Exception:
-            info = {}
+        info, ok = _fetch_info(result.ticker)
+        if not ok:
+            failures += 1
+        # Bail out early if Yahoo is clearly refusing these lookups, rather
+        # than spending 20+ minutes producing a run with no valuation data.
+        if idx >= 30 and failures / idx > 0.8:
+            raise ScreenerDataError(
+                f"Fundamentals lookups are failing ({failures}/{idx} empty). Yahoo is probably "
+                f"throttling this run — keeping previous results."
+            )
 
         trailing_pe = _safe_float(info.get("trailingPE"))
         forward_pe = _safe_float(info.get("forwardPE"))
@@ -412,6 +466,13 @@ def enrich_with_fundamentals(candidates: list,
         if idx % 50 == 0:
             print(f"    ...{idx}/{len(candidates)}", file=sys.stderr)
         time.sleep(sleep_between_calls)
+
+    if candidates and failures / len(candidates) > MAX_FUNDAMENTALS_FAILURE_RATE:
+        raise ScreenerDataError(
+            f"Fundamentals data looks incomplete ({failures}/{len(candidates)} lookups came back "
+            f"empty). Yahoo is probably throttling this run — keeping previous results."
+        )
+    print(f"  [fundamentals] done, {failures} empty lookup(s).", file=sys.stderr)
 
 
 # ---------------------------------------------------------------------------
@@ -649,15 +710,24 @@ def main():
         tickers = tickers[: args.max_tickers]
         print(f"Capped to {len(tickers)} tickers for this run")
 
-    results = run_screener(
-        tickers,
-        rsi_oversold=args.rsi_oversold,
-        pe_undervalued=args.pe_undervalued,
-        peg_undervalued=args.peg_undervalued,
-        min_price=args.min_price,
-        min_avg_volume=args.min_avg_volume,
-        batch_size=args.batch_size,
-    )
+    try:
+        results = run_screener(
+            tickers,
+            rsi_oversold=args.rsi_oversold,
+            pe_undervalued=args.pe_undervalued,
+            peg_undervalued=args.peg_undervalued,
+            min_price=args.min_price,
+            min_avg_volume=args.min_avg_volume,
+            batch_size=args.batch_size,
+        )
+    except ScreenerDataError as exc:
+        # Exit non-zero BEFORE writing results.json or history.json. In the
+        # GitHub workflow this fails the run, which skips the publish and
+        # commit steps, so the last good results stay live and rank tracking
+        # is not reset. (GitHub also emails you about the failed run.)
+        print(f"\nERROR: {exc}", file=sys.stderr)
+        print("Not writing results or history. Re-run later.", file=sys.stderr)
+        sys.exit(1)
 
     hits = [r for r in results if not r.error and r.score >= args.min_score]
     print(f"\n{len(hits)} ticker(s) met threshold (score >= {args.min_score}) out of {len(tickers)} scanned:")
