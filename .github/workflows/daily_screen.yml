@@ -28,9 +28,22 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: >
-          python stock_screener.py --min-score 3 --output results.json
-          --history-file history.json
+        run: |
+          # Yahoo sometimes throttles the free data for a while. The script
+          # refuses to publish incomplete data (it exits with an error), so
+          # retry a couple of times, waiting in between, before giving up.
+          for attempt in 1 2 3; do
+            echo "Attempt $attempt of 3"
+            if python stock_screener.py --min-score 3 --output results.json --history-file history.json; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Run failed (likely Yahoo throttling). Waiting 20 minutes before retrying..."
+              sleep 1200
+            fi
+          done
+          echo "All attempts failed - keeping the previous results."
+          exit 1
 
       - name: Stage results.json for publishing
         run: |
