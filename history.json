@@ -159,24 +159,24 @@
     "first_seen": "2026-10-28",
     "rank": 40
   },
-  "FDUS": {
-    "first_seen": "2026-10-29",
+  "EDU": {
+    "first_seen": "2026-10-30",
     "rank": 41
   },
-  "FFIN": {
-    "first_seen": "2026-10-29",
+  "ELPC": {
+    "first_seen": "2026-10-30",
     "rank": 42
+  },
+  "FDUS": {
+    "first_seen": "2026-10-29",
+    "rank": 43
   },
   "FLG": {
     "first_seen": "2026-10-09",
-    "rank": 43
+    "rank": 44
   },
   "FTFT": {
     "first_seen": "2026-10-29",
-    "rank": 44
-  },
-  "GAIN": {
-    "first_seen": "2026-10-28",
     "rank": 45
   },
   "GLAD": {
@@ -195,80 +195,80 @@
     "first_seen": "2026-10-29",
     "rank": 49
   },
-  "GVA": {
+  "HRMY": {
     "first_seen": "2026-10-29",
     "rank": 50
   },
-  "HRMY": {
-    "first_seen": "2026-10-29",
-    "rank": 51
-  },
   "IMXI": {
     "first_seen": "2026-10-28",
-    "rank": 52
+    "rank": 51
   },
   "IRWD": {
     "first_seen": "2026-10-29",
-    "rank": 53
+    "rank": 52
   },
   "IVZ": {
     "first_seen": "2026-10-29",
-    "rank": 54
+    "rank": 53
   },
   "KT": {
     "first_seen": "2026-10-27",
-    "rank": 55
+    "rank": 54
   },
   "LAR": {
     "first_seen": "2026-10-14",
-    "rank": 56
+    "rank": 55
   },
   "LPLA": {
     "first_seen": "2026-10-29",
-    "rank": 57
+    "rank": 56
   },
   "MAN": {
     "first_seen": "2026-10-29",
-    "rank": 58
+    "rank": 57
   },
   "MBLY": {
     "first_seen": "2026-10-29",
-    "rank": 59
+    "rank": 58
   },
   "MNTN": {
     "first_seen": "2026-10-29",
-    "rank": 60
+    "rank": 59
   },
   "MT": {
     "first_seen": "2026-10-29",
-    "rank": 61
+    "rank": 60
   },
   "NCMI": {
     "first_seen": "2026-10-29",
-    "rank": 62
+    "rank": 61
   },
   "NWG": {
     "first_seen": "2026-10-29",
-    "rank": 63
+    "rank": 62
   },
   "ORCL": {
     "first_seen": "2026-10-29",
-    "rank": 64
+    "rank": 63
   },
   "PAL": {
     "first_seen": "2026-10-14",
-    "rank": 65
+    "rank": 64
   },
   "PCAR": {
     "first_seen": "2026-10-28",
-    "rank": 66
+    "rank": 65
   },
   "PLAB": {
     "first_seen": "2026-10-29",
-    "rank": 67
+    "rank": 66
   },
   "PLUG": {
     "first_seen": "2026-10-29",
+    "rank": 67
+  },
+  "PNNT": {
+    "first_seen": "2026-10-30",
     "rank": 68
   },
   "PSEC": {
@@ -291,8 +291,8 @@
     "first_seen": "2026-10-28",
     "rank": 73
   },
-  "SE": {
-    "first_seen": "2026-10-23",
+  "SENEA": {
+    "first_seen": "2026-10-30",
     "rank": 74
   },
   "SEVN": {
