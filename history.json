@@ -7,468 +7,616 @@
     "first_seen": "2026-11-03",
     "rank": 2
   },
-  "ANDE": {
-    "first_seen": "2026-11-06",
+  "ALV": {
+    "first_seen": "2026-11-07",
     "rank": 3
   },
-  "ASO": {
-    "first_seen": "2026-11-06",
+  "AMKR": {
+    "first_seen": "2026-11-07",
     "rank": 4
   },
-  "AU": {
+  "ANDE": {
     "first_seen": "2026-11-06",
     "rank": 5
   },
-  "BBVA": {
-    "first_seen": "2026-11-06",
+  "ARW": {
+    "first_seen": "2026-11-07",
     "rank": 6
   },
-  "BSEM": {
-    "first_seen": "2026-10-15",
+  "ASO": {
+    "first_seen": "2026-11-06",
     "rank": 7
   },
-  "CYD": {
-    "first_seen": "2026-10-15",
+  "CSTM": {
+    "first_seen": "2026-11-07",
     "rank": 8
-  },
-  "DLX": {
-    "first_seen": "2026-11-06",
-    "rank": 9
-  },
-  "DOX": {
-    "first_seen": "2026-11-06",
-    "rank": 10
-  },
-  "GCO": {
-    "first_seen": "2026-11-06",
-    "rank": 11
-  },
-  "GNTX": {
-    "first_seen": "2026-11-06",
-    "rank": 12
-  },
-  "HLF": {
-    "first_seen": "2026-11-06",
-    "rank": 13
-  },
-  "HMY": {
-    "first_seen": "2026-11-06",
-    "rank": 14
-  },
-  "IOSP": {
-    "first_seen": "2026-11-06",
-    "rank": 15
-  },
-  "LYFT": {
-    "first_seen": "2026-11-06",
-    "rank": 16
-  },
-  "SKWD": {
-    "first_seen": "2026-11-06",
-    "rank": 17
-  },
-  "SM": {
-    "first_seen": "2026-11-06",
-    "rank": 18
-  },
-  "SQM": {
-    "first_seen": "2026-10-15",
-    "rank": 19
-  },
-  "STRL": {
-    "first_seen": "2026-11-06",
-    "rank": 20
-  },
-  "UGP": {
-    "first_seen": "2026-10-28",
-    "rank": 21
-  },
-  "UMC": {
-    "first_seen": "2026-11-06",
-    "rank": 22
-  },
-  "YPF": {
-    "first_seen": "2026-11-06",
-    "rank": 23
-  },
-  "ADEA": {
-    "first_seen": "2026-11-06",
-    "rank": 24
-  },
-  "AERO": {
-    "first_seen": "2026-11-06",
-    "rank": 25
-  },
-  "AFRM": {
-    "first_seen": "2026-11-06",
-    "rank": 26
-  },
-  "AMPY": {
-    "first_seen": "2026-11-05",
-    "rank": 27
-  },
-  "AMSF": {
-    "first_seen": "2026-11-03",
-    "rank": 28
-  },
-  "ANF": {
-    "first_seen": "2026-11-06",
-    "rank": 29
-  },
-  "AVAL": {
-    "first_seen": "2026-11-03",
-    "rank": 30
-  },
-  "B": {
-    "first_seen": "2026-11-06",
-    "rank": 31
-  },
-  "BABA": {
-    "first_seen": "2026-11-06",
-    "rank": 32
-  },
-  "BAH": {
-    "first_seen": "2026-11-06",
-    "rank": 33
-  },
-  "BBD": {
-    "first_seen": "2026-10-28",
-    "rank": 34
-  },
-  "BCAL": {
-    "first_seen": "2026-11-06",
-    "rank": 35
-  },
-  "BCH": {
-    "first_seen": "2026-11-06",
-    "rank": 36
-  },
-  "BEKE": {
-    "first_seen": "2026-11-06",
-    "rank": 37
-  },
-  "BHF": {
-    "first_seen": "2026-10-23",
-    "rank": 38
-  },
-  "BILI": {
-    "first_seen": "2026-11-06",
-    "rank": 39
-  },
-  "BKV": {
-    "first_seen": "2026-11-06",
-    "rank": 40
-  },
-  "BLKB": {
-    "first_seen": "2026-11-06",
-    "rank": 41
-  },
-  "BSX": {
-    "first_seen": "2026-11-06",
-    "rank": 42
-  },
-  "BWA": {
-    "first_seen": "2026-11-03",
-    "rank": 43
-  },
-  "CDE": {
-    "first_seen": "2026-11-06",
-    "rank": 44
-  },
-  "CDNL": {
-    "first_seen": "2026-11-06",
-    "rank": 45
-  },
-  "CEPU": {
-    "first_seen": "2026-11-03",
-    "rank": 46
-  },
-  "CHA": {
-    "first_seen": "2026-11-06",
-    "rank": 47
-  },
-  "CLMT": {
-    "first_seen": "2026-11-06",
-    "rank": 48
-  },
-  "CMI": {
-    "first_seen": "2026-11-06",
-    "rank": 49
-  },
-  "CNC": {
-    "first_seen": "2026-11-06",
-    "rank": 50
-  },
-  "CQP": {
-    "first_seen": "2026-11-06",
-    "rank": 51
-  },
-  "CRI": {
-    "first_seen": "2026-11-06",
-    "rank": 52
-  },
-  "CRMD": {
-    "first_seen": "2026-11-06",
-    "rank": 53
   },
   "CVI": {
     "first_seen": "2026-11-06",
-    "rank": 54
+    "rank": 9
   },
-  "DAR": {
+  "CVSA": {
+    "first_seen": "2026-11-07",
+    "rank": 10
+  },
+  "CYD": {
+    "first_seen": "2026-10-15",
+    "rank": 11
+  },
+  "DOX": {
     "first_seen": "2026-11-06",
-    "rank": 55
+    "rank": 12
   },
-  "DSX": {
+  "ECPG": {
+    "first_seen": "2026-11-07",
+    "rank": 13
+  },
+  "GSL": {
+    "first_seen": "2026-11-07",
+    "rank": 14
+  },
+  "HSBC": {
+    "first_seen": "2026-11-07",
+    "rank": 15
+  },
+  "IOSP": {
     "first_seen": "2026-11-06",
-    "rank": 56
+    "rank": 16
   },
-  "EDN": {
-    "first_seen": "2026-10-28",
-    "rank": 57
+  "KGEI": {
+    "first_seen": "2026-11-07",
+    "rank": 17
   },
-  "EGHT": {
-    "first_seen": "2026-11-06",
-    "rank": 58
+  "LOPE": {
+    "first_seen": "2026-11-07",
+    "rank": 18
   },
-  "EGO": {
-    "first_seen": "2026-11-06",
-    "rank": 59
+  "MU": {
+    "first_seen": "2026-11-07",
+    "rank": 19
   },
-  "FLNG": {
-    "first_seen": "2026-11-06",
-    "rank": 60
+  "NOA": {
+    "first_seen": "2026-11-07",
+    "rank": 20
   },
-  "FOX": {
-    "first_seen": "2026-11-06",
-    "rank": 61
-  },
-  "GABC": {
-    "first_seen": "2026-11-06",
-    "rank": 62
-  },
-  "GDS": {
-    "first_seen": "2026-11-06",
-    "rank": 63
-  },
-  "GGAL": {
-    "first_seen": "2026-11-03",
-    "rank": 64
-  },
-  "GPRK": {
-    "first_seen": "2026-11-06",
-    "rank": 65
-  },
-  "GTX": {
-    "first_seen": "2026-11-03",
-    "rank": 66
-  },
-  "HG": {
-    "first_seen": "2026-11-06",
-    "rank": 67
-  },
-  "HOS": {
-    "first_seen": "2026-11-05",
-    "rank": 68
-  },
-  "IAG": {
-    "first_seen": "2026-11-06",
-    "rank": 69
-  },
-  "ICHR": {
-    "first_seen": "2026-11-06",
-    "rank": 70
-  },
-  "IMXI": {
-    "first_seen": "2026-11-05",
-    "rank": 71
-  },
-  "ING": {
-    "first_seen": "2026-11-05",
-    "rank": 72
-  },
-  "JBS": {
-    "first_seen": "2026-11-06",
-    "rank": 73
-  },
-  "JBSS": {
-    "first_seen": "2026-11-03",
-    "rank": 74
-  },
-  "KODK": {
-    "first_seen": "2026-11-06",
-    "rank": 75
-  },
-  "KT": {
-    "first_seen": "2026-11-06",
-    "rank": 76
-  },
-  "LAR": {
-    "first_seen": "2026-10-14",
-    "rank": 77
-  },
-  "LKQ": {
-    "first_seen": "2026-11-06",
-    "rank": 78
-  },
-  "LTM": {
-    "first_seen": "2026-11-06",
-    "rank": 79
-  },
-  "MATV": {
-    "first_seen": "2026-11-06",
-    "rank": 80
-  },
-  "MBLY": {
-    "first_seen": "2026-10-29",
-    "rank": 81
-  },
-  "MCY": {
-    "first_seen": "2026-11-06",
-    "rank": 82
-  },
-  "MET": {
-    "first_seen": "2026-11-06",
-    "rank": 83
-  },
-  "MGA": {
-    "first_seen": "2026-11-06",
-    "rank": 84
-  },
-  "MOD": {
-    "first_seen": "2026-11-06",
-    "rank": 85
-  },
-  "MPB": {
-    "first_seen": "2026-11-06",
-    "rank": 86
-  },
-  "NAVI": {
-    "first_seen": "2026-11-06",
-    "rank": 87
-  },
-  "NCMI": {
-    "first_seen": "2026-10-29",
-    "rank": 88
-  },
-  "NEM": {
-    "first_seen": "2026-11-06",
-    "rank": 89
-  },
-  "NEXN": {
-    "first_seen": "2026-11-06",
-    "rank": 90
-  },
-  "NNI": {
-    "first_seen": "2026-11-06",
-    "rank": 91
-  },
-  "PAM": {
-    "first_seen": "2026-11-03",
-    "rank": 92
-  },
-  "PBR": {
-    "first_seen": "2026-11-06",
-    "rank": 93
-  },
-  "PLX": {
-    "first_seen": "2026-11-06",
-    "rank": 94
-  },
-  "PMTS": {
-    "first_seen": "2026-11-06",
-    "rank": 95
-  },
-  "PXED": {
-    "first_seen": "2026-11-06",
-    "rank": 96
+  "PRDO": {
+    "first_seen": "2026-11-07",
+    "rank": 21
   },
   "RAIL": {
     "first_seen": "2026-10-23",
-    "rank": 97
+    "rank": 22
   },
-  "RDDT": {
-    "first_seen": "2026-11-03",
-    "rank": 98
+  "RMR": {
+    "first_seen": "2026-11-07",
+    "rank": 23
   },
-  "REFI": {
+  "SCSC": {
+    "first_seen": "2026-11-07",
+    "rank": 24
+  },
+  "SLM": {
+    "first_seen": "2026-11-07",
+    "rank": 25
+  },
+  "SM": {
     "first_seen": "2026-11-06",
-    "rank": 99
+    "rank": 26
   },
-  "RLX": {
-    "first_seen": "2026-11-06",
-    "rank": 100
-  },
-  "SD": {
-    "first_seen": "2026-11-06",
-    "rank": 101
-  },
-  "SE": {
-    "first_seen": "2026-11-06",
-    "rank": 102
-  },
-  "SIG": {
-    "first_seen": "2026-11-06",
-    "rank": 103
-  },
-  "SKM": {
-    "first_seen": "2026-11-06",
-    "rank": 104
-  },
-  "SMBK": {
-    "first_seen": "2026-11-06",
-    "rank": 105
+  "SMP": {
+    "first_seen": "2026-11-07",
+    "rank": 27
   },
   "SND": {
     "first_seen": "2026-11-06",
+    "rank": 28
+  },
+  "SNX": {
+    "first_seen": "2026-11-07",
+    "rank": 29
+  },
+  "STRL": {
+    "first_seen": "2026-11-06",
+    "rank": 30
+  },
+  "TX": {
+    "first_seen": "2026-11-07",
+    "rank": 31
+  },
+  "UGP": {
+    "first_seen": "2026-10-28",
+    "rank": 32
+  },
+  "WDC": {
+    "first_seen": "2026-11-07",
+    "rank": 33
+  },
+  "YPF": {
+    "first_seen": "2026-11-06",
+    "rank": 34
+  },
+  "AAOI": {
+    "first_seen": "2026-11-07",
+    "rank": 35
+  },
+  "AEHL": {
+    "first_seen": "2026-11-07",
+    "rank": 36
+  },
+  "AFYA": {
+    "first_seen": "2026-11-07",
+    "rank": 37
+  },
+  "AGI": {
+    "first_seen": "2026-11-07",
+    "rank": 38
+  },
+  "AKAM": {
+    "first_seen": "2026-11-07",
+    "rank": 39
+  },
+  "ALG": {
+    "first_seen": "2026-11-07",
+    "rank": 40
+  },
+  "AMCX": {
+    "first_seen": "2026-11-07",
+    "rank": 41
+  },
+  "AMPY": {
+    "first_seen": "2026-11-05",
+    "rank": 42
+  },
+  "AMSF": {
+    "first_seen": "2026-11-03",
+    "rank": 43
+  },
+  "APEI": {
+    "first_seen": "2026-11-07",
+    "rank": 44
+  },
+  "AVAL": {
+    "first_seen": "2026-11-03",
+    "rank": 45
+  },
+  "AVT": {
+    "first_seen": "2026-11-07",
+    "rank": 46
+  },
+  "BBAR": {
+    "first_seen": "2026-11-07",
+    "rank": 47
+  },
+  "BBD": {
+    "first_seen": "2026-10-28",
+    "rank": 48
+  },
+  "BHF": {
+    "first_seen": "2026-10-23",
+    "rank": 49
+  },
+  "BKV": {
+    "first_seen": "2026-11-06",
+    "rank": 50
+  },
+  "BSEM": {
+    "first_seen": "2026-10-15",
+    "rank": 51
+  },
+  "BTG": {
+    "first_seen": "2026-11-07",
+    "rank": 52
+  },
+  "BVN": {
+    "first_seen": "2026-11-07",
+    "rank": 53
+  },
+  "BWA": {
+    "first_seen": "2026-11-03",
+    "rank": 54
+  },
+  "CAAP": {
+    "first_seen": "2026-11-07",
+    "rank": 55
+  },
+  "CEPU": {
+    "first_seen": "2026-11-03",
+    "rank": 56
+  },
+  "CGAU": {
+    "first_seen": "2026-11-07",
+    "rank": 57
+  },
+  "CLMT": {
+    "first_seen": "2026-11-06",
+    "rank": 58
+  },
+  "CLS": {
+    "first_seen": "2026-11-07",
+    "rank": 59
+  },
+  "CMI": {
+    "first_seen": "2026-11-06",
+    "rank": 60
+  },
+  "CNXC": {
+    "first_seen": "2026-11-07",
+    "rank": 61
+  },
+  "COHR": {
+    "first_seen": "2026-11-07",
+    "rank": 62
+  },
+  "CRC": {
+    "first_seen": "2026-11-07",
+    "rank": 63
+  },
+  "CRNT": {
+    "first_seen": "2026-11-07",
+    "rank": 64
+  },
+  "DAR": {
+    "first_seen": "2026-11-06",
+    "rank": 65
+  },
+  "DELL": {
+    "first_seen": "2026-11-07",
+    "rank": 66
+  },
+  "DINO": {
+    "first_seen": "2026-11-07",
+    "rank": 67
+  },
+  "DSX": {
+    "first_seen": "2026-11-06",
+    "rank": 68
+  },
+  "DTI": {
+    "first_seen": "2026-11-07",
+    "rank": 69
+  },
+  "DUOT": {
+    "first_seen": "2026-11-07",
+    "rank": 70
+  },
+  "DVN": {
+    "first_seen": "2026-11-07",
+    "rank": 71
+  },
+  "ECG": {
+    "first_seen": "2026-11-07",
+    "rank": 72
+  },
+  "EDN": {
+    "first_seen": "2026-10-28",
+    "rank": 73
+  },
+  "EDRY": {
+    "first_seen": "2026-11-07",
+    "rank": 74
+  },
+  "ELPC": {
+    "first_seen": "2026-11-07",
+    "rank": 75
+  },
+  "ENS": {
+    "first_seen": "2026-11-07",
+    "rank": 76
+  },
+  "EPAM": {
+    "first_seen": "2026-11-07",
+    "rank": 77
+  },
+  "FLEX": {
+    "first_seen": "2026-11-07",
+    "rank": 78
+  },
+  "FLNG": {
+    "first_seen": "2026-11-06",
+    "rank": 79
+  },
+  "FORR": {
+    "first_seen": "2026-11-07",
+    "rank": 80
+  },
+  "GEF": {
+    "first_seen": "2026-11-07",
+    "rank": 81
+  },
+  "GFS": {
+    "first_seen": "2026-11-07",
+    "rank": 82
+  },
+  "GGAL": {
+    "first_seen": "2026-11-03",
+    "rank": 83
+  },
+  "GPRK": {
+    "first_seen": "2026-11-06",
+    "rank": 84
+  },
+  "GTX": {
+    "first_seen": "2026-11-03",
+    "rank": 85
+  },
+  "HOS": {
+    "first_seen": "2026-11-05",
+    "rank": 86
+  },
+  "HPE": {
+    "first_seen": "2026-11-07",
+    "rank": 87
+  },
+  "HRMY": {
+    "first_seen": "2026-11-07",
+    "rank": 88
+  },
+  "ICHR": {
+    "first_seen": "2026-11-06",
+    "rank": 89
+  },
+  "IFS": {
+    "first_seen": "2026-11-07",
+    "rank": 90
+  },
+  "IMXI": {
+    "first_seen": "2026-11-05",
+    "rank": 91
+  },
+  "INTR": {
+    "first_seen": "2026-11-07",
+    "rank": 92
+  },
+  "JBL": {
+    "first_seen": "2026-11-07",
+    "rank": 93
+  },
+  "JBSS": {
+    "first_seen": "2026-11-03",
+    "rank": 94
+  },
+  "KALU": {
+    "first_seen": "2026-11-07",
+    "rank": 95
+  },
+  "KMT": {
+    "first_seen": "2026-11-07",
+    "rank": 96
+  },
+  "KODK": {
+    "first_seen": "2026-11-06",
+    "rank": 97
+  },
+  "LITE": {
+    "first_seen": "2026-11-07",
+    "rank": 98
+  },
+  "LPA": {
+    "first_seen": "2026-11-07",
+    "rank": 99
+  },
+  "LPG": {
+    "first_seen": "2026-11-07",
+    "rank": 100
+  },
+  "LSAK": {
+    "first_seen": "2026-11-07",
+    "rank": 101
+  },
+  "MBLY": {
+    "first_seen": "2026-10-29",
+    "rank": 102
+  },
+  "MCY": {
+    "first_seen": "2026-11-06",
+    "rank": 103
+  },
+  "MLI": {
+    "first_seen": "2026-11-07",
+    "rank": 104
+  },
+  "MNR": {
+    "first_seen": "2026-11-07",
+    "rank": 105
+  },
+  "MNTN": {
+    "first_seen": "2026-11-07",
     "rank": 106
   },
-  "SOLV": {
+  "MOD": {
     "first_seen": "2026-11-06",
     "rank": 107
   },
-  "T": {
-    "first_seen": "2026-11-06",
+  "MTRX": {
+    "first_seen": "2026-11-07",
     "rank": 108
   },
-  "TAL": {
-    "first_seen": "2026-11-05",
+  "MTUS": {
+    "first_seen": "2026-11-07",
     "rank": 109
+  },
+  "MUX": {
+    "first_seen": "2026-11-07",
+    "rank": 110
+  },
+  "MXL": {
+    "first_seen": "2026-11-07",
+    "rank": 111
+  },
+  "NATR": {
+    "first_seen": "2026-11-07",
+    "rank": 112
+  },
+  "NCMI": {
+    "first_seen": "2026-10-29",
+    "rank": 113
+  },
+  "NICE": {
+    "first_seen": "2026-11-07",
+    "rank": 114
+  },
+  "NRG": {
+    "first_seen": "2026-11-07",
+    "rank": 115
+  },
+  "NVDA": {
+    "first_seen": "2026-11-07",
+    "rank": 116
+  },
+  "ONTO": {
+    "first_seen": "2026-11-07",
+    "rank": 117
+  },
+  "OZK": {
+    "first_seen": "2026-11-07",
+    "rank": 118
+  },
+  "PAAS": {
+    "first_seen": "2026-11-07",
+    "rank": 119
+  },
+  "PAM": {
+    "first_seen": "2026-11-03",
+    "rank": 120
+  },
+  "PBR": {
+    "first_seen": "2026-11-06",
+    "rank": 121
+  },
+  "PXED": {
+    "first_seen": "2026-11-06",
+    "rank": 122
+  },
+  "PXS": {
+    "first_seen": "2026-11-07",
+    "rank": 123
+  },
+  "RDDT": {
+    "first_seen": "2026-11-03",
+    "rank": 124
+  },
+  "SANM": {
+    "first_seen": "2026-11-07",
+    "rank": 125
+  },
+  "SB": {
+    "first_seen": "2026-11-07",
+    "rank": 126
+  },
+  "SBSW": {
+    "first_seen": "2026-11-07",
+    "rank": 127
+  },
+  "SD": {
+    "first_seen": "2026-11-06",
+    "rank": 128
+  },
+  "SHG": {
+    "first_seen": "2026-11-07",
+    "rank": 129
+  },
+  "SHIP": {
+    "first_seen": "2026-11-07",
+    "rank": 130
+  },
+  "SNDK": {
+    "first_seen": "2026-11-07",
+    "rank": 131
+  },
+  "SPXC": {
+    "first_seen": "2026-11-07",
+    "rank": 132
+  },
+  "SRI": {
+    "first_seen": "2026-11-07",
+    "rank": 133
+  },
+  "STNE": {
+    "first_seen": "2026-11-07",
+    "rank": 134
+  },
+  "STRA": {
+    "first_seen": "2026-11-07",
+    "rank": 135
+  },
+  "STX": {
+    "first_seen": "2026-11-07",
+    "rank": 136
+  },
+  "TASK": {
+    "first_seen": "2026-11-07",
+    "rank": 137
   },
   "TBLA": {
     "first_seen": "2026-11-06",
-    "rank": 110
+    "rank": 138
   },
-  "TECK": {
-    "first_seen": "2026-11-06",
-    "rank": 111
+  "TDW": {
+    "first_seen": "2026-11-07",
+    "rank": 139
   },
   "TEO": {
     "first_seen": "2026-11-03",
-    "rank": 112
+    "rank": 140
+  },
+  "TGS": {
+    "first_seen": "2026-11-07",
+    "rank": 141
   },
   "TH": {
     "first_seen": "2026-11-06",
-    "rank": 113
+    "rank": 142
   },
-  "THC": {
-    "first_seen": "2026-11-06",
-    "rank": 114
+  "TNK": {
+    "first_seen": "2026-11-07",
+    "rank": 143
   },
   "TSQ": {
     "first_seen": "2026-10-27",
-    "rank": 115
+    "rank": 144
+  },
+  "TSSI": {
+    "first_seen": "2026-11-07",
+    "rank": 145
+  },
+  "TUYA": {
+    "first_seen": "2026-11-07",
+    "rank": 146
+  },
+  "UCTT": {
+    "first_seen": "2026-11-07",
+    "rank": 147
   },
   "UFCS": {
     "first_seen": "2026-11-06",
-    "rank": 116
+    "rank": 148
   },
-  "UHS": {
+  "UMC": {
     "first_seen": "2026-11-06",
-    "rank": 117
+    "rank": 149
+  },
+  "VECO": {
+    "first_seen": "2026-11-07",
+    "rank": 150
+  },
+  "VIST": {
+    "first_seen": "2026-11-07",
+    "rank": 151
+  },
+  "VRRM": {
+    "first_seen": "2026-11-07",
+    "rank": 152
+  },
+  "VST": {
+    "first_seen": "2026-11-07",
+    "rank": 153
+  },
+  "WES": {
+    "first_seen": "2026-11-07",
+    "rank": 154
   },
   "ZBRA": {
     "first_seen": "2026-11-05",
-    "rank": 118
+    "rank": 155
   }
 }
