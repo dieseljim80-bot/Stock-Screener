@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T03:48:36.348039+00:00",
-  "universe_size": 6928,
+  "generated_at": "2026-11-11T01:31:12.508732+00:00",
+  "universe_size": 6929,
   "min_score": 3,
   "rsi_oversold_threshold": 30,
   "pe_undervalued_threshold": 15,
   "peg_undervalued_threshold": 1.0,
-  "hit_count": 93,
+  "hit_count": 96,
   "hits": [
     {
       "ticker": "CYD",
@@ -13,8 +13,8 @@
       "signals": [
         "RSI oversold (24.4)",
         "MACD bullish crossover",
-        "Low trailing P/E (7.22)",
-        "Low forward P/E (5.21)",
+        "Low trailing P/E (7.44)",
+        "Low forward P/E (5.2)",
         "Attractive PEG ratio (0.37)"
       ],
       "signal_flags": {
@@ -27,13 +27,13 @@
         "attractive_peg": true
       },
       "price": 20.66,
-      "avg_volume": 226197.0,
+      "avg_volume": 230966.0,
       "rsi": 24.4,
-      "trailing_pe": 7.22,
-      "forward_pe": 5.21,
+      "trailing_pe": 7.44,
+      "forward_pe": 5.2,
       "peg": 0.37,
-      "target_mean_price": 56.8,
-      "target_upside_pct": 174.9,
+      "target_mean_price": 56.82,
+      "target_upside_pct": 175.0,
       "company_name": "China Yuchai International Limited",
       "description": "China Yuchai International Limited manufactures, assembles, and sells diesel and natural gas engines for trucks, buses, pickups, construction and agricultural equipment, and marine and power generation applications. It operates through two segments: Yuchai and HLGE. The Yuchai\u2026",
       "sector": "Consumer Cyclical",
@@ -41,11 +41,11 @@
       "headquarters": "Singapore, Singapore",
       "ceo": null,
       "first_seen": "2026-10-15",
-      "days_on_list": 27,
+      "days_on_list": 28,
       "is_new": false,
       "rank": 1,
-      "previous_rank": 11,
-      "rank_change": 10
+      "previous_rank": 1,
+      "rank_change": 0
     },
     {
       "ticker": "AGM",
@@ -53,8 +53,8 @@
       "signals": [
         "RSI oversold (27.9)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (9.55)",
-        "Low forward P/E (7.87)",
+        "Low trailing P/E (9.2)",
+        "Low forward P/E (7.52)",
         "Attractive PEG ratio (0.6)"
       ],
       "signal_flags": {
@@ -67,10 +67,10 @@
         "attractive_peg": true
       },
       "price": 181.57,
-      "avg_volume": 121597.0,
+      "avg_volume": 121622.0,
       "rsi": 27.9,
-      "trailing_pe": 9.55,
-      "forward_pe": 7.87,
+      "trailing_pe": 9.2,
+      "forward_pe": 7.52,
       "peg": 0.6,
       "target_mean_price": 257.0,
       "target_upside_pct": 41.5,
@@ -81,19 +81,19 @@
       "headquarters": "Washington, DC, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 2,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 2,
+      "rank_change": 0
     },
     {
       "ticker": "ALNY",
       "score": 4,
       "signals": [
         "RSI oversold (22.4)",
-        "Low trailing P/E (7.87)",
-        "Low forward P/E (14.46)",
+        "Low trailing P/E (7.66)",
+        "Low forward P/E (14.0)",
         "Attractive PEG ratio (0.21)"
       ],
       "signal_flags": {
@@ -106,13 +106,13 @@
         "attractive_peg": true
       },
       "price": 156.61,
-      "avg_volume": 2350653.0,
+      "avg_volume": 2406276.0,
       "rsi": 22.4,
-      "trailing_pe": 7.87,
-      "forward_pe": 14.46,
+      "trailing_pe": 7.66,
+      "forward_pe": 14.0,
       "peg": 0.21,
-      "target_mean_price": 302.56,
-      "target_upside_pct": 93.2,
+      "target_mean_price": 299.96,
+      "target_upside_pct": 91.5,
       "company_name": "Alnylam Pharmaceuticals, Inc.",
       "description": "Alnylam Pharmaceuticals, Inc. discovers, develops, manufactures, and commercializes therapeutics based on ribonucleic acid interference in the United States, Europe, and internationally. The company offers ONPATTRO for hereditary transthyretin-mediated (hATTR) amyloidosis;\u2026",
       "sector": "Healthcare",
@@ -120,19 +120,19 @@
       "headquarters": "Cambridge, MA, United States",
       "ceo": null,
       "first_seen": "2026-11-03",
-      "days_on_list": 8,
+      "days_on_list": 9,
       "is_new": false,
       "rank": 3,
-      "previous_rank": 2,
-      "rank_change": -1
+      "previous_rank": 3,
+      "rank_change": 0
     },
     {
       "ticker": "ANDE",
       "score": 4,
       "signals": [
         "RSI oversold (24.1)",
-        "Low trailing P/E (9.29)",
-        "Low forward P/E (8.61)",
+        "Low trailing P/E (9.17)",
+        "Low forward P/E (8.5)",
         "Attractive PEG ratio (0.89)"
       ],
       "signal_flags": {
@@ -145,10 +145,10 @@
         "attractive_peg": true
       },
       "price": 55.18,
-      "avg_volume": 393487.0,
+      "avg_volume": 400161.0,
       "rsi": 24.1,
-      "trailing_pe": 9.29,
-      "forward_pe": 8.61,
+      "trailing_pe": 9.17,
+      "forward_pe": 8.5,
       "peg": 0.89,
       "target_mean_price": 90.0,
       "target_upside_pct": 63.1,
@@ -159,11 +159,11 @@
       "headquarters": "Maumee, OH, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
       "rank": 4,
-      "previous_rank": 5,
-      "rank_change": 1
+      "previous_rank": 4,
+      "rank_change": 0
     },
     {
       "ticker": "CVI",
@@ -171,8 +171,8 @@
       "signals": [
         "RSI oversold (26.9)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (14.48)",
-        "Low forward P/E (8.77)",
+        "Low trailing P/E (14.72)",
+        "Low forward P/E (8.68)",
         "Attractive PEG ratio (0.71)"
       ],
       "signal_flags": {
@@ -185,10 +185,10 @@
         "attractive_peg": true
       },
       "price": 39.1,
-      "avg_volume": 1619953.0,
+      "avg_volume": 1655803.0,
       "rsi": 26.9,
-      "trailing_pe": 14.48,
-      "forward_pe": 8.77,
+      "trailing_pe": 14.72,
+      "forward_pe": 8.68,
       "peg": 0.71,
       "target_mean_price": 47.5,
       "target_upside_pct": 21.5,
@@ -199,11 +199,11 @@
       "headquarters": "Sugar Land, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
       "rank": 5,
-      "previous_rank": 9,
-      "rank_change": 4
+      "previous_rank": 5,
+      "rank_change": 0
     },
     {
       "ticker": "DAC",
@@ -211,7 +211,7 @@
       "signals": [
         "RSI oversold (28.3)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (5.01)",
+        "Low trailing P/E (4.98)",
         "Low forward P/E (6.01)",
         "Attractive PEG ratio (0.12)"
       ],
@@ -225,9 +225,9 @@
         "attractive_peg": true
       },
       "price": 147.16,
-      "avg_volume": 170197.0,
+      "avg_volume": 172435.0,
       "rsi": 28.3,
-      "trailing_pe": 5.01,
+      "trailing_pe": 4.98,
       "forward_pe": 6.01,
       "peg": 0.12,
       "target_mean_price": 164.5,
@@ -239,19 +239,19 @@
       "headquarters": "Piraeus, Greece",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 6,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 6,
+      "rank_change": 0
     },
     {
       "ticker": "DOX",
       "score": 4,
       "signals": [
         "RSI oversold (17.4)",
-        "Low trailing P/E (9.0)",
-        "Low forward P/E (6.3)",
+        "Low trailing P/E (8.86)",
+        "Low forward P/E (6.25)",
         "Attractive PEG ratio (0.56)"
       ],
       "signal_flags": {
@@ -264,10 +264,10 @@
         "attractive_peg": true
       },
       "price": 41.74,
-      "avg_volume": 1626840.0,
+      "avg_volume": 1701852.0,
       "rsi": 17.4,
-      "trailing_pe": 9.0,
-      "forward_pe": 6.3,
+      "trailing_pe": 8.86,
+      "forward_pe": 6.25,
       "peg": 0.56,
       "target_mean_price": 57.33,
       "target_upside_pct": 37.4,
@@ -278,19 +278,19 @@
       "headquarters": "Saint Louis, MO, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
       "rank": 7,
-      "previous_rank": 12,
-      "rank_change": 5
+      "previous_rank": 7,
+      "rank_change": 0
     },
     {
       "ticker": "FIS",
       "score": 4,
       "signals": [
         "RSI oversold (29.4)",
-        "Low trailing P/E (4.29)",
-        "Low forward P/E (5.08)",
+        "Low trailing P/E (4.23)",
+        "Low forward P/E (5.13)",
         "Attractive PEG ratio (0.15)"
       ],
       "signal_flags": {
@@ -303,13 +303,13 @@
         "attractive_peg": true
       },
       "price": 28.34,
-      "avg_volume": 8074447.0,
+      "avg_volume": 8133833.0,
       "rsi": 29.4,
-      "trailing_pe": 4.29,
-      "forward_pe": 5.08,
+      "trailing_pe": 4.23,
+      "forward_pe": 5.13,
       "peg": 0.15,
-      "target_mean_price": 36.77,
-      "target_upside_pct": 29.8,
+      "target_mean_price": 36.32,
+      "target_upside_pct": 28.2,
       "company_name": "Fidelity National Information Services, Inc.",
       "description": "Fidelity National Information Services, Inc. provides solutions to financial institutions, businesses, and developers worldwide. The company operates through Banking Solutions, Capital Market Solutions, and Corporate and Other segments. It provides core processing and ancillary\u2026",
       "sector": "Technology",
@@ -317,11 +317,11 @@
       "headquarters": "Jacksonville, FL, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 8,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 8,
+      "rank_change": 0
     },
     {
       "ticker": "IOSP",
@@ -329,8 +329,8 @@
       "signals": [
         "RSI oversold (23.8)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (13.81)",
-        "Low forward P/E (13.44)",
+        "Low trailing P/E (13.73)",
+        "Low forward P/E (13.02)",
         "Attractive PEG ratio (0.66)"
       ],
       "signal_flags": {
@@ -343,13 +343,13 @@
         "attractive_peg": true
       },
       "price": 80.21,
-      "avg_volume": 253577.0,
+      "avg_volume": 259239.0,
       "rsi": 23.8,
-      "trailing_pe": 13.81,
-      "forward_pe": 13.44,
+      "trailing_pe": 13.73,
+      "forward_pe": 13.02,
       "peg": 0.66,
-      "target_mean_price": 101.0,
-      "target_upside_pct": 25.9,
+      "target_mean_price": 99.33,
+      "target_upside_pct": 23.8,
       "company_name": "Innospec Inc.",
       "description": "Innospec Inc. develops, manufactures, blends, markets, and supplies specialty chemicals in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. The company operates through three segments: Performance Chemicals, Fuel Specialties, and Oilfield Services. It offers\u2026",
       "sector": "Basic Materials",
@@ -357,11 +357,11 @@
       "headquarters": "Englewood, CO, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
       "rank": 9,
-      "previous_rank": 16,
-      "rank_change": 7
+      "previous_rank": 9,
+      "rank_change": 0
     },
     {
       "ticker": "KB",
@@ -369,8 +369,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (9.55)",
-        "Low forward P/E (7.43)",
+        "Low trailing P/E (9.77)",
+        "Low forward P/E (7.42)",
         "Attractive PEG ratio (0.71)"
       ],
       "signal_flags": {
@@ -383,13 +383,13 @@
         "attractive_peg": true
       },
       "price": 114.0,
-      "avg_volume": 239027.0,
+      "avg_volume": 238642.0,
       "rsi": 44.0,
-      "trailing_pe": 9.55,
-      "forward_pe": 7.43,
+      "trailing_pe": 9.77,
+      "forward_pe": 7.42,
       "peg": 0.71,
-      "target_mean_price": 166.33,
-      "target_upside_pct": 45.9,
+      "target_mean_price": 167.2,
+      "target_upside_pct": 46.7,
       "company_name": "KB Financial Group Inc.",
       "description": "KB Financial Group Inc. provides financial products and services in South Korea, the United States, New Zealand, China, Cambodia, the United Kingdom, Indonesia, and internationally. The company offers deposit products, such as demand and time deposits, certificates of deposit,\u2026",
       "sector": "Financial Services",
@@ -397,11 +397,11 @@
       "headquarters": "Seoul, South Korea",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 10,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 10,
+      "rank_change": 0
     },
     {
       "ticker": "KGEI",
@@ -409,8 +409,8 @@
       "signals": [
         "RSI oversold (28.3)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (10.27)",
-        "Low forward P/E (6.24)",
+        "Low trailing P/E (9.65)",
+        "Low forward P/E (6.2)",
         "Attractive PEG ratio (0.65)"
       ],
       "signal_flags": {
@@ -423,10 +423,10 @@
         "attractive_peg": true
       },
       "price": 5.24,
-      "avg_volume": 150647.0,
+      "avg_volume": 146373.0,
       "rsi": 28.3,
-      "trailing_pe": 10.27,
-      "forward_pe": 6.24,
+      "trailing_pe": 9.65,
+      "forward_pe": 6.2,
       "peg": 0.65,
       "target_mean_price": 9.0,
       "target_upside_pct": 71.8,
@@ -437,19 +437,19 @@
       "headquarters": "Thousand Oaks, CA, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
       "rank": 11,
-      "previous_rank": 17,
-      "rank_change": 6
+      "previous_rank": 11,
+      "rank_change": 0
     },
     {
       "ticker": "LOPE",
       "score": 4,
       "signals": [
         "RSI oversold (18.1)",
-        "Low trailing P/E (12.57)",
-        "Low forward P/E (10.52)",
+        "Low trailing P/E (12.45)",
+        "Low forward P/E (10.56)",
         "Attractive PEG ratio (0.69)"
       ],
       "signal_flags": {
@@ -462,10 +462,10 @@
         "attractive_peg": true
       },
       "price": 116.16,
-      "avg_volume": 330430.0,
+      "avg_volume": 342363.0,
       "rsi": 18.1,
-      "trailing_pe": 12.57,
-      "forward_pe": 10.52,
+      "trailing_pe": 12.45,
+      "forward_pe": 10.56,
       "peg": 0.69,
       "target_mean_price": 184.33,
       "target_upside_pct": 58.7,
@@ -476,11 +476,11 @@
       "headquarters": "Phoenix, AZ, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
       "rank": 12,
-      "previous_rank": 18,
-      "rank_change": 6
+      "previous_rank": 12,
+      "rank_change": 0
     },
     {
       "ticker": "LYG",
@@ -488,9 +488,9 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (9.74)",
-        "Low forward P/E (8.94)",
-        "Attractive PEG ratio (0.58)"
+        "Low trailing P/E (9.94)",
+        "Low forward P/E (8.78)",
+        "Attractive PEG ratio (0.61)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -502,11 +502,11 @@
         "attractive_peg": true
       },
       "price": 5.26,
-      "avg_volume": 20817730.0,
+      "avg_volume": 21058277.0,
       "rsi": 46.4,
-      "trailing_pe": 9.74,
-      "forward_pe": 8.94,
-      "peg": 0.58,
+      "trailing_pe": 9.94,
+      "forward_pe": 8.78,
+      "peg": 0.61,
       "target_mean_price": 6.28,
       "target_upside_pct": 19.3,
       "company_name": "Lloyds Banking Group plc",
@@ -516,50 +516,51 @@
       "headquarters": "London, United Kingdom",
       "ceo": "Mr. Charles Alan Nunn",
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 13,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 13,
+      "rank_change": 0
     },
     {
-      "ticker": "NOA",
+      "ticker": "OFG",
       "score": 4,
       "signals": [
-        "RSI oversold (27.7)",
-        "Low trailing P/E (11.39)",
-        "Low forward P/E (7.64)",
-        "Attractive PEG ratio (0.38)"
+        "MACD bullish crossover",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (9.77)",
+        "Low forward P/E (9.89)",
+        "Attractive PEG ratio (0.92)"
       ],
       "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
         "golden_cross": false,
-        "above_golden_cross_trend": false,
+        "above_golden_cross_trend": true,
         "low_trailing_pe": true,
         "low_forward_pe": true,
         "attractive_peg": true
       },
-      "price": 9.57,
-      "avg_volume": 130277.0,
-      "rsi": 27.7,
-      "trailing_pe": 11.39,
-      "forward_pe": 7.64,
-      "peg": 0.38,
-      "target_mean_price": 26.54,
-      "target_upside_pct": 177.3,
-      "company_name": "North American Construction Group Ltd.",
-      "description": "North American Construction Group Ltd. provides mining and heavy civil construction services to customers in the resource development and industrial construction sectors in Australia, Canada, and the United States. It operates through Heavy Equipment - Canada, Heavy Equipment -\u2026",
-      "sector": "Energy",
+      "price": 51.18,
+      "avg_volume": 307789.0,
+      "rsi": 50.2,
+      "trailing_pe": 9.77,
+      "forward_pe": 9.89,
+      "peg": 0.92,
+      "target_mean_price": 56.25,
+      "target_upside_pct": 9.9,
+      "company_name": "OFG Bancorp",
+      "description": "OFG Bancorp, a financial holding company, provides a range of banking and financial services in the United States. It operates through three segments: Banking, Wealth Management, and Treasury. The company offers savings accounts, certificates of deposit, individual retirement\u2026",
+      "sector": "Financial Services",
       "exchange_name": "NYSE",
-      "headquarters": "Acheson, AB, Canada",
+      "headquarters": "San Juan, PR, United States",
       "ceo": null,
-      "first_seen": "2026-11-07",
-      "days_on_list": 4,
-      "is_new": false,
+      "first_seen": "2026-11-11",
+      "days_on_list": 1,
+      "is_new": true,
       "rank": 14,
-      "previous_rank": 20,
-      "rank_change": 6
+      "previous_rank": null,
+      "rank_change": null
     },
     {
       "ticker": "OMER",
@@ -567,8 +568,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (14.39)",
-        "Low forward P/E (14.27)",
+        "Low trailing P/E (14.18)",
+        "Low forward P/E (14.07)",
         "Attractive PEG ratio (0.81)"
       ],
       "signal_flags": {
@@ -581,10 +582,10 @@
         "attractive_peg": true
       },
       "price": 17.55,
-      "avg_volume": 1107030.0,
+      "avg_volume": 1101748.0,
       "rsi": 48.3,
-      "trailing_pe": 14.39,
-      "forward_pe": 14.27,
+      "trailing_pe": 14.18,
+      "forward_pe": 14.07,
       "peg": 0.81,
       "target_mean_price": 27.5,
       "target_upside_pct": 56.7,
@@ -595,19 +596,19 @@
       "headquarters": "Seattle, WA, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 15,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 15,
+      "rank_change": 0
     },
     {
       "ticker": "PRDO",
       "score": 4,
       "signals": [
         "RSI oversold (28.7)",
-        "Low trailing P/E (9.4)",
-        "Low forward P/E (8.32)",
+        "Low trailing P/E (10.09)",
+        "Low forward P/E (8.75)",
         "Attractive PEG ratio (0.54)"
       ],
       "signal_flags": {
@@ -620,10 +621,10 @@
         "attractive_peg": true
       },
       "price": 27.44,
-      "avg_volume": 664607.0,
+      "avg_volume": 667936.0,
       "rsi": 28.7,
-      "trailing_pe": 9.4,
-      "forward_pe": 8.32,
+      "trailing_pe": 10.09,
+      "forward_pe": 8.75,
       "peg": 0.54,
       "target_mean_price": 44.0,
       "target_upside_pct": 60.3,
@@ -634,19 +635,19 @@
       "headquarters": "Schaumburg, IL, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
       "rank": 16,
-      "previous_rank": 21,
-      "rank_change": 5
+      "previous_rank": 16,
+      "rank_change": 0
     },
     {
       "ticker": "PXED",
       "score": 4,
       "signals": [
         "RSI oversold (18.4)",
-        "Low trailing P/E (8.41)",
-        "Low forward P/E (4.75)",
+        "Low trailing P/E (8.39)",
+        "Low forward P/E (4.74)",
         "Attractive PEG ratio (0.5)"
       ],
       "signal_flags": {
@@ -659,10 +660,10 @@
         "attractive_peg": true
       },
       "price": 19.27,
-      "avg_volume": 116393.0,
+      "avg_volume": 118585.0,
       "rsi": 18.4,
-      "trailing_pe": 8.41,
-      "forward_pe": 4.75,
+      "trailing_pe": 8.39,
+      "forward_pe": 4.74,
       "peg": 0.5,
       "target_mean_price": 28.43,
       "target_upside_pct": 47.5,
@@ -673,11 +674,11 @@
       "headquarters": "Phoenix, AZ, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
       "rank": 17,
-      "previous_rank": 122,
-      "rank_change": 105
+      "previous_rank": 17,
+      "rank_change": 0
     },
     {
       "ticker": "SAN",
@@ -685,8 +686,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (11.12)",
-        "Low forward P/E (8.89)",
+        "Low trailing P/E (11.85)",
+        "Low forward P/E (8.96)",
         "Attractive PEG ratio (0.77)"
       ],
       "signal_flags": {
@@ -699,10 +700,10 @@
         "attractive_peg": true
       },
       "price": 12.46,
-      "avg_volume": 9131257.0,
+      "avg_volume": 9181571.0,
       "rsi": 48.8,
-      "trailing_pe": 11.12,
-      "forward_pe": 8.89,
+      "trailing_pe": 11.85,
+      "forward_pe": 8.96,
       "peg": 0.77,
       "target_mean_price": 14.56,
       "target_upside_pct": 16.8,
@@ -713,11 +714,11 @@
       "headquarters": "Madrid, Spain",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 18,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 18,
+      "rank_change": 0
     },
     {
       "ticker": "SCSC",
@@ -725,8 +726,8 @@
       "signals": [
         "RSI oversold (21.6)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (13.47)",
-        "Low forward P/E (7.69)",
+        "Low trailing P/E (14.33)",
+        "Low forward P/E (7.93)",
         "Attractive PEG ratio (0.58)"
       ],
       "signal_flags": {
@@ -739,10 +740,10 @@
         "attractive_peg": true
       },
       "price": 44.06,
-      "avg_volume": 325173.0,
+      "avg_volume": 334165.0,
       "rsi": 21.6,
-      "trailing_pe": 13.47,
-      "forward_pe": 7.69,
+      "trailing_pe": 14.33,
+      "forward_pe": 7.93,
       "peg": 0.58,
       "target_mean_price": 64.5,
       "target_upside_pct": 46.4,
@@ -753,19 +754,19 @@
       "headquarters": "Greenville, SC, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
       "rank": 19,
-      "previous_rank": 24,
-      "rank_change": 5
+      "previous_rank": 19,
+      "rank_change": 0
     },
     {
       "ticker": "SLM",
       "score": 4,
       "signals": [
         "RSI oversold (26.6)",
-        "Low trailing P/E (6.06)",
-        "Low forward P/E (5.56)",
+        "Low trailing P/E (6.01)",
+        "Low forward P/E (5.52)",
         "Attractive PEG ratio (0.51)"
       ],
       "signal_flags": {
@@ -778,10 +779,10 @@
         "attractive_peg": true
       },
       "price": 16.91,
-      "avg_volume": 3869933.0,
+      "avg_volume": 3902131.0,
       "rsi": 26.6,
-      "trailing_pe": 6.06,
-      "forward_pe": 5.56,
+      "trailing_pe": 6.01,
+      "forward_pe": 5.52,
       "peg": 0.51,
       "target_mean_price": 24.78,
       "target_upside_pct": 46.5,
@@ -792,11 +793,11 @@
       "headquarters": "Newark, DE, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
       "rank": 20,
-      "previous_rank": 25,
-      "rank_change": 5
+      "previous_rank": 20,
+      "rank_change": 0
     },
     {
       "ticker": "SM",
@@ -804,8 +805,8 @@
       "signals": [
         "RSI oversold (26.4)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (6.31)",
-        "Low forward P/E (3.39)",
+        "Low trailing P/E (6.4)",
+        "Low forward P/E (3.44)",
         "Attractive PEG ratio (0.41)"
       ],
       "signal_flags": {
@@ -818,10 +819,10 @@
         "attractive_peg": true
       },
       "price": 29.1,
-      "avg_volume": 2970543.0,
+      "avg_volume": 2980633.0,
       "rsi": 26.4,
-      "trailing_pe": 6.31,
-      "forward_pe": 3.39,
+      "trailing_pe": 6.4,
+      "forward_pe": 3.44,
       "peg": 0.41,
       "target_mean_price": 45.33,
       "target_upside_pct": 55.8,
@@ -832,11 +833,11 @@
       "headquarters": "Denver, CO, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
       "rank": 21,
-      "previous_rank": 26,
-      "rank_change": 5
+      "previous_rank": 21,
+      "rank_change": 0
     },
     {
       "ticker": "SSRM",
@@ -844,8 +845,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (9.02)",
-        "Low forward P/E (9.15)",
+        "Low trailing P/E (8.95)",
+        "Low forward P/E (8.7)",
         "Attractive PEG ratio (0.02)"
       ],
       "signal_flags": {
@@ -858,10 +859,10 @@
         "attractive_peg": true
       },
       "price": 29.67,
-      "avg_volume": 2374360.0,
+      "avg_volume": 2413299.0,
       "rsi": 47.7,
-      "trailing_pe": 9.02,
-      "forward_pe": 9.15,
+      "trailing_pe": 8.95,
+      "forward_pe": 8.7,
       "peg": 0.02,
       "target_mean_price": 40.25,
       "target_upside_pct": 35.7,
@@ -872,11 +873,11 @@
       "headquarters": "Denver, CO, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 22,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 22,
+      "rank_change": 0
     },
     {
       "ticker": "UGP",
@@ -884,8 +885,8 @@
       "signals": [
         "RSI oversold (20.5)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (8.71)",
-        "Low forward P/E (9.36)",
+        "Low trailing P/E (8.69)",
+        "Low forward P/E (9.19)",
         "Attractive PEG ratio (0.78)"
       ],
       "signal_flags": {
@@ -898,10 +899,10 @@
         "attractive_peg": true
       },
       "price": 5.49,
-      "avg_volume": 4838737.0,
+      "avg_volume": 4752251.0,
       "rsi": 20.5,
-      "trailing_pe": 8.71,
-      "forward_pe": 9.36,
+      "trailing_pe": 8.69,
+      "forward_pe": 9.19,
       "peg": 0.78,
       "target_mean_price": 7.43,
       "target_upside_pct": 35.4,
@@ -912,11 +913,11 @@
       "headquarters": "S\u00e3o Paulo, SP, Brazil",
       "ceo": null,
       "first_seen": "2026-10-28",
-      "days_on_list": 14,
+      "days_on_list": 15,
       "is_new": false,
       "rank": 23,
-      "previous_rank": 32,
-      "rank_change": 9
+      "previous_rank": 23,
+      "rank_change": 0
     },
     {
       "ticker": "YPF",
@@ -924,8 +925,8 @@
       "signals": [
         "RSI oversold (22.3)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (7.12)",
-        "Low forward P/E (6.32)",
+        "Low trailing P/E (6.87)",
+        "Low forward P/E (6.19)",
         "Attractive PEG ratio (0.1)"
       ],
       "signal_flags": {
@@ -938,10 +939,10 @@
         "attractive_peg": true
       },
       "price": 38.09,
-      "avg_volume": 1244243.0,
+      "avg_volume": 1239130.0,
       "rsi": 22.3,
-      "trailing_pe": 7.12,
-      "forward_pe": 6.32,
+      "trailing_pe": 6.87,
+      "forward_pe": 6.19,
       "peg": 0.1,
       "target_mean_price": 62.16,
       "target_upside_pct": 63.2,
@@ -952,11 +953,11 @@
       "headquarters": "Buenos Aires, Argentina",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
       "rank": 24,
-      "previous_rank": 34,
-      "rank_change": 10
+      "previous_rank": 24,
+      "rank_change": 0
     },
     {
       "ticker": "ADM",
@@ -964,8 +965,8 @@
       "signals": [
         "RSI oversold (22.9)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (13.67)",
-        "Low forward P/E (12.36)"
+        "Low trailing P/E (13.54)",
+        "Low forward P/E (12.26)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -977,10 +978,10 @@
         "attractive_peg": false
       },
       "price": 69.84,
-      "avg_volume": 3223483.0,
+      "avg_volume": 3280095.0,
       "rsi": 22.9,
-      "trailing_pe": 13.67,
-      "forward_pe": 12.36,
+      "trailing_pe": 13.54,
+      "forward_pe": 12.26,
       "peg": 2.02,
       "target_mean_price": 78.5,
       "target_upside_pct": 12.4,
@@ -991,19 +992,19 @@
       "headquarters": "Chicago, IL, United States",
       "ceo": null,
       "first_seen": "2026-11-05",
-      "days_on_list": 6,
+      "days_on_list": 7,
       "is_new": false,
       "rank": 25,
-      "previous_rank": 1,
-      "rank_change": -24
+      "previous_rank": 25,
+      "rank_change": 0
     },
     {
       "ticker": "AMPY",
       "score": 3,
       "signals": [
         "RSI oversold (24.8)",
-        "Low trailing P/E (6.27)",
-        "Low forward P/E (2.99)"
+        "Low trailing P/E (6.88)",
+        "Low forward P/E (3.28)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -1015,10 +1016,10 @@
         "attractive_peg": false
       },
       "price": 3.2,
-      "avg_volume": 577547.0,
+      "avg_volume": 631771.0,
       "rsi": 24.8,
-      "trailing_pe": 6.27,
-      "forward_pe": 2.99,
+      "trailing_pe": 6.88,
+      "forward_pe": 3.28,
       "peg": null,
       "target_mean_price": 7.75,
       "target_upside_pct": 142.2,
@@ -1029,19 +1030,19 @@
       "headquarters": "Houston, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-05",
-      "days_on_list": 6,
+      "days_on_list": 7,
       "is_new": false,
       "rank": 26,
-      "previous_rank": 42,
-      "rank_change": 16
+      "previous_rank": 26,
+      "rank_change": 0
     },
     {
       "ticker": "AMSF",
       "score": 3,
       "signals": [
         "RSI oversold (20.5)",
-        "Low trailing P/E (9.09)",
-        "Low forward P/E (10.52)"
+        "Low trailing P/E (9.25)",
+        "Low forward P/E (10.66)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -1053,10 +1054,10 @@
         "attractive_peg": false
       },
       "price": 19.63,
-      "avg_volume": 418297.0,
+      "avg_volume": 415507.0,
       "rsi": 20.5,
-      "trailing_pe": 9.09,
-      "forward_pe": 10.52,
+      "trailing_pe": 9.25,
+      "forward_pe": 10.66,
       "peg": 1.81,
       "target_mean_price": 31.0,
       "target_upside_pct": 57.9,
@@ -1067,11 +1068,11 @@
       "headquarters": "Deridder, LA, United States",
       "ceo": null,
       "first_seen": "2026-11-03",
-      "days_on_list": 8,
+      "days_on_list": 9,
       "is_new": false,
       "rank": 27,
-      "previous_rank": 43,
-      "rank_change": 16
+      "previous_rank": 27,
+      "rank_change": 0
     },
     {
       "ticker": "BCAL",
@@ -1079,8 +1080,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (12.07)",
-        "Low forward P/E (11.76)"
+        "Low trailing P/E (12.19)",
+        "Low forward P/E (11.75)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1092,10 +1093,10 @@
         "attractive_peg": false
       },
       "price": 22.08,
-      "avg_volume": 200397.0,
+      "avg_volume": 197641.0,
       "rsi": 56.2,
-      "trailing_pe": 12.07,
-      "forward_pe": 11.76,
+      "trailing_pe": 12.19,
+      "forward_pe": 11.75,
       "peg": null,
       "target_mean_price": 24.75,
       "target_upside_pct": 12.1,
@@ -1106,19 +1107,19 @@
       "headquarters": "San Diego, CA, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 28,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 28,
+      "rank_change": 0
     },
     {
       "ticker": "BHF",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (4.28)",
-        "Low forward P/E (2.19)"
+        "Low trailing P/E (4.45)",
+        "Low forward P/E (2.21)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1130,10 +1131,10 @@
         "attractive_peg": false
       },
       "price": 43.99,
-      "avg_volume": 796103.0,
+      "avg_volume": 802927.0,
       "rsi": 40.4,
-      "trailing_pe": 4.28,
-      "forward_pe": 2.19,
+      "trailing_pe": 4.45,
+      "forward_pe": 2.21,
       "peg": null,
       "target_mean_price": 60.83,
       "target_upside_pct": 38.3,
@@ -1144,11 +1145,11 @@
       "headquarters": "Charlotte, NC, United States",
       "ceo": null,
       "first_seen": "2026-10-23",
-      "days_on_list": 19,
+      "days_on_list": 20,
       "is_new": false,
       "rank": 29,
-      "previous_rank": 49,
-      "rank_change": 20
+      "previous_rank": 29,
+      "rank_change": 0
     },
     {
       "ticker": "BPOP",
@@ -1156,8 +1157,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (9.95)",
-        "Low forward P/E (8.98)"
+        "Low trailing P/E (10.28)",
+        "Low forward P/E (9.06)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1169,10 +1170,10 @@
         "attractive_peg": false
       },
       "price": 157.78,
-      "avg_volume": 522387.0,
+      "avg_volume": 513894.0,
       "rsi": 48.0,
-      "trailing_pe": 9.95,
-      "forward_pe": 8.98,
+      "trailing_pe": 10.28,
+      "forward_pe": 9.06,
       "peg": 1.37,
       "target_mean_price": 194.1,
       "target_upside_pct": 23.0,
@@ -1183,19 +1184,19 @@
       "headquarters": "Hato Rey, PR, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 30,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 30,
+      "rank_change": 0
     },
     {
       "ticker": "BSEM",
       "score": 3,
       "signals": [
         "RSI oversold (25.9)",
-        "Low trailing P/E (1.26)",
-        "Low forward P/E (3.86)"
+        "Low trailing P/E (1.18)",
+        "Low forward P/E (3.59)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -1207,10 +1208,10 @@
         "attractive_peg": false
       },
       "price": 1.12,
-      "avg_volume": 161453.0,
+      "avg_volume": 174630.0,
       "rsi": 25.9,
-      "trailing_pe": 1.26,
-      "forward_pe": 3.86,
+      "trailing_pe": 1.18,
+      "forward_pe": 3.59,
       "peg": null,
       "target_mean_price": 7.0,
       "target_upside_pct": 525.0,
@@ -1221,18 +1222,18 @@
       "headquarters": "Fort Lauderdale, FL, United States",
       "ceo": null,
       "first_seen": "2026-10-15",
-      "days_on_list": 27,
+      "days_on_list": 28,
       "is_new": false,
       "rank": 31,
-      "previous_rank": 51,
-      "rank_change": 20
+      "previous_rank": 31,
+      "rank_change": 0
     },
     {
       "ticker": "BSX",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low forward P/E (14.06)",
+        "Low forward P/E (14.28)",
         "Attractive PEG ratio (0.72)"
       ],
       "signal_flags": {
@@ -1245,10 +1246,10 @@
         "attractive_peg": true
       },
       "price": 44.02,
-      "avg_volume": 18971230.0,
+      "avg_volume": 18874821.0,
       "rsi": 49.6,
-      "trailing_pe": 18.04,
-      "forward_pe": 14.06,
+      "trailing_pe": 18.86,
+      "forward_pe": 14.28,
       "peg": 0.72,
       "target_mean_price": 49.6,
       "target_upside_pct": 12.7,
@@ -1259,11 +1260,11 @@
       "headquarters": "Marlborough, MA, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 32,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 32,
+      "rank_change": 0
     },
     {
       "ticker": "CLMT",
@@ -1271,7 +1272,7 @@
       "signals": [
         "RSI oversold (20.9)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (11.27)",
+        "Low forward P/E (8.71)",
         "Attractive PEG ratio (0.65)"
       ],
       "signal_flags": {
@@ -1284,10 +1285,10 @@
         "attractive_peg": true
       },
       "price": 36.06,
-      "avg_volume": 1589200.0,
+      "avg_volume": 1641129.0,
       "rsi": 20.9,
       "trailing_pe": null,
-      "forward_pe": 11.27,
+      "forward_pe": 8.71,
       "peg": 0.65,
       "target_mean_price": 55.8,
       "target_upside_pct": 54.7,
@@ -1298,19 +1299,19 @@
       "headquarters": "Indianapolis, IN, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
       "rank": 33,
-      "previous_rank": 58,
-      "rank_change": 25
+      "previous_rank": 33,
+      "rank_change": 0
     },
     {
       "ticker": "CMC",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (10.62)",
-        "Low forward P/E (9.61)"
+        "Low trailing P/E (10.96)",
+        "Low forward P/E (9.59)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1322,10 +1323,10 @@
         "attractive_peg": false
       },
       "price": 64.37,
-      "avg_volume": 1207233.0,
+      "avg_volume": 1195929.0,
       "rsi": 49.9,
-      "trailing_pe": 10.62,
-      "forward_pe": 9.61,
+      "trailing_pe": 10.96,
+      "forward_pe": 9.59,
       "peg": 13.13,
       "target_mean_price": 78.0,
       "target_upside_pct": 21.2,
@@ -1336,11 +1337,11 @@
       "headquarters": "Irving, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
+      "days_on_list": 2,
+      "is_new": false,
       "rank": 34,
-      "previous_rank": null,
-      "rank_change": null
+      "previous_rank": 34,
+      "rank_change": 0
     },
     {
       "ticker": "CMCL",
@@ -1348,8 +1349,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (6.11)",
-        "Low forward P/E (4.8)"
+        "Low trailing P/E (6.0)",
+        "Low forward P/E (4.58)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1361,10 +1362,10 @@
         "attractive_peg": false
       },
       "price": 21.92,
-      "avg_volume": 190017.0,
+      "avg_volume": 187801.0,
       "rsi": 48.8,
-      "trailing_pe": 6.11,
-      "forward_pe": 4.8,
+      "trailing_pe": 6.0,
+      "forward_pe": 4.58,
       "peg": null,
       "target_mean_price": 43.88,
       "target_upside_pct": 100.2,
@@ -1375,9 +1376,48 @@
       "headquarters": "Saint Helier, Jersey",
       "ceo": null,
       "first_seen": "2026-11-10",
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 35,
+      "previous_rank": 35,
+      "rank_change": 0
+    },
+    {
+      "ticker": "CORT",
+      "score": 3,
+      "signals": [
+        "RSI oversold (26.1)",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low forward P/E (14.72)",
+        "Attractive PEG ratio (0.81)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 75.03,
+      "avg_volume": 1086970.0,
+      "rsi": 26.1,
+      "trailing_pe": 55.15,
+      "forward_pe": 14.72,
+      "peg": 0.81,
+      "target_mean_price": 142.6,
+      "target_upside_pct": 90.1,
+      "company_name": "Corcept Therapeutics Incorporated",
+      "description": "Corcept Therapeutics Incorporated, a biopharmaceutical company, engages in the discovery and development of medications to treat severe endocrinologic, oncologic, metabolic, and neurologic disorders in the United States. The company offers Korlym, an oral medication for the\u2026",
+      "sector": "Healthcare",
+      "exchange_name": "NasdaqCM",
+      "headquarters": "Redwood City, CA, United States",
+      "ceo": null,
+      "first_seen": "2026-11-11",
       "days_on_list": 1,
       "is_new": true,
-      "rank": 35,
+      "rank": 36,
       "previous_rank": null,
       "rank_change": null
     },
@@ -1387,8 +1427,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (11.38)",
-        "Low forward P/E (10.83)"
+        "Low trailing P/E (11.53)",
+        "Low forward P/E (10.81)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1400,10 +1440,10 @@
         "attractive_peg": false
       },
       "price": 70.22,
-      "avg_volume": 143143.0,
+      "avg_volume": 141578.0,
       "rsi": 44.3,
-      "trailing_pe": 11.38,
-      "forward_pe": 10.83,
+      "trailing_pe": 11.53,
+      "forward_pe": 10.81,
       "peg": 1.03,
       "target_mean_price": 76.67,
       "target_upside_pct": 9.2,
@@ -1414,18 +1454,18 @@
       "headquarters": "Pikeville, KY, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 36,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 37,
+      "previous_rank": 36,
+      "rank_change": -1
     },
     {
       "ticker": "DAVA",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low forward P/E (1.97)",
+        "Low forward P/E (1.94)",
         "Attractive PEG ratio (0.28)"
       ],
       "signal_flags": {
@@ -1438,13 +1478,13 @@
         "attractive_peg": true
       },
       "price": 1.69,
-      "avg_volume": 289157.0,
+      "avg_volume": 256126.0,
       "rsi": 38.4,
       "trailing_pe": null,
-      "forward_pe": 1.97,
+      "forward_pe": 1.94,
       "peg": 0.28,
-      "target_mean_price": 3.69,
-      "target_upside_pct": 118.5,
+      "target_mean_price": 3.67,
+      "target_upside_pct": 116.9,
       "company_name": "Endava plc",
       "description": "Endava plc, together with its subsidiaries, provides technology services in North America, Europe, the United Kingdom, and internationally. The company offers digital product acceleration services comprising product strategy, experience design, growth marketing, and analytics;\u2026",
       "sector": "Technology",
@@ -1452,11 +1492,11 @@
       "headquarters": "London, United Kingdom",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 37,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 38,
+      "previous_rank": 37,
+      "rank_change": -1
     },
     {
       "ticker": "DDI",
@@ -1477,13 +1517,13 @@
         "attractive_peg": false
       },
       "price": 15.7,
-      "avg_volume": 186907.0,
+      "avg_volume": 194976.0,
       "rsi": 79.5,
       "trailing_pe": 6.23,
       "forward_pe": 6.44,
       "peg": null,
-      "target_mean_price": 18.05,
-      "target_upside_pct": 15.0,
+      "target_mean_price": 17.5,
+      "target_upside_pct": 11.5,
       "company_name": "DoubleDown Interactive Co., Ltd.",
       "description": "DoubleDown Interactive Co., Ltd. develops and publishes casual games and mobile applications in South Korea, the United States, the United Kingdom, Germany, and internationally. The company operates through Social Casino Games and iGaming segments. It engages in the development\u2026",
       "sector": "Communication Services",
@@ -1491,11 +1531,11 @@
       "headquarters": "Seoul, South Korea",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 38,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 39,
+      "previous_rank": 38,
+      "rank_change": -1
     },
     {
       "ticker": "DSX",
@@ -1503,8 +1543,8 @@
       "signals": [
         "RSI oversold (28.7)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (4.78)",
-        "Low forward P/E (3.9)"
+        "Low trailing P/E (4.84)",
+        "Low forward P/E (3.95)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -1516,10 +1556,10 @@
         "attractive_peg": false
       },
       "price": 2.34,
-      "avg_volume": 788067.0,
+      "avg_volume": 791715.0,
       "rsi": 28.7,
-      "trailing_pe": 4.78,
-      "forward_pe": 3.9,
+      "trailing_pe": 4.84,
+      "forward_pe": 3.95,
       "peg": 1.44,
       "target_mean_price": 3.8,
       "target_upside_pct": 62.4,
@@ -1530,18 +1570,18 @@
       "headquarters": "Athens, Greece",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
-      "rank": 39,
-      "previous_rank": 68,
-      "rank_change": 29
+      "rank": 40,
+      "previous_rank": 39,
+      "rank_change": -1
     },
     {
       "ticker": "DTI",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low forward P/E (6.58)",
+        "Low forward P/E (8.0)",
         "Attractive PEG ratio (0.99)"
       ],
       "signal_flags": {
@@ -1554,10 +1594,10 @@
         "attractive_peg": true
       },
       "price": 1.58,
-      "avg_volume": 250790.0,
+      "avg_volume": 250954.0,
       "rsi": 38.2,
       "trailing_pe": null,
-      "forward_pe": 6.58,
+      "forward_pe": 8.0,
       "peg": 0.99,
       "target_mean_price": 4.4,
       "target_upside_pct": 178.5,
@@ -1568,11 +1608,11 @@
       "headquarters": "Houston, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 40,
-      "previous_rank": 69,
-      "rank_change": 29
+      "rank": 41,
+      "previous_rank": 40,
+      "rank_change": -1
     },
     {
       "ticker": "DVN",
@@ -1580,8 +1620,8 @@
       "signals": [
         "RSI oversold (28.8)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (9.91)",
-        "Low forward P/E (7.95)"
+        "Low trailing P/E (10.19)",
+        "Low forward P/E (8.21)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -1593,10 +1633,10 @@
         "attractive_peg": false
       },
       "price": 42.4,
-      "avg_volume": 9906853.0,
+      "avg_volume": 9917171.0,
       "rsi": 28.8,
-      "trailing_pe": 9.91,
-      "forward_pe": 7.95,
+      "trailing_pe": 10.19,
+      "forward_pe": 8.21,
       "peg": 2.92,
       "target_mean_price": 61.52,
       "target_upside_pct": 45.1,
@@ -1607,19 +1647,19 @@
       "headquarters": "Houston, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 41,
-      "previous_rank": 71,
-      "rank_change": 30
+      "rank": 42,
+      "previous_rank": 41,
+      "rank_change": -1
     },
     {
       "ticker": "EDN",
       "score": 3,
       "signals": [
         "RSI oversold (17.0)",
-        "Low trailing P/E (3.41)",
-        "Low forward P/E (5.37)"
+        "Low trailing P/E (3.38)",
+        "Low forward P/E (5.41)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -1631,10 +1671,10 @@
         "attractive_peg": false
       },
       "price": 14.34,
-      "avg_volume": 166943.0,
+      "avg_volume": 166595.0,
       "rsi": 17.0,
-      "trailing_pe": 3.41,
-      "forward_pe": 5.37,
+      "trailing_pe": 3.38,
+      "forward_pe": 5.41,
       "peg": 6.92,
       "target_mean_price": 37.5,
       "target_upside_pct": 161.5,
@@ -1645,11 +1685,11 @@
       "headquarters": "Buenos Aires, Argentina",
       "ceo": null,
       "first_seen": "2026-10-28",
-      "days_on_list": 14,
+      "days_on_list": 15,
       "is_new": false,
-      "rank": 42,
-      "previous_rank": 73,
-      "rank_change": 31
+      "rank": 43,
+      "previous_rank": 42,
+      "rank_change": -1
     },
     {
       "ticker": "ENIC",
@@ -1657,7 +1697,7 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (10.78)",
+        "Low trailing P/E (10.63)",
         "Low forward P/E (0.02)"
       ],
       "signal_flags": {
@@ -1670,13 +1710,13 @@
         "attractive_peg": false
       },
       "price": 4.42,
-      "avg_volume": 548090.0,
+      "avg_volume": 544101.0,
       "rsi": 55.3,
-      "trailing_pe": 10.78,
+      "trailing_pe": 10.63,
       "forward_pe": 0.02,
       "peg": null,
-      "target_mean_price": 5.01,
-      "target_upside_pct": 13.4,
+      "target_mean_price": 4.93,
+      "target_upside_pct": 11.4,
       "company_name": "Enel Chile S.A.",
       "description": "Enel Chile S.A., together with its subsidiaries, engages in the exploration, development, operation, generation, distribution, transmission, transformation, and sale of electricity in Chile and internationally. It operates in two segments, Generation and Distribution and\u2026",
       "sector": "Utilities",
@@ -1684,11 +1724,11 @@
       "headquarters": "Santiago, Chile",
       "ceo": "Mr. Gianluca  Palumbo",
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 43,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 44,
+      "previous_rank": 43,
+      "rank_change": -1
     },
     {
       "ticker": "FLNG",
@@ -1696,8 +1736,8 @@
       "signals": [
         "RSI oversold (24.9)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (13.71)",
-        "Low forward P/E (12.1)"
+        "Low trailing P/E (13.32)",
+        "Low forward P/E (11.76)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -1709,10 +1749,10 @@
         "attractive_peg": false
       },
       "price": 26.04,
-      "avg_volume": 431330.0,
+      "avg_volume": 444262.0,
       "rsi": 24.9,
-      "trailing_pe": 13.71,
-      "forward_pe": 12.1,
+      "trailing_pe": 13.32,
+      "forward_pe": 11.76,
       "peg": null,
       "target_mean_price": 26.12,
       "target_upside_pct": 0.3,
@@ -1723,18 +1763,18 @@
       "headquarters": "Hamilton, Bermuda",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
-      "rank": 44,
-      "previous_rank": 79,
-      "rank_change": 35
+      "rank": 45,
+      "previous_rank": 44,
+      "rank_change": -1
     },
     {
       "ticker": "FLWS",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low forward P/E (14.0)",
+        "Low forward P/E (13.65)",
         "Attractive PEG ratio (0.85)"
       ],
       "signal_flags": {
@@ -1747,13 +1787,13 @@
         "attractive_peg": true
       },
       "price": 2.8,
-      "avg_volume": 456643.0,
+      "avg_volume": 461446.0,
       "rsi": 50.4,
       "trailing_pe": null,
-      "forward_pe": 14.0,
+      "forward_pe": 13.65,
       "peg": 0.85,
-      "target_mean_price": 4.5,
-      "target_upside_pct": 60.7,
+      "target_mean_price": 4.0,
+      "target_upside_pct": 42.9,
       "company_name": "1-800-FLOWERS.COM, Inc.",
       "description": "1-800-FLOWERS.COM, Inc. provides gifts for various occasions in the United States. It operates through three segments: Consumer Floral & Gifts, Gourmet Foods & Gift Baskets, and BloomNet. The company offers a range of products, including fresh-cut flowers, floral and fruit\u2026",
       "sector": "Consumer Cyclical",
@@ -1761,11 +1801,11 @@
       "headquarters": "Jericho, NY, United States",
       "ceo": "Mr. Adolfo  Villagomez",
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 45,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 46,
+      "previous_rank": 45,
+      "rank_change": -1
     },
     {
       "ticker": "FORR",
@@ -1773,7 +1813,7 @@
       "signals": [
         "RSI oversold (26.3)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (9.83)",
+        "Low forward P/E (9.72)",
         "Attractive PEG ratio (0.99)"
       ],
       "signal_flags": {
@@ -1786,10 +1826,10 @@
         "attractive_peg": true
       },
       "price": 8.9,
-      "avg_volume": 112533.0,
+      "avg_volume": 110831.0,
       "rsi": 26.3,
       "trailing_pe": null,
-      "forward_pe": 9.83,
+      "forward_pe": 9.72,
       "peg": 0.99,
       "target_mean_price": 12.0,
       "target_upside_pct": 34.8,
@@ -1800,11 +1840,49 @@
       "headquarters": "Cambridge, MA, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 46,
-      "previous_rank": 80,
-      "rank_change": 34
+      "rank": 47,
+      "previous_rank": 46,
+      "rank_change": -1
+    },
+    {
+      "ticker": "GILT",
+      "score": 3,
+      "signals": [
+        "MACD bullish crossover",
+        "Low trailing P/E (13.7)",
+        "Low forward P/E (8.2)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": false,
+        "macd_bullish_crossover": true,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 7.58,
+      "avg_volume": 1113742.0,
+      "rsi": 42.7,
+      "trailing_pe": 13.7,
+      "forward_pe": 8.2,
+      "peg": 4.99,
+      "target_mean_price": 19.2,
+      "target_upside_pct": 153.3,
+      "company_name": "Gilat Satellite Networks Ltd.",
+      "description": "Gilat Satellite Networks Ltd., together with its subsidiaries, provides satellite-based broadband communication solutions in Israel, the United States, Peru, and internationally. It operates in three segments: Satellite Networks, Integrated Solutions, and Network Infrastructure\u2026",
+      "sector": "Technology",
+      "exchange_name": "NasdaqGS",
+      "headquarters": "Petah Tikva, Israel",
+      "ceo": "Mr. Adi  Sfadia",
+      "first_seen": "2026-11-11",
+      "days_on_list": 1,
+      "is_new": true,
+      "rank": 48,
+      "previous_rank": null,
+      "rank_change": null
     },
     {
       "ticker": "GL",
@@ -1812,8 +1890,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (10.52)",
-        "Low forward P/E (9.88)"
+        "Low trailing P/E (10.94)",
+        "Low forward P/E (9.98)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1825,10 +1903,10 @@
         "attractive_peg": false
       },
       "price": 161.83,
-      "avg_volume": 575043.0,
+      "avg_volume": 576358.0,
       "rsi": 48.2,
-      "trailing_pe": 10.52,
-      "forward_pe": 9.88,
+      "trailing_pe": 10.94,
+      "forward_pe": 9.98,
       "peg": 1.3,
       "target_mean_price": 185.18,
       "target_upside_pct": 14.4,
@@ -1839,19 +1917,19 @@
       "headquarters": "McKinney, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 47,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 49,
+      "previous_rank": 47,
+      "rank_change": -2
     },
     {
       "ticker": "GPRE",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (5.37)",
-        "Low forward P/E (6.99)"
+        "Low trailing P/E (5.57)",
+        "Low forward P/E (6.86)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1863,10 +1941,10 @@
         "attractive_peg": false
       },
       "price": 13.97,
-      "avg_volume": 1372083.0,
+      "avg_volume": 1368083.0,
       "rsi": 47.6,
-      "trailing_pe": 5.37,
-      "forward_pe": 6.99,
+      "trailing_pe": 5.57,
+      "forward_pe": 6.86,
       "peg": 1.16,
       "target_mean_price": 18.5,
       "target_upside_pct": 32.4,
@@ -1877,11 +1955,11 @@
       "headquarters": "Omaha, NE, United States",
       "ceo": "Mr. George Patrich Simpkins Jr.",
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 48,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 50,
+      "previous_rank": 48,
+      "rank_change": -2
     },
     {
       "ticker": "HBM",
@@ -1889,8 +1967,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (12.25)",
-        "Low forward P/E (11.45)"
+        "Low trailing P/E (12.84)",
+        "Low forward P/E (11.03)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -1902,10 +1980,10 @@
         "attractive_peg": false
       },
       "price": 22.79,
-      "avg_volume": 4770267.0,
+      "avg_volume": 4720365.0,
       "rsi": 46.7,
-      "trailing_pe": 12.25,
-      "forward_pe": 11.45,
+      "trailing_pe": 12.84,
+      "forward_pe": 11.03,
       "peg": null,
       "target_mean_price": 34.77,
       "target_upside_pct": 52.6,
@@ -1916,19 +1994,19 @@
       "headquarters": "Toronto, ON, Canada",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 49,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 51,
+      "previous_rank": 49,
+      "rank_change": -2
     },
     {
       "ticker": "HOS",
       "score": 3,
       "signals": [
         "RSI oversold (22.3)",
-        "Low trailing P/E (12.81)",
-        "Low forward P/E (9.96)"
+        "Low trailing P/E (12.43)",
+        "Low forward P/E (9.67)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -1940,10 +2018,10 @@
         "attractive_peg": false
       },
       "price": 5.38,
-      "avg_volume": 2911827.0,
+      "avg_volume": 2944744.0,
       "rsi": 22.3,
-      "trailing_pe": 12.81,
-      "forward_pe": 9.96,
+      "trailing_pe": 12.43,
+      "forward_pe": 9.67,
       "peg": null,
       "target_mean_price": 13.0,
       "target_upside_pct": 141.6,
@@ -1954,11 +2032,11 @@
       "headquarters": "Covington, LA, United States",
       "ceo": null,
       "first_seen": "2026-11-05",
-      "days_on_list": 6,
+      "days_on_list": 7,
       "is_new": false,
-      "rank": 50,
-      "previous_rank": 86,
-      "rank_change": 36
+      "rank": 52,
+      "previous_rank": 50,
+      "rank_change": -2
     },
     {
       "ticker": "HUYA",
@@ -1978,13 +2056,13 @@
         "attractive_peg": true
       },
       "price": 2.28,
-      "avg_volume": 686050.0,
+      "avg_volume": 681938.0,
       "rsi": 57.9,
       "trailing_pe": null,
       "forward_pe": 13.82,
       "peg": 0.58,
       "target_mean_price": 3.55,
-      "target_upside_pct": 55.5,
+      "target_upside_pct": 55.6,
       "company_name": "HUYA Inc.",
       "description": "HUYA Inc., together with its subsidiaries, operates game live streaming platforms in the People's Republic of China. Its platforms enable broadcasters and viewers to interact during live streaming. The company offers non-game entertainment content, such as talent shows, anime,\u2026",
       "sector": "Communication Services",
@@ -1992,11 +2070,11 @@
       "headquarters": "Guangzhou, China",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 51,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 53,
+      "previous_rank": 51,
+      "rank_change": -2
     },
     {
       "ticker": "HWC",
@@ -2004,8 +2082,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (14.34)",
-        "Low forward P/E (10.09)"
+        "Low trailing P/E (14.69)",
+        "Low forward P/E (10.07)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -2017,10 +2095,10 @@
         "attractive_peg": false
       },
       "price": 73.28,
-      "avg_volume": 821367.0,
+      "avg_volume": 819608.0,
       "rsi": 52.2,
-      "trailing_pe": 14.34,
-      "forward_pe": 10.09,
+      "trailing_pe": 14.69,
+      "forward_pe": 10.07,
       "peg": 1.76,
       "target_mean_price": 84.72,
       "target_upside_pct": 15.6,
@@ -2031,19 +2109,19 @@
       "headquarters": "Gulfport, MS, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 52,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 54,
+      "previous_rank": 52,
+      "rank_change": -2
     },
     {
       "ticker": "IMXI",
       "score": 3,
       "signals": [
         "RSI oversold (27.7)",
-        "Low trailing P/E (12.02)",
-        "Low forward P/E (7.4)"
+        "Low trailing P/E (10.65)",
+        "Low forward P/E (6.35)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2055,10 +2133,10 @@
         "attractive_peg": false
       },
       "price": 7.57,
-      "avg_volume": 633930.0,
+      "avg_volume": 653769.0,
       "rsi": 27.7,
-      "trailing_pe": 12.02,
-      "forward_pe": 7.4,
+      "trailing_pe": 10.65,
+      "forward_pe": 6.35,
       "peg": 2.74,
       "target_mean_price": 16.0,
       "target_upside_pct": 111.4,
@@ -2069,11 +2147,11 @@
       "headquarters": "Miami, FL, United States",
       "ceo": null,
       "first_seen": "2026-11-05",
-      "days_on_list": 6,
+      "days_on_list": 7,
       "is_new": false,
-      "rank": 53,
-      "previous_rank": 91,
-      "rank_change": 38
+      "rank": 55,
+      "previous_rank": 53,
+      "rank_change": -2
     },
     {
       "ticker": "IVZ",
@@ -2081,7 +2159,7 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (8.77)",
+        "Low forward P/E (8.74)",
         "Attractive PEG ratio (0.9)"
       ],
       "signal_flags": {
@@ -2094,10 +2172,10 @@
         "attractive_peg": true
       },
       "price": 28.91,
-      "avg_volume": 5208693.0,
+      "avg_volume": 5227824.0,
       "rsi": 50.4,
       "trailing_pe": null,
-      "forward_pe": 8.77,
+      "forward_pe": 8.74,
       "peg": 0.9,
       "target_mean_price": 35.0,
       "target_upside_pct": 21.1,
@@ -2108,11 +2186,11 @@
       "headquarters": "Atlanta, GA, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 54,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 56,
+      "previous_rank": 54,
+      "rank_change": -2
     },
     {
       "ticker": "LPLA",
@@ -2120,7 +2198,7 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (10.37)",
+        "Low forward P/E (10.47)",
         "Attractive PEG ratio (0.37)"
       ],
       "signal_flags": {
@@ -2133,13 +2211,13 @@
         "attractive_peg": true
       },
       "price": 305.49,
-      "avg_volume": 1093527.0,
+      "avg_volume": 1074452.0,
       "rsi": 47.7,
-      "trailing_pe": 17.51,
-      "forward_pe": 10.37,
+      "trailing_pe": 17.68,
+      "forward_pe": 10.47,
       "peg": 0.37,
-      "target_mean_price": 404.06,
-      "target_upside_pct": 32.3,
+      "target_mean_price": 404.44,
+      "target_upside_pct": 32.4,
       "company_name": "LPL Financial Holdings Inc.",
       "description": "LPL Financial Holdings Inc., together with its subsidiaries, provides an integrated platform of brokerage and investment advisory services to independent financial advisors and financial advisors at institutions in the United States. The company's brokerage offerings include\u2026",
       "sector": "Financial Services",
@@ -2147,18 +2225,18 @@
       "headquarters": "San Diego, CA, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 55,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 57,
+      "previous_rank": 55,
+      "rank_change": -2
     },
     {
       "ticker": "LSAK",
       "score": 3,
       "signals": [
         "RSI oversold (27.3)",
-        "Low forward P/E (7.06)",
+        "Low forward P/E (7.2)",
         "Attractive PEG ratio (0.21)"
       ],
       "signal_flags": {
@@ -2171,10 +2249,10 @@
         "attractive_peg": true
       },
       "price": 3.46,
-      "avg_volume": 227103.0,
+      "avg_volume": 231619.0,
       "rsi": 27.3,
-      "trailing_pe": 86.5,
-      "forward_pe": 7.06,
+      "trailing_pe": 88.25,
+      "forward_pe": 7.2,
       "peg": 0.21,
       "target_mean_price": 14.0,
       "target_upside_pct": 304.6,
@@ -2185,18 +2263,18 @@
       "headquarters": "Johannesburg, South Africa",
       "ceo": "Mr. Basie  Kok",
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 56,
-      "previous_rank": 101,
-      "rank_change": 45
+      "rank": 58,
+      "previous_rank": 56,
+      "rank_change": -2
     },
     {
       "ticker": "LYTS",
       "score": 3,
       "signals": [
         "RSI oversold (28.8)",
-        "Low forward P/E (9.66)",
+        "Low forward P/E (9.16)",
         "Attractive PEG ratio (0.4)"
       ],
       "signal_flags": {
@@ -2209,10 +2287,10 @@
         "attractive_peg": true
       },
       "price": 16.81,
-      "avg_volume": 359460.0,
+      "avg_volume": 381109.0,
       "rsi": 28.8,
-      "trailing_pe": 26.68,
-      "forward_pe": 9.66,
+      "trailing_pe": 24.89,
+      "forward_pe": 9.16,
       "peg": 0.4,
       "target_mean_price": 28.0,
       "target_upside_pct": 66.6,
@@ -2223,11 +2301,11 @@
       "headquarters": "Cincinnati, OH, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 57,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 59,
+      "previous_rank": 57,
+      "rank_change": -2
     },
     {
       "ticker": "M",
@@ -2235,8 +2313,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (8.46)",
-        "Low forward P/E (10.52)"
+        "Low trailing P/E (9.19)",
+        "Low forward P/E (10.58)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -2248,10 +2326,10 @@
         "attractive_peg": false
       },
       "price": 24.95,
-      "avg_volume": 6343613.0,
+      "avg_volume": 6295128.0,
       "rsi": 56.8,
-      "trailing_pe": 8.46,
-      "forward_pe": 10.52,
+      "trailing_pe": 9.19,
+      "forward_pe": 10.58,
       "peg": 2.69,
       "target_mean_price": 23.1,
       "target_upside_pct": -7.4,
@@ -2262,11 +2340,11 @@
       "headquarters": "New York, NY, United States",
       "ceo": "Mr. Olivier  Bron",
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 58,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 60,
+      "previous_rank": 58,
+      "rank_change": -2
     },
     {
       "ticker": "MCY",
@@ -2274,8 +2352,8 @@
       "signals": [
         "RSI oversold (21.9)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (7.11)",
-        "Low forward P/E (6.75)"
+        "Low trailing P/E (7.25)",
+        "Low forward P/E (6.87)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2287,10 +2365,10 @@
         "attractive_peg": false
       },
       "price": 82.74,
-      "avg_volume": 336583.0,
+      "avg_volume": 338885.0,
       "rsi": 21.9,
-      "trailing_pe": 7.11,
-      "forward_pe": 6.75,
+      "trailing_pe": 7.25,
+      "forward_pe": 6.87,
       "peg": 1.11,
       "target_mean_price": 120.0,
       "target_upside_pct": 45.0,
@@ -2301,11 +2379,11 @@
       "headquarters": "Los Angeles, CA, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
-      "rank": 59,
-      "previous_rank": 103,
-      "rank_change": 44
+      "rank": 61,
+      "previous_rank": 59,
+      "rank_change": -2
     },
     {
       "ticker": "MFG",
@@ -2313,8 +2391,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (12.92)",
-        "Low forward P/E (7.06)"
+        "Low trailing P/E (13.6)",
+        "Low forward P/E (7.14)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -2326,11 +2404,11 @@
         "attractive_peg": false
       },
       "price": 9.82,
-      "avg_volume": 4091070.0,
+      "avg_volume": 4089144.0,
       "rsi": 46.4,
-      "trailing_pe": 12.92,
-      "forward_pe": 7.06,
-      "peg": 1.02,
+      "trailing_pe": 13.6,
+      "forward_pe": 7.14,
+      "peg": 1.06,
       "target_mean_price": 11.64,
       "target_upside_pct": 18.5,
       "company_name": "Mizuho Financial Group, Inc.",
@@ -2340,19 +2418,19 @@
       "headquarters": "Chiyoda, Japan",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 60,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 62,
+      "previous_rank": 60,
+      "rank_change": -2
     },
     {
-      "ticker": "MITT",
+      "ticker": "MNR",
       "score": 3,
       "signals": [
-        "RSI oversold (27.6)",
-        "Low trailing P/E (6.0)",
-        "Low forward P/E (4.03)"
+        "RSI oversold (23.6)",
+        "Low trailing P/E (9.7)",
+        "Low forward P/E (6.19)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2363,24 +2441,24 @@
         "low_forward_pe": true,
         "attractive_peg": false
       },
-      "price": 4.56,
-      "avg_volume": 441860.0,
-      "rsi": 27.6,
-      "trailing_pe": 6.0,
-      "forward_pe": 4.03,
+      "price": 9.19,
+      "avg_volume": 505623.0,
+      "rsi": 23.6,
+      "trailing_pe": 9.7,
+      "forward_pe": 6.19,
       "peg": null,
-      "target_mean_price": 8.33,
-      "target_upside_pct": 82.7,
-      "company_name": "TPG Mortgage Investment Trust, Inc.",
-      "description": "TPG Mortgage Investment Trust, Inc. operates as a residential mortgage real estate investment trust in the United States. Its investment portfolio comprises residential investments, such as non-agency loans, agency-eligible loans, home equity loans, re-and non-performing loans,\u2026",
-      "sector": "Real Estate",
+      "target_mean_price": 16.86,
+      "target_upside_pct": 83.4,
+      "company_name": "Mach Natural Resources LP",
+      "description": "Mach Natural Resources LP, an independent upstream oil and gas company, focuses on the acquisition, development, and production of oil, natural gas, and natural gas liquids (NGL) reserves. The company owns a portfolio of midstream assets, as well as owns gathering systems,\u2026",
+      "sector": "Energy",
       "exchange_name": "NYSE",
-      "headquarters": "New York, NY, United States",
+      "headquarters": "Oklahoma City, OK, United States",
       "ceo": null,
-      "first_seen": "2026-11-10",
+      "first_seen": "2026-11-11",
       "days_on_list": 1,
       "is_new": true,
-      "rank": 61,
+      "rank": 63,
       "previous_rank": null,
       "rank_change": null
     },
@@ -2390,8 +2468,8 @@
       "signals": [
         "RSI oversold (26.9)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (4.68)",
-        "Low forward P/E (3.97)"
+        "Low trailing P/E (4.41)",
+        "Low forward P/E (9.47)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2403,10 +2481,10 @@
         "attractive_peg": false
       },
       "price": 5.19,
-      "avg_volume": 1216497.0,
+      "avg_volume": 1250199.0,
       "rsi": 26.9,
-      "trailing_pe": 4.68,
-      "forward_pe": 3.97,
+      "trailing_pe": 4.41,
+      "forward_pe": 9.47,
       "peg": null,
       "target_mean_price": 10.78,
       "target_upside_pct": 107.7,
@@ -2417,18 +2495,18 @@
       "headquarters": "Austin, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 62,
-      "previous_rank": 106,
-      "rank_change": 44
+      "rank": 64,
+      "previous_rank": 62,
+      "rank_change": -2
     },
     {
       "ticker": "MPAA",
       "score": 3,
       "signals": [
         "RSI oversold (23.4)",
-        "Low forward P/E (4.49)",
+        "Low forward P/E (4.02)",
         "Attractive PEG ratio (0.61)"
       ],
       "signal_flags": {
@@ -2441,13 +2519,13 @@
         "attractive_peg": true
       },
       "price": 7.72,
-      "avg_volume": 104477.0,
+      "avg_volume": 108033.0,
       "rsi": 23.4,
       "trailing_pe": null,
-      "forward_pe": 4.49,
+      "forward_pe": 4.02,
       "peg": 0.61,
-      "target_mean_price": 18.0,
-      "target_upside_pct": 133.2,
+      "target_mean_price": 17.33,
+      "target_upside_pct": 124.5,
       "company_name": "Motorcar Parts of America, Inc.",
       "description": "Motorcar Parts of America, Inc. operates as a supplier of automotive aftermarket non-discretionary replacement parts and test solutions and diagnostic equipment in the United States. It operates through three segments: Hard Parts, Test Solutions and Diagnostic Equipment, and\u2026",
       "sector": "Consumer Cyclical",
@@ -2455,11 +2533,11 @@
       "headquarters": "Torrance, CA, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 63,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 65,
+      "previous_rank": 63,
+      "rank_change": -2
     },
     {
       "ticker": "NBN",
@@ -2467,8 +2545,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (10.54)",
-        "Low forward P/E (8.42)"
+        "Low trailing P/E (9.87)",
+        "Low forward P/E (8.34)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -2480,10 +2558,10 @@
         "attractive_peg": false
       },
       "price": 134.33,
-      "avg_volume": 118753.0,
+      "avg_volume": 119748.0,
       "rsi": 58.7,
-      "trailing_pe": 10.54,
-      "forward_pe": 8.42,
+      "trailing_pe": 9.87,
+      "forward_pe": 8.34,
       "peg": 5.27,
       "target_mean_price": 145.5,
       "target_upside_pct": 8.3,
@@ -2494,19 +2572,19 @@
       "headquarters": "Portland, ME, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 64,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 66,
+      "previous_rank": 64,
+      "rank_change": -2
     },
     {
       "ticker": "NEXA",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (10.95)",
-        "Low forward P/E (3.69)"
+        "Low trailing P/E (10.86)",
+        "Low forward P/E (3.66)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -2518,10 +2596,10 @@
         "attractive_peg": false
       },
       "price": 12.04,
-      "avg_volume": 627470.0,
+      "avg_volume": 626889.0,
       "rsi": 50.2,
-      "trailing_pe": 10.95,
-      "forward_pe": 3.69,
+      "trailing_pe": 10.86,
+      "forward_pe": 3.66,
       "peg": null,
       "target_mean_price": 14.04,
       "target_upside_pct": 16.6,
@@ -2532,11 +2610,11 @@
       "headquarters": "Luxembourg, Luxembourg",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 65,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 67,
+      "previous_rank": 65,
+      "rank_change": -2
     },
     {
       "ticker": "NICE",
@@ -2544,7 +2622,7 @@
       "signals": [
         "RSI oversold (29.7)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (7.63)",
+        "Low forward P/E (7.4)",
         "Attractive PEG ratio (0.64)"
       ],
       "signal_flags": {
@@ -2557,10 +2635,10 @@
         "attractive_peg": true
       },
       "price": 96.68,
-      "avg_volume": 610793.0,
+      "avg_volume": 606380.0,
       "rsi": 29.7,
-      "trailing_pe": 15.57,
-      "forward_pe": 7.63,
+      "trailing_pe": 15.17,
+      "forward_pe": 7.4,
       "peg": 0.64,
       "target_mean_price": 127.54,
       "target_upside_pct": 31.9,
@@ -2571,11 +2649,49 @@
       "headquarters": "Ra'anana, Israel",
       "ceo": "Mr. Scott E. Russell",
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 66,
-      "previous_rank": 114,
-      "rank_change": 48
+      "rank": 68,
+      "previous_rank": 66,
+      "rank_change": -2
+    },
+    {
+      "ticker": "NOA",
+      "score": 3,
+      "signals": [
+        "RSI oversold (27.7)",
+        "Low forward P/E (7.69)",
+        "Attractive PEG ratio (0.38)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": false,
+        "low_trailing_pe": false,
+        "low_forward_pe": true,
+        "attractive_peg": true
+      },
+      "price": 9.57,
+      "avg_volume": 130454.0,
+      "rsi": 27.7,
+      "trailing_pe": null,
+      "forward_pe": 7.69,
+      "peg": 0.38,
+      "target_mean_price": 19.09,
+      "target_upside_pct": 99.5,
+      "company_name": "North American Construction Group Ltd.",
+      "description": "North American Construction Group Ltd. provides mining and heavy civil construction services to customers in the resource development and industrial construction sectors in Australia, Canada, and the United States. It operates through Heavy Equipment - Canada, Heavy Equipment -\u2026",
+      "sector": "Energy",
+      "exchange_name": "NYSE",
+      "headquarters": "Acheson, AB, Canada",
+      "ceo": null,
+      "first_seen": "2026-11-07",
+      "days_on_list": 5,
+      "is_new": false,
+      "rank": 69,
+      "previous_rank": 14,
+      "rank_change": -55
     },
     {
       "ticker": "NVDA",
@@ -2583,7 +2699,7 @@
       "signals": [
         "RSI oversold (27.4)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (11.22)",
+        "Low forward P/E (10.6)",
         "Attractive PEG ratio (0.23)"
       ],
       "signal_flags": {
@@ -2596,13 +2712,13 @@
         "attractive_peg": true
       },
       "price": 178.67,
-      "avg_volume": 126135630.0,
+      "avg_volume": 137109125.0,
       "rsi": 27.4,
-      "trailing_pe": 23.6,
-      "forward_pe": 11.22,
+      "trailing_pe": 21.35,
+      "forward_pe": 10.6,
       "peg": 0.23,
-      "target_mean_price": 326.92,
-      "target_upside_pct": 83.0,
+      "target_mean_price": 325.78,
+      "target_upside_pct": 82.3,
       "company_name": "NVIDIA Corporation",
       "description": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center\u2026",
       "sector": "Technology",
@@ -2610,19 +2726,19 @@
       "headquarters": "Santa Clara, CA, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 67,
-      "previous_rank": 116,
-      "rank_change": 49
+      "rank": 70,
+      "previous_rank": 67,
+      "rank_change": -3
     },
     {
       "ticker": "PAM",
       "score": 3,
       "signals": [
         "RSI oversold (23.2)",
-        "Low trailing P/E (5.2)",
-        "Low forward P/E (5.42)"
+        "Low trailing P/E (5.1)",
+        "Low forward P/E (5.32)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2634,10 +2750,10 @@
         "attractive_peg": false
       },
       "price": 64.95,
-      "avg_volume": 190817.0,
+      "avg_volume": 189795.0,
       "rsi": 23.2,
-      "trailing_pe": 5.2,
-      "forward_pe": 5.42,
+      "trailing_pe": 5.1,
+      "forward_pe": 5.32,
       "peg": null,
       "target_mean_price": 120.64,
       "target_upside_pct": 85.7,
@@ -2648,11 +2764,11 @@
       "headquarters": "Buenos Aires, Argentina",
       "ceo": null,
       "first_seen": "2026-11-03",
-      "days_on_list": 8,
+      "days_on_list": 9,
       "is_new": false,
-      "rank": 68,
-      "previous_rank": 120,
-      "rank_change": 52
+      "rank": 71,
+      "previous_rank": 68,
+      "rank_change": -3
     },
     {
       "ticker": "PBR",
@@ -2660,8 +2776,8 @@
       "signals": [
         "RSI oversold (24.8)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (4.68)",
-        "Low forward P/E (4.3)"
+        "Low trailing P/E (4.62)",
+        "Low forward P/E (4.29)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2673,10 +2789,10 @@
         "attractive_peg": false
       },
       "price": 18.35,
-      "avg_volume": 27978270.0,
+      "avg_volume": 28196818.0,
       "rsi": 24.8,
-      "trailing_pe": 4.68,
-      "forward_pe": 4.3,
+      "trailing_pe": 4.62,
+      "forward_pe": 4.29,
       "peg": 6.01,
       "target_mean_price": 23.89,
       "target_upside_pct": 30.2,
@@ -2687,11 +2803,11 @@
       "headquarters": "Rio De Janeiro, RJ, Brazil",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
-      "rank": 69,
-      "previous_rank": 121,
-      "rank_change": 52
+      "rank": 72,
+      "previous_rank": 69,
+      "rank_change": -3
     },
     {
       "ticker": "PRAA",
@@ -2699,8 +2815,8 @@
       "signals": [
         "RSI oversold (21.1)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (3.19)",
-        "Low forward P/E (4.89)"
+        "Low trailing P/E (2.95)",
+        "Low forward P/E (4.6)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2712,10 +2828,10 @@
         "attractive_peg": false
       },
       "price": 12.71,
-      "avg_volume": 487780.0,
+      "avg_volume": 511610.0,
       "rsi": 21.1,
-      "trailing_pe": 3.19,
-      "forward_pe": 4.89,
+      "trailing_pe": 2.95,
+      "forward_pe": 4.6,
       "peg": 5.82,
       "target_mean_price": 26.0,
       "target_upside_pct": 104.6,
@@ -2726,19 +2842,19 @@
       "headquarters": "Norfolk, VA, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 70,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 73,
+      "previous_rank": 70,
+      "rank_change": -3
     },
     {
       "ticker": "SD",
       "score": 3,
       "signals": [
         "RSI oversold (25.2)",
-        "Low trailing P/E (4.65)",
-        "Low forward P/E (8.16)"
+        "Low trailing P/E (4.78)",
+        "Low forward P/E (8.39)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2750,10 +2866,10 @@
         "attractive_peg": false
       },
       "price": 12.24,
-      "avg_volume": 345033.0,
+      "avg_volume": 356588.0,
       "rsi": 25.2,
-      "trailing_pe": 4.65,
-      "forward_pe": 8.16,
+      "trailing_pe": 4.78,
+      "forward_pe": 8.39,
       "peg": null,
       "target_mean_price": 14.0,
       "target_upside_pct": 14.4,
@@ -2764,11 +2880,11 @@
       "headquarters": "Oklahoma City, OK, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
-      "rank": 71,
-      "previous_rank": 128,
-      "rank_change": 57
+      "rank": 74,
+      "previous_rank": 71,
+      "rank_change": -3
     },
     {
       "ticker": "SENEA",
@@ -2776,7 +2892,7 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (9.67)",
+        "Low trailing P/E (9.72)",
         "Attractive PEG ratio (0.78)"
       ],
       "signal_flags": {
@@ -2789,9 +2905,9 @@
         "attractive_peg": true
       },
       "price": 167.24,
-      "avg_volume": 101417.0,
+      "avg_volume": 100216.0,
       "rsi": 53.1,
-      "trailing_pe": 9.67,
+      "trailing_pe": 9.72,
       "forward_pe": null,
       "peg": 0.78,
       "target_mean_price": 202.0,
@@ -2803,11 +2919,11 @@
       "headquarters": "Fairport, NY, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 72,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 75,
+      "previous_rank": 72,
+      "rank_change": -3
     },
     {
       "ticker": "SHBI",
@@ -2815,8 +2931,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (10.95)",
-        "Low forward P/E (10.11)"
+        "Low trailing P/E (11.15)",
+        "Low forward P/E (10.09)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -2828,10 +2944,10 @@
         "attractive_peg": false
       },
       "price": 22.89,
-      "avg_volume": 247893.0,
+      "avg_volume": 244639.0,
       "rsi": 51.9,
-      "trailing_pe": 10.95,
-      "forward_pe": 10.11,
+      "trailing_pe": 11.15,
+      "forward_pe": 10.09,
       "peg": 1.17,
       "target_mean_price": 25.7,
       "target_upside_pct": 12.3,
@@ -2842,11 +2958,11 @@
       "headquarters": "Easton, MD, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 73,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 76,
+      "previous_rank": 73,
+      "rank_change": -3
     },
     {
       "ticker": "SHG",
@@ -2854,8 +2970,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (7.98)",
-        "Low forward P/E (6.3)"
+        "Low trailing P/E (8.03)",
+        "Low forward P/E (6.21)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -2867,10 +2983,10 @@
         "attractive_peg": false
       },
       "price": 64.89,
-      "avg_volume": 229253.0,
+      "avg_volume": 229345.0,
       "rsi": 36.5,
-      "trailing_pe": 7.98,
-      "forward_pe": 6.3,
+      "trailing_pe": 8.03,
+      "forward_pe": 6.21,
       "peg": 5.1,
       "target_mean_price": 98.36,
       "target_upside_pct": 51.6,
@@ -2881,19 +2997,19 @@
       "headquarters": "Seoul, South Korea",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 74,
-      "previous_rank": 129,
-      "rank_change": 55
+      "rank": 77,
+      "previous_rank": 74,
+      "rank_change": -3
     },
     {
       "ticker": "SPOK",
       "score": 3,
       "signals": [
         "Golden cross (50/200 SMA)",
-        "Low trailing P/E (13.32)",
-        "Low forward P/E (14.27)"
+        "Low trailing P/E (13.48)",
+        "Low forward P/E (14.12)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -2905,10 +3021,10 @@
         "attractive_peg": false
       },
       "price": 11.99,
-      "avg_volume": 179777.0,
+      "avg_volume": 180386.0,
       "rsi": 65.9,
-      "trailing_pe": 13.32,
-      "forward_pe": 14.27,
+      "trailing_pe": 13.48,
+      "forward_pe": 14.12,
       "peg": null,
       "target_mean_price": null,
       "target_upside_pct": null,
@@ -2919,18 +3035,18 @@
       "headquarters": "Plano, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 75,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 78,
+      "previous_rank": 75,
+      "rank_change": -3
     },
     {
       "ticker": "STRA",
       "score": 3,
       "signals": [
         "RSI oversold (16.1)",
-        "Low forward P/E (9.06)",
+        "Low forward P/E (9.34)",
         "Attractive PEG ratio (0.43)"
       ],
       "signal_flags": {
@@ -2943,10 +3059,10 @@
         "attractive_peg": true
       },
       "price": 52.95,
-      "avg_volume": 324167.0,
+      "avg_volume": 343434.0,
       "rsi": 16.1,
-      "trailing_pe": 165.47,
-      "forward_pe": 9.06,
+      "trailing_pe": 170.59,
+      "forward_pe": 9.34,
       "peg": 0.43,
       "target_mean_price": 63.0,
       "target_upside_pct": 19.0,
@@ -2957,19 +3073,58 @@
       "headquarters": "Herndon, VA, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 76,
-      "previous_rank": 135,
-      "rank_change": 59
+      "rank": 79,
+      "previous_rank": 76,
+      "rank_change": -3
+    },
+    {
+      "ticker": "SUNC",
+      "score": 3,
+      "signals": [
+        "RSI oversold (22.4)",
+        "Above golden cross trend (50 SMA > 200 SMA)",
+        "Low trailing P/E (13.97)",
+        "Low forward P/E (4.54)"
+      ],
+      "signal_flags": {
+        "rsi_oversold": true,
+        "macd_bullish_crossover": false,
+        "golden_cross": false,
+        "above_golden_cross_trend": true,
+        "low_trailing_pe": true,
+        "low_forward_pe": true,
+        "attractive_peg": false
+      },
+      "price": 61.05,
+      "avg_volume": 439694.0,
+      "rsi": 22.4,
+      "trailing_pe": 13.97,
+      "forward_pe": 4.54,
+      "peg": null,
+      "target_mean_price": 84.25,
+      "target_upside_pct": 38.0,
+      "company_name": "SunocoCorp LLC",
+      "description": "SunocoCorp LLC engages in energy infrastructure and distribution of motor fuels in North America, the Greater Caribbean, and Europe. It operates through four segments: Fuel Distribution, Pipeline Systems, Terminals, and Refinery. Its midstream operations include a network of\u2026",
+      "sector": "Energy",
+      "exchange_name": "TXSE",
+      "headquarters": "Dallas, TX, United States",
+      "ceo": null,
+      "first_seen": "2026-11-11",
+      "days_on_list": 1,
+      "is_new": true,
+      "rank": 80,
+      "previous_rank": null,
+      "rank_change": null
     },
     {
       "ticker": "TBLA",
       "score": 3,
       "signals": [
         "RSI oversold (20.8)",
-        "Low trailing P/E (4.67)",
-        "Low forward P/E (3.26)"
+        "Low trailing P/E (4.7)",
+        "Low forward P/E (2.81)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -2981,10 +3136,10 @@
         "attractive_peg": false
       },
       "price": 2.15,
-      "avg_volume": 2117873.0,
+      "avg_volume": 2169973.0,
       "rsi": 20.8,
-      "trailing_pe": 4.67,
-      "forward_pe": 3.26,
+      "trailing_pe": 4.7,
+      "forward_pe": 2.81,
       "peg": null,
       "target_mean_price": 3.93,
       "target_upside_pct": 82.9,
@@ -2995,11 +3150,11 @@
       "headquarters": "New York, NY, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
-      "rank": 77,
-      "previous_rank": 138,
-      "rank_change": 61
+      "rank": 81,
+      "previous_rank": 77,
+      "rank_change": -4
     },
     {
       "ticker": "TCBX",
@@ -3007,8 +3162,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (10.16)",
-        "Low forward P/E (9.32)"
+        "Low trailing P/E (10.1)",
+        "Low forward P/E (9.26)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3020,10 +3175,10 @@
         "attractive_peg": false
       },
       "price": 39.81,
-      "avg_volume": 115660.0,
+      "avg_volume": 114203.0,
       "rsi": 43.1,
-      "trailing_pe": 10.16,
-      "forward_pe": 9.32,
+      "trailing_pe": 10.1,
+      "forward_pe": 9.26,
       "peg": null,
       "target_mean_price": 47.35,
       "target_upside_pct": 19.0,
@@ -3034,11 +3189,11 @@
       "headquarters": "Humble, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 78,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 82,
+      "previous_rank": 78,
+      "rank_change": -4
     },
     {
       "ticker": "TH",
@@ -3046,7 +3201,7 @@
       "signals": [
         "RSI oversold (28.6)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low forward P/E (12.11)",
+        "Low forward P/E (11.31)",
         "Attractive PEG ratio (0.9)"
       ],
       "signal_flags": {
@@ -3059,10 +3214,10 @@
         "attractive_peg": true
       },
       "price": 11.06,
-      "avg_volume": 2658193.0,
+      "avg_volume": 2746772.0,
       "rsi": 28.6,
       "trailing_pe": null,
-      "forward_pe": 12.11,
+      "forward_pe": 11.31,
       "peg": 0.9,
       "target_mean_price": 25.2,
       "target_upside_pct": 127.8,
@@ -3073,19 +3228,19 @@
       "headquarters": "The Woodlands, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-06",
-      "days_on_list": 5,
+      "days_on_list": 6,
       "is_new": false,
-      "rank": 79,
-      "previous_rank": 142,
-      "rank_change": 63
+      "rank": 83,
+      "previous_rank": 79,
+      "rank_change": -4
     },
     {
       "ticker": "TIGR",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (7.31)",
-        "Low forward P/E (4.39)"
+        "Low trailing P/E (7.24)",
+        "Low forward P/E (4.34)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3097,10 +3252,10 @@
         "attractive_peg": false
       },
       "price": 3.95,
-      "avg_volume": 1961233.0,
+      "avg_volume": 1968486.0,
       "rsi": 42.4,
-      "trailing_pe": 7.31,
-      "forward_pe": 4.39,
+      "trailing_pe": 7.24,
+      "forward_pe": 4.34,
       "peg": null,
       "target_mean_price": 7.71,
       "target_upside_pct": 95.2,
@@ -3111,19 +3266,19 @@
       "headquarters": "Singapore, Singapore",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 80,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 84,
+      "previous_rank": 80,
+      "rank_change": -4
     },
     {
       "ticker": "TIMB",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (10.66)",
-        "Low forward P/E (9.47)"
+        "Low trailing P/E (10.98)",
+        "Low forward P/E (9.59)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3135,10 +3290,10 @@
         "attractive_peg": false
       },
       "price": 18.44,
-      "avg_volume": 861007.0,
+      "avg_volume": 874024.0,
       "rsi": 52.1,
-      "trailing_pe": 10.66,
-      "forward_pe": 9.47,
+      "trailing_pe": 10.98,
+      "forward_pe": 9.59,
       "peg": 1.44,
       "target_mean_price": 23.06,
       "target_upside_pct": 25.1,
@@ -3149,19 +3304,19 @@
       "headquarters": "Rio De Janeiro, RJ, Brazil",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 81,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 85,
+      "previous_rank": 81,
+      "rank_change": -4
     },
     {
       "ticker": "TKC",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (8.98)",
-        "Low forward P/E (8.98)"
+        "Low trailing P/E (9.17)",
+        "Low forward P/E (9.17)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3173,13 +3328,13 @@
         "attractive_peg": false
       },
       "price": 4.76,
-      "avg_volume": 2350860.0,
+      "avg_volume": 2238222.0,
       "rsi": 47.3,
-      "trailing_pe": 8.98,
-      "forward_pe": 8.98,
+      "trailing_pe": 9.17,
+      "forward_pe": 9.17,
       "peg": 4.37,
       "target_mean_price": 7.32,
-      "target_upside_pct": 53.8,
+      "target_upside_pct": 53.7,
       "company_name": "Turkcell Iletisim Hizmetleri A.S.",
       "description": "Turkcell Iletisim Hizmetleri A.S., together with its subsidiaries, engages in establishing and operating a global system for mobile communications (GSM) network in Turkey, Belarus, Turkish Republic of Northern Cyprus, Germany, and the Netherlands. It operates through the\u2026",
       "sector": "Communication Services",
@@ -3187,19 +3342,19 @@
       "headquarters": "Istanbul, Turkey",
       "ceo": "Dr. Ali Taha Koc Ph.D.",
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 82,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 86,
+      "previous_rank": 82,
+      "rank_change": -4
     },
     {
       "ticker": "TLK",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (11.75)",
-        "Low forward P/E (10.19)"
+        "Low trailing P/E (11.82)",
+        "Low forward P/E (10.04)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3211,11 +3366,11 @@
         "attractive_peg": false
       },
       "price": 11.4,
-      "avg_volume": 2471800.0,
+      "avg_volume": 2504147.0,
       "rsi": 44.1,
-      "trailing_pe": 11.75,
-      "forward_pe": 10.19,
-      "peg": 2.62,
+      "trailing_pe": 11.82,
+      "forward_pe": 10.04,
+      "peg": 2.68,
       "target_mean_price": 16.0,
       "target_upside_pct": 40.4,
       "company_name": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk",
@@ -3225,11 +3380,11 @@
       "headquarters": "Bandung, Indonesia",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 83,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 87,
+      "previous_rank": 83,
+      "rank_change": -4
     },
     {
       "ticker": "TMP",
@@ -3237,8 +3392,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (7.9)",
-        "Low forward P/E (12.2)"
+        "Low trailing P/E (8.02)",
+        "Low forward P/E (12.13)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3250,10 +3405,10 @@
         "attractive_peg": false
       },
       "price": 100.76,
-      "avg_volume": 106747.0,
+      "avg_volume": 105801.0,
       "rsi": 55.6,
-      "trailing_pe": 7.9,
-      "forward_pe": 12.2,
+      "trailing_pe": 8.02,
+      "forward_pe": 12.13,
       "peg": 1.61,
       "target_mean_price": 105.5,
       "target_upside_pct": 4.7,
@@ -3264,11 +3419,11 @@
       "headquarters": "Ithaca, NY, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 84,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 88,
+      "previous_rank": 84,
+      "rank_change": -4
     },
     {
       "ticker": "TRMK",
@@ -3276,8 +3431,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (11.17)",
-        "Low forward P/E (10.59)"
+        "Low trailing P/E (11.35)",
+        "Low forward P/E (10.57)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3289,10 +3444,10 @@
         "attractive_peg": false
       },
       "price": 45.47,
-      "avg_volume": 398753.0,
+      "avg_volume": 399413.0,
       "rsi": 51.5,
-      "trailing_pe": 11.17,
-      "forward_pe": 10.59,
+      "trailing_pe": 11.35,
+      "forward_pe": 10.57,
       "peg": 2.29,
       "target_mean_price": 49.8,
       "target_upside_pct": 9.5,
@@ -3303,18 +3458,18 @@
       "headquarters": "Jackson, MS, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 85,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 89,
+      "previous_rank": 85,
+      "rank_change": -4
     },
     {
       "ticker": "TSQ",
       "score": 3,
       "signals": [
         "RSI oversold (13.1)",
-        "Low forward P/E (6.48)",
+        "Low forward P/E (5.78)",
         "Attractive PEG ratio (0.56)"
       ],
       "signal_flags": {
@@ -3327,10 +3482,10 @@
         "attractive_peg": true
       },
       "price": 1.75,
-      "avg_volume": 164947.0,
+      "avg_volume": 170902.0,
       "rsi": 13.1,
       "trailing_pe": null,
-      "forward_pe": 6.48,
+      "forward_pe": 5.78,
       "peg": 0.56,
       "target_mean_price": 7.5,
       "target_upside_pct": 328.6,
@@ -3341,18 +3496,18 @@
       "headquarters": "Purchase, NY, United States",
       "ceo": null,
       "first_seen": "2026-10-27",
-      "days_on_list": 15,
+      "days_on_list": 16,
       "is_new": false,
-      "rank": 86,
-      "previous_rank": 144,
-      "rank_change": 58
+      "rank": 90,
+      "previous_rank": 86,
+      "rank_change": -4
     },
     {
       "ticker": "TSSI",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (11.09)",
+        "Low trailing P/E (11.41)",
         "Attractive PEG ratio (0.19)"
       ],
       "signal_flags": {
@@ -3365,10 +3520,10 @@
         "attractive_peg": true
       },
       "price": 7.1,
-      "avg_volume": 830093.0,
+      "avg_volume": 822253.0,
       "rsi": 44.6,
-      "trailing_pe": 11.09,
-      "forward_pe": 44.38,
+      "trailing_pe": 11.41,
+      "forward_pe": 43.5,
       "peg": 0.19,
       "target_mean_price": 14.5,
       "target_upside_pct": 104.2,
@@ -3379,56 +3534,18 @@
       "headquarters": "Georgetown, TX, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 87,
-      "previous_rank": 145,
-      "rank_change": 58
-    },
-    {
-      "ticker": "UNIT",
-      "score": 3,
-      "signals": [
-        "RSI oversold (26.4)",
-        "Low trailing P/E (3.33)",
-        "Attractive PEG ratio (0.17)"
-      ],
-      "signal_flags": {
-        "rsi_oversold": true,
-        "macd_bullish_crossover": false,
-        "golden_cross": false,
-        "above_golden_cross_trend": false,
-        "low_trailing_pe": true,
-        "low_forward_pe": false,
-        "attractive_peg": true
-      },
-      "price": 4.4,
-      "avg_volume": 4626430.0,
-      "rsi": 26.4,
-      "trailing_pe": 3.33,
-      "forward_pe": -6.2,
-      "peg": 0.17,
-      "target_mean_price": 10.78,
-      "target_upside_pct": 145.0,
-      "company_name": "Uniti Group Inc.",
-      "description": "Uniti Group Inc. a digital infrastructure company in the United States. The company operates through three segments: Kinetic, Uniti Solutions, and Fiber Infrastructure. The Kinetic segment offers internet services, local and long-distance voice services, integrated voice and\u2026",
-      "sector": "Real Estate",
-      "exchange_name": "NasdaqGS",
-      "headquarters": "Little Rock, AR, United States",
-      "ceo": null,
-      "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 88,
-      "previous_rank": null,
-      "rank_change": null
+      "rank": 91,
+      "previous_rank": 87,
+      "rank_change": -4
     },
     {
       "ticker": "VALE",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low forward P/E (6.62)",
+        "Low forward P/E (6.4)",
         "Attractive PEG ratio (0.27)"
       ],
       "signal_flags": {
@@ -3441,13 +3558,13 @@
         "attractive_peg": true
       },
       "price": 11.97,
-      "avg_volume": 38726050.0,
+      "avg_volume": 39133380.0,
       "rsi": 43.5,
-      "trailing_pe": 70.41,
-      "forward_pe": 6.62,
+      "trailing_pe": 72.38,
+      "forward_pe": 6.4,
       "peg": 0.27,
-      "target_mean_price": 15.31,
-      "target_upside_pct": 27.9,
+      "target_mean_price": 15.06,
+      "target_upside_pct": 25.8,
       "company_name": "Vale S.A.",
       "description": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron\u2026",
       "sector": "Basic Materials",
@@ -3455,11 +3572,11 @@
       "headquarters": "Rio De Janeiro, RJ, Brazil",
       "ceo": "Mr. Gustavo Duarte Pimenta",
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 89,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 92,
+      "previous_rank": 89,
+      "rank_change": -3
     },
     {
       "ticker": "VIRT",
@@ -3467,8 +3584,8 @@
       "signals": [
         "MACD bullish crossover",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (7.92)",
-        "Low forward P/E (7.66)"
+        "Low trailing P/E (8.48)",
+        "Low forward P/E (7.82)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3480,10 +3597,10 @@
         "attractive_peg": false
       },
       "price": 56.6,
-      "avg_volume": 1212983.0,
+      "avg_volume": 1202741.0,
       "rsi": 54.0,
-      "trailing_pe": 7.92,
-      "forward_pe": 7.66,
+      "trailing_pe": 8.48,
+      "forward_pe": 7.82,
       "peg": null,
       "target_mean_price": 70.29,
       "target_upside_pct": 24.2,
@@ -3494,11 +3611,11 @@
       "headquarters": "New York, NY, United States",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 90,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 93,
+      "previous_rank": 90,
+      "rank_change": -3
     },
     {
       "ticker": "VIST",
@@ -3506,8 +3623,8 @@
       "signals": [
         "RSI oversold (29.0)",
         "Above golden cross trend (50 SMA > 200 SMA)",
-        "Low trailing P/E (8.1)",
-        "Low forward P/E (5.02)"
+        "Low trailing P/E (7.84)",
+        "Low forward P/E (4.83)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -3519,13 +3636,13 @@
         "attractive_peg": false
       },
       "price": 57.74,
-      "avg_volume": 995973.0,
+      "avg_volume": 1029488.0,
       "rsi": 29.0,
-      "trailing_pe": 8.1,
-      "forward_pe": 5.02,
+      "trailing_pe": 7.84,
+      "forward_pe": 4.83,
       "peg": null,
-      "target_mean_price": 95.7,
-      "target_upside_pct": 65.7,
+      "target_mean_price": 95.29,
+      "target_upside_pct": 65.0,
       "company_name": "Vista Energy, S.A.B. de C.V.",
       "description": "Vista Energy, S.A.B. de C.V., through its subsidiaries, engages in the exploration and production of oil and gas in Latin America. The company's principal assets is situated in the Vaca Muerta play, Neuquina basin, Argentina. It owns producing assets in Argentina and Mexico. In\u2026",
       "sector": "Energy",
@@ -3533,19 +3650,19 @@
       "headquarters": "Mexico City, DF, Mexico",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 91,
-      "previous_rank": 151,
-      "rank_change": 60
+      "rank": 94,
+      "previous_rank": 91,
+      "rank_change": -3
     },
     {
       "ticker": "VRRM",
       "score": 3,
       "signals": [
         "RSI oversold (24.8)",
-        "Low trailing P/E (8.88)",
-        "Low forward P/E (2.89)"
+        "Low trailing P/E (8.58)",
+        "Low forward P/E (2.79)"
       ],
       "signal_flags": {
         "rsi_oversold": true,
@@ -3557,10 +3674,10 @@
         "attractive_peg": false
       },
       "price": 2.13,
-      "avg_volume": 5300197.0,
+      "avg_volume": 5245482.0,
       "rsi": 24.8,
-      "trailing_pe": 8.88,
-      "forward_pe": 2.89,
+      "trailing_pe": 8.58,
+      "forward_pe": 2.79,
       "peg": null,
       "target_mean_price": 3.5,
       "target_upside_pct": 64.3,
@@ -3571,19 +3688,19 @@
       "headquarters": "Mesa, AZ, United States",
       "ceo": null,
       "first_seen": "2026-11-07",
-      "days_on_list": 4,
+      "days_on_list": 5,
       "is_new": false,
-      "rank": 92,
-      "previous_rank": 152,
-      "rank_change": 60
+      "rank": 95,
+      "previous_rank": 92,
+      "rank_change": -3
     },
     {
       "ticker": "YJ",
       "score": 3,
       "signals": [
         "MACD bullish crossover",
-        "Low trailing P/E (0.66)",
-        "Low forward P/E (12.1)"
+        "Low trailing P/E (0.71)",
+        "Low forward P/E (12.2)"
       ],
       "signal_flags": {
         "rsi_oversold": false,
@@ -3595,10 +3712,10 @@
         "attractive_peg": false
       },
       "price": 1.21,
-      "avg_volume": 918387.0,
+      "avg_volume": 918128.0,
       "rsi": 38.0,
-      "trailing_pe": 0.66,
-      "forward_pe": 12.1,
+      "trailing_pe": 0.71,
+      "forward_pe": 12.2,
       "peg": null,
       "target_mean_price": null,
       "target_upside_pct": null,
@@ -3609,11 +3726,11 @@
       "headquarters": "Hangzhou, China",
       "ceo": null,
       "first_seen": "2026-11-10",
-      "days_on_list": 1,
-      "is_new": true,
-      "rank": 93,
-      "previous_rank": null,
-      "rank_change": null
+      "days_on_list": 2,
+      "is_new": false,
+      "rank": 96,
+      "previous_rank": 93,
+      "rank_change": -3
     }
   ]
 }
