@@ -87,124 +87,124 @@
     "first_seen": "2026-11-26",
     "rank": 22
   },
-  "IX": {
+  "LADR": {
     "first_seen": "2026-11-26",
     "rank": 23
   },
-  "LADR": {
+  "LPG": {
     "first_seen": "2026-11-26",
     "rank": 24
   },
-  "LPG": {
+  "MCHB": {
     "first_seen": "2026-11-26",
     "rank": 25
   },
-  "MCHB": {
+  "MLI": {
     "first_seen": "2026-11-26",
     "rank": 26
   },
-  "MLI": {
+  "MOMO": {
     "first_seen": "2026-11-26",
     "rank": 27
   },
-  "MOMO": {
+  "MPC": {
     "first_seen": "2026-11-26",
     "rank": 28
   },
-  "MPC": {
+  "NLY": {
     "first_seen": "2026-11-26",
     "rank": 29
   },
-  "NLY": {
+  "PARR": {
     "first_seen": "2026-11-26",
     "rank": 30
   },
-  "PARR": {
+  "QFIN": {
     "first_seen": "2026-11-26",
     "rank": 31
   },
-  "QFIN": {
-    "first_seen": "2026-11-26",
-    "rank": 32
-  },
   "REX": {
     "first_seen": "2026-11-25",
-    "rank": 33
+    "rank": 32
   },
   "RGA": {
     "first_seen": "2026-11-26",
-    "rank": 34
+    "rank": 33
   },
   "RIGL": {
     "first_seen": "2026-11-26",
-    "rank": 35
+    "rank": 34
   },
   "SHIP": {
     "first_seen": "2026-11-26",
-    "rank": 36
+    "rank": 35
   },
   "SNEX": {
     "first_seen": "2026-11-20",
-    "rank": 37
+    "rank": 36
   },
   "TDW": {
     "first_seen": "2026-11-26",
-    "rank": 38
+    "rank": 37
   },
   "TUYA": {
     "first_seen": "2026-11-26",
-    "rank": 39
+    "rank": 38
   },
   "TX": {
     "first_seen": "2026-11-26",
-    "rank": 40
+    "rank": 39
   },
   "VEON": {
     "first_seen": "2026-11-26",
-    "rank": 41
+    "rank": 40
   },
   "VIST": {
     "first_seen": "2026-11-07",
-    "rank": 42
+    "rank": 41
   },
   "YPF": {
     "first_seen": "2026-11-06",
-    "rank": 43
+    "rank": 42
   },
   "ACAD": {
     "first_seen": "2026-11-26",
-    "rank": 44
+    "rank": 43
   },
   "AGNC": {
     "first_seen": "2026-11-26",
-    "rank": 45
+    "rank": 44
   },
   "ALLY": {
     "first_seen": "2026-11-26",
-    "rank": 46
+    "rank": 45
   },
   "ALV": {
     "first_seen": "2026-11-26",
-    "rank": 47
+    "rank": 46
   },
   "AMTM": {
     "first_seen": "2026-11-26",
-    "rank": 48
+    "rank": 47
   },
   "APO": {
     "first_seen": "2026-11-26",
-    "rank": 49
+    "rank": 48
   },
   "ASUR": {
     "first_seen": "2026-11-26",
-    "rank": 50
+    "rank": 49
   },
   "BAC": {
     "first_seen": "2026-11-26",
-    "rank": 51
+    "rank": 50
   },
   "BANR": {
     "first_seen": "2026-11-26",
+    "rank": 51
+  },
+  "BBN": {
+    "first_seen": "2026-11-27",
     "rank": 52
   },
   "BCX": {
@@ -263,104 +263,104 @@
     "first_seen": "2026-11-26",
     "rank": 66
   },
-  "DKS": {
-    "first_seen": "2026-11-26",
-    "rank": 67
-  },
   "DOX": {
     "first_seen": "2026-11-06",
-    "rank": 68
+    "rank": 67
   },
   "DUOT": {
     "first_seen": "2026-11-18",
-    "rank": 69
+    "rank": 68
   },
   "EBF": {
     "first_seen": "2026-11-20",
-    "rank": 70
+    "rank": 69
   },
   "ENVA": {
     "first_seen": "2026-11-26",
-    "rank": 71
+    "rank": 70
   },
   "ETD": {
     "first_seen": "2026-11-21",
-    "rank": 72
+    "rank": 71
   },
   "FLNG": {
     "first_seen": "2026-11-26",
-    "rank": 73
+    "rank": 72
   },
   "FPF": {
     "first_seen": "2026-11-26",
-    "rank": 74
+    "rank": 73
   },
   "FRSH": {
     "first_seen": "2026-11-26",
-    "rank": 75
+    "rank": 74
   },
   "GDS": {
     "first_seen": "2026-11-17",
-    "rank": 76
+    "rank": 75
   },
   "GGB": {
     "first_seen": "2026-11-26",
-    "rank": 77
+    "rank": 76
   },
   "GILT": {
     "first_seen": "2026-11-11",
-    "rank": 78
+    "rank": 77
   },
   "GPRE": {
     "first_seen": "2026-11-19",
-    "rank": 79
+    "rank": 78
   },
   "GUT": {
     "first_seen": "2026-11-26",
-    "rank": 80
+    "rank": 79
   },
   "HGLB": {
     "first_seen": "2026-11-25",
-    "rank": 81
+    "rank": 80
   },
   "HIMX": {
     "first_seen": "2026-11-26",
-    "rank": 82
+    "rank": 81
   },
   "HLF": {
     "first_seen": "2026-11-26",
-    "rank": 83
+    "rank": 82
   },
   "HPQ": {
     "first_seen": "2026-11-26",
-    "rank": 84
+    "rank": 83
   },
   "HQL": {
     "first_seen": "2026-11-26",
-    "rank": 85
+    "rank": 84
   },
   "HUBG": {
     "first_seen": "2026-11-26",
-    "rank": 86
+    "rank": 85
   },
   "HWC": {
     "first_seen": "2026-11-14",
-    "rank": 87
+    "rank": 86
   },
   "IIPR": {
     "first_seen": "2026-11-26",
-    "rank": 88
+    "rank": 87
   },
   "IMXI": {
     "first_seen": "2026-11-05",
-    "rank": 89
+    "rank": 88
   },
   "IOSP": {
     "first_seen": "2026-11-26",
-    "rank": 90
+    "rank": 89
   },
   "ITRG": {
     "first_seen": "2026-11-18",
+    "rank": 90
+  },
+  "IX": {
+    "first_seen": "2026-11-26",
     "rank": 91
   },
   "JILL": {
@@ -487,84 +487,80 @@
     "first_seen": "2026-11-26",
     "rank": 122
   },
-  "RFIL": {
+  "RPD": {
     "first_seen": "2026-11-26",
     "rank": 123
   },
-  "RPD": {
+  "SAFE": {
     "first_seen": "2026-11-26",
     "rank": 124
   },
-  "SAFE": {
+  "SBGI": {
     "first_seen": "2026-11-26",
     "rank": 125
   },
-  "SBGI": {
+  "SBLK": {
     "first_seen": "2026-11-26",
     "rank": 126
   },
-  "SBLK": {
+  "SCSC": {
     "first_seen": "2026-11-26",
     "rank": 127
   },
-  "SCSC": {
+  "SGML": {
     "first_seen": "2026-11-26",
     "rank": 128
   },
-  "SGML": {
-    "first_seen": "2026-11-26",
-    "rank": 129
-  },
   "SNDK": {
     "first_seen": "2026-11-21",
-    "rank": 130
+    "rank": 129
   },
   "SOBO": {
     "first_seen": "2026-11-26",
-    "rank": 131
+    "rank": 130
   },
   "SPXC": {
     "first_seen": "2026-11-26",
-    "rank": 132
+    "rank": 131
   },
   "SSL": {
     "first_seen": "2026-11-19",
-    "rank": 133
+    "rank": 132
   },
   "STRA": {
     "first_seen": "2026-11-26",
-    "rank": 134
+    "rank": 133
   },
   "TDS": {
     "first_seen": "2026-11-26",
-    "rank": 135
+    "rank": 134
   },
   "UGI": {
     "first_seen": "2026-11-26",
-    "rank": 136
+    "rank": 135
   },
   "UROY": {
     "first_seen": "2026-11-25",
-    "rank": 137
+    "rank": 136
   },
   "WB": {
     "first_seen": "2026-11-18",
-    "rank": 138
+    "rank": 137
   },
   "WEX": {
     "first_seen": "2026-11-26",
-    "rank": 139
+    "rank": 138
   },
   "XIFR": {
     "first_seen": "2026-11-25",
-    "rank": 140
+    "rank": 139
   },
   "XRAY": {
     "first_seen": "2026-11-26",
-    "rank": 141
+    "rank": 140
   },
   "YUM": {
     "first_seen": "2026-11-26",
-    "rank": 142
+    "rank": 141
   }
 }
